@@ -1,0 +1,249 @@
+[
+  {
+    "CVE": "CVE-2018-1000876",
+    "functions": [
+      "_bfd_elf_get_dynamic_reloc_upper_bound",
+      "_bfd_elf_get_dynamic_symtab_upper_bound",
+      "_bfd_elf_get_symtab_upper_bound"
+    ],
+    "vuln": [
+      "binutils-2.30-21ubuntu1_18.04.2-libbfd-2.30-amd64.so"
+    ],
+    "patch": [
+      "binutils-2.30-21ubuntu1_18.04.4-libbfd-2.30-amd64.so"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-10372",
+    "functions": [
+      "process_cu_tu_index"
+    ],
+    "vuln": [
+      "binutils-2.30-21ubuntu1_18.04.2-x86_64-linux-gnu-objdump"
+    ],
+    "patch": [
+      "binutils-2.30-21ubuntu1_18.04.4-x86_64-linux-gnu-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-10373",
+    "functions": [
+      "concat_filename"
+    ],
+    "vuln": [
+      "binutils-2.30-21ubuntu1_18.04.2-libbfd-2.30-amd64.so"
+    ],
+    "patch": [
+      "binutils-2.30-21ubuntu1_18.04.4-libbfd-2.30-amd64.so"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-17360",
+    "functions": [
+      "pe_print_edata"
+    ],
+    "vuln": [
+      "binutils-2.30-21ubuntu1_18.04.2-libbfd-2.30-amd64.so"
+    ],
+    "patch": [
+      "binutils-2.30-21ubuntu1_18.04.4-libbfd-2.30-amd64.so"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-18605",
+    "functions": [
+      "_bfd_add_merge_section"
+    ],
+    "vuln": [
+      "binutils-2.30-21ubuntu1_18.04.2-libbfd-2.30-amd64.so"
+    ],
+    "patch": [
+      "binutils-2.30-21ubuntu1_18.04.4-libbfd-2.30-amd64.so"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-18606",
+    "functions": [
+      "_bfd_add_merge_section"
+    ],
+    "vuln": [
+      "binutils-2.30-21ubuntu1_18.04.2-libbfd-2.30-amd64.so"
+    ],
+    "patch": [
+      "binutils-2.30-21ubuntu1_18.04.4-libbfd-2.30-amd64.so"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-18607",
+    "functions": [
+      "elf_link_input_bfd"
+    ],
+    "vuln": [
+      "binutils-2.30-21ubuntu1_18.04.2-libbfd-2.30-amd64.so"
+    ],
+    "patch": [
+      "binutils-2.30-21ubuntu1_18.04.4-libbfd-2.30-amd64.so"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-19932",
+    "functions": [
+      "rewrite_elf_program_header"
+    ],
+    "vuln": [
+      "binutils-2.30-21ubuntu1_18.04.2-libbfd-2.30-amd64.so"
+    ],
+    "patch": [
+      "binutils-2.30-21ubuntu1_18.04.4-libbfd-2.30-amd64.so"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-20002",
+    "functions": [
+      "_bfd_generic_read_minisymbols",
+      "display_rel_file"
+    ],
+    "vuln": [
+      "binutils-2.30-21ubuntu1_18.04.2-libbfd-2.30-amd64.so",
+      "binutils-2.30-21ubuntu1_18.04.2-x86_64-linux-gnu-nm"
+    ],
+    "patch": [
+      "binutils-2.30-21ubuntu1_18.04.4-libbfd-2.30-amd64.so",
+      "binutils-2.30-21ubuntu1_18.04.4-x86_64-linux-gnu-nm"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-20651",
+    "functions": [
+      "elf_link_add_object_symbols"
+    ],
+    "vuln": [
+      "binutils-2.30-21ubuntu1_18.04.2-libbfd-2.30-amd64.so"
+    ],
+    "patch": [
+      "binutils-2.30-21ubuntu1_18.04.4-libbfd-2.30-amd64.so"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-20671",
+    "functions": [
+      "load_specific_debug_section"
+    ],
+    "vuln": [
+      "binutils-2.30-21ubuntu1_18.04.2-x86_64-linux-gnu-objdump"
+    ],
+    "patch": [
+      "binutils-2.30-21ubuntu1_18.04.4-x86_64-linux-gnu-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-8945",
+    "functions": [
+      "_bfd_elf_parse_attributes",
+      "bfd_elf_get_str_section"
+    ],
+    "vuln": [
+      "binutils-2.30-21ubuntu1_18.04.2-libbfd-2.30-amd64.so"
+    ],
+    "patch": [
+      "binutils-2.30-21ubuntu1_18.04.4-libbfd-2.30-amd64.so"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-17451",
+    "functions": [
+      "_bfd_dwarf2_slurp_debug_info"
+    ],
+    "vuln": [
+      "binutils-2.30-21ubuntu1_18.04.2-libbfd-2.30-amd64.so"
+    ],
+    "patch": [
+      "binutils-2.30-21ubuntu1_18.04.4-libbfd-2.30-amd64.so"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-48063",
+    "functions": [
+      "load_specific_debug_section"
+    ],
+    "vuln": [
+      "binutils-2.38-4ubuntu2.5-x86_64-linux-gnu-objdump"
+    ],
+    "patch": [
+      "binutils-2.38-4ubuntu2.6-x86_64-linux-gnu-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-48065",
+    "functions": [
+      "find_abstract_instance",
+      "scan_unit_for_symbols"
+    ],
+    "vuln": [
+      "binutils-2.38-4ubuntu2.5-libbfd-2.38-amd64.so"
+    ],
+    "patch": [
+      "binutils-2.38-4ubuntu2.6-libbfd-2.38-amd64.so"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-3198",
+    "functions": [
+      "display_info"
+    ],
+    "vuln": [
+      "binutils-2.44-3ubuntu1-x86_64-linux-gnu-addr2line"
+    ],
+    "patch": [
+      "binutils-2.44-3ubuntu1.1-x86_64-linux-gnu-addr2line"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-5244",
+    "functions": [
+      "elf_gc_sweep"
+    ],
+    "vuln": [
+      "binutils-2.44-3ubuntu1-libbfd-2.44-amd64.so"
+    ],
+    "patch": [
+      "binutils-2.44-3ubuntu1.1-libbfd-2.44-amd64.so"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-5245",
+    "functions": [
+      "debug_type_samep"
+    ],
+    "vuln": [
+      "binutils-2.44-3ubuntu1-x86_64-linux-gnu-objcopy"
+    ],
+    "patch": [
+      "binutils-2.44-3ubuntu1.1-x86_64-linux-gnu-objcopy"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-7545",
+    "functions": [
+      "copy_section"
+    ],
+    "vuln": [
+      "binutils-2.44-3ubuntu1-x86_64-linux-gnu-ld.bfd"
+    ],
+    "patch": [
+      "binutils-2.44-3ubuntu1.1-x86_64-linux-gnu-ld.bfd"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-8225",
+    "functions": [
+      "process_debug_info"
+    ],
+    "vuln": [
+      "binutils-2.44-3ubuntu1-x86_64-linux-gnu-objdump"
+    ],
+    "patch": [
+      "binutils-2.44-3ubuntu1.1-x86_64-linux-gnu-objdump"
+    ]
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "CVE": "CVE-2015-5312",
+    "functions": [
+      "xmlStringLenDecodeEntities"
+    ],
+    "binaries": [
+      "libxml2-2.9.2+zdfsg1-4ubuntu0.1-libxml2.so.2.9.2",
+      "libxml2-2.9.2+zdfsg1-4ubuntu0.2-libxml2.so.2.9.2"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-7497",
+    "functions": [
+      "xmlDictComputeFastQKey"
+    ],
+    "binaries": [
+      "libxml2-2.9.2+zdfsg1-4ubuntu0.1-libxml2.so.2.9.2",
+      "libxml2-2.9.2+zdfsg1-4ubuntu0.2-libxml2.so.2.9.2"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-7498",
+    "functions": [
+      "xmlParseDocument",
+      "xmlParseXMLDecl",
+      "xmlSwitchEncoding"
+    ],
+    "binaries": [
+      "libxml2-2.9.2+zdfsg1-4ubuntu0.1-libxml2.so.2.9.2",
+      "libxml2-2.9.2+zdfsg1-4ubuntu0.2-libxml2.so.2.9.2"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-7499",
+    "functions": [
+      "xmlHaltParser",
+      "xmlStopParser"
+    ],
+    "binaries": [
+      "libxml2-2.9.2+zdfsg1-4ubuntu0.1-libxml2.so.2.9.2",
+      "libxml2-2.9.2+zdfsg1-4ubuntu0.2-libxml2.so.2.9.2"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-7500",
+    "functions": [
+      "xmlParseStartTag2"
+    ],
+    "binaries": [
+      "libxml2-2.9.2+zdfsg1-4ubuntu0.1-libxml2.so.2.9.2",
+      "libxml2-2.9.2+zdfsg1-4ubuntu0.2-libxml2.so.2.9.2"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-8241",
+    "functions": [
+      "xmlParseMarkupDecl"
+    ],
+    "binaries": [
+      "libxml2-2.9.2+zdfsg1-4ubuntu0.1-libxml2.so.2.9.2",
+      "libxml2-2.9.2+zdfsg1-4ubuntu0.2-libxml2.so.2.9.2"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-8242",
+    "functions": [
+      "htmlParseTryOrFinish"
+    ],
+    "binaries": [
+      "libxml2-2.9.2+zdfsg1-4ubuntu0.1-libxml2.so.2.9.2",
+      "libxml2-2.9.2+zdfsg1-4ubuntu0.2-libxml2.so.2.9.2"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-1762",
+    "functions": [
+      "xmlParseInternalSubset"
+    ],
+    "binaries": [
+      "libxml2-2.9.3+dfsg1-1-libxml2.so.2.9.3",
+      "libxml2-2.9.3+dfsg1-1ubuntu0.1-libxml2.so.2.9.3"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-1833",
+    "functions": [
+      "xmlNextChar"
+    ],
+    "binaries": [
+      "libxml2-2.9.3+dfsg1-1-libxml2.so.2.9.3",
+      "libxml2-2.9.3+dfsg1-1ubuntu0.1-libxml2.so.2.9.3"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-1834",
+    "functions": [
+      "xmlStrncat",
+      "xmlStrncatNew"
+    ],
+    "binaries": [
+      "libxml2-2.9.3+dfsg1-1-libxml2.so.2.9.3",
+      "libxml2-2.9.3+dfsg1-1ubuntu0.1-libxml2.so.2.9.3"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-1836",
+    "functions": [
+      "xmlParseNCNameComplex"
+    ],
+    "binaries": [
+      "libxml2-2.9.3+dfsg1-1-libxml2.so.2.9.3",
+      "libxml2-2.9.3+dfsg1-1ubuntu0.1-libxml2.so.2.9.3"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-1837",
+    "functions": [
+      "htmlParsePubidLiteral",
+      "htmlParseSystemLiteral"
+    ],
+    "binaries": [
+      "libxml2-2.9.3+dfsg1-1-libxml2.so.2.9.3",
+      "libxml2-2.9.3+dfsg1-1ubuntu0.1-libxml2.so.2.9.3"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-1838",
+    "functions": [
+      "xmlParseEndTag2"
+    ],
+    "binaries": [
+      "libxml2-2.9.3+dfsg1-1-libxml2.so.2.9.3",
+      "libxml2-2.9.3+dfsg1-1ubuntu0.1-libxml2.so.2.9.3"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-4449",
+    "functions": [
+      "xmlStringLenDecodeEntities"
+    ],
+    "binaries": [
+      "libxml2-2.9.3+dfsg1-1-libxml2.so.2.9.3",
+      "libxml2-2.9.3+dfsg1-1ubuntu0.1-libxml2.so.2.9.3"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-4483",
+    "functions": [
+      "xmlBufAttrSerializeTxtContent"
+    ],
+    "binaries": [
+      "libxml2-2.9.3+dfsg1-1-libxml2.so.2.9.3",
+      "libxml2-2.9.3+dfsg1-1ubuntu0.1-libxml2.so.2.9.3"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-16932",
+    "functions": [
+      "xmlParsePEReference",
+      "xmlPushInput"
+    ],
+    "binaries": [
+      "libxml2-2.9.4+dfsg1-6.1ubuntu1-libxml2.so.2.9.4",
+      "libxml2-2.9.4+dfsg1-6.1ubuntu1.2-libxml2.so.2.9.4"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-5130",
+    "functions": [
+      "xmlMallocLoc",
+      "xmlMemStrdupLoc",
+      "xmlReallocLoc"
+    ],
+    "binaries": [
+      "libxml2-2.9.4+dfsg1-5ubuntu2-libxml2.so.2.9.4",
+      "libxml2-2.9.4+dfsg1-6.1ubuntu1.4-libxml2.so.2.9.4"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-14404",
+    "functions": [
+      "xmlXPathCompOpEval"
+    ],
+    "binaries": [
+      "libxml2-2.9.4+dfsg1-6.1ubuntu1-libxml2.so.2.9.4",
+      "libxml2-2.9.4+dfsg1-6.1ubuntu1.2-libxml2.so.2.9.4"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-40303",
+    "functions": [
+      "xmlFatalErr",
+      "xmlParseAttValueComplex",
+      "xmlParseAttValueInternal",
+      "xmlParseCDSect",
+      "xmlParseComment",
+      "xmlParseCommentComplex",
+      "xmlParseEntityValue",
+      "xmlParseNCName",
+      "xmlParseNCNameComplex",
+      "xmlParseName",
+      "xmlParseNameComplex",
+      "xmlParseNmtoken",
+      "xmlParsePI",
+      "xmlParsePubidLiteral",
+      "xmlParseStringName",
+      "xmlParseSystemLiteral"
+    ],
+    "binaries": [
+      "libxml2-2.9.13+dfsg-1build1-libxml2.so.2.9.13",
+      "libxml2-2.9.14+dfsg-1ubuntu0.1-libxml2.so.2.9.14"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-40304",
+    "functions": [
+      "xmlCreateEntity",
+      "xmlFreeEntity"
+    ],
+    "binaries": [
+      "libxml2-2.9.13+dfsg-1build1-libxml2.so.2.9.13",
+      "libxml2-2.9.14+dfsg-1ubuntu0.1-libxml2.so.2.9.14"
+    ]
+  }
+]

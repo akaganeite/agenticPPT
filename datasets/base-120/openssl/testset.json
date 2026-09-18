@@ -1,0 +1,271 @@
+[
+  {
+    "CVE": "CVE-2015-0288",
+    "functions": [
+      "X509_to_X509_REQ"
+    ],
+    "binaries": [
+      "openssl-0.9.8-post-auto-reformat-openssl",
+      "openssl-0.9.8-post-reformat-openssl",
+      "openssl-1.0.2-openssl",
+      "openssl-1.1.0-openssl",
+      "openssl-1.1.0a-openssl",
+      "openssl-1.1.0b-openssl"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-1789",
+    "functions": [
+      "X509_cmp_time"
+    ],
+    "binaries": [
+      "openssl-1.0.0r-openssl",
+      "openssl-1.0.1m-openssl",
+      "openssl-1.0.2a-openssl",
+      "openssl-1.1.0-openssl",
+      "openssl-1.1.0a-openssl",
+      "openssl-1.1.0b-openssl"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-1790",
+    "functions": [
+      "PKCS7_dataDecode"
+    ],
+    "binaries": [
+      "openssl-1.0.0r-openssl",
+      "openssl-1.0.1m-openssl",
+      "openssl-1.0.2a-openssl",
+      "openssl-1.1.0-openssl",
+      "openssl-1.1.0a-openssl",
+      "openssl-1.1.0b-openssl"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-11187",
+    "functions": [
+      "PBMAC1_PBKDF2_HMAC"
+    ],
+    "binaries": [
+      "openssl-3.4.3-libcrypto",
+      "openssl-3.5.4-libcrypto",
+      "openssl-3.6.0-libcrypto",
+      "openssl-3.4.4-libcrypto",
+      "openssl-3.4.5-libcrypto"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-15467",
+    "functions": [
+      "evp_cipher_get_asn1_aead_params"
+    ],
+    "binaries": [
+      "openssl-3.4.3-libcrypto",
+      "openssl-3.5.4-libcrypto",
+      "openssl-3.6.0-libcrypto",
+      "openssl-3.0.19-libcrypto",
+      "openssl-3.0.20-libcrypto"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-15468",
+    "functions": [
+      "ossl_quic_get_cipher_by_char"
+    ],
+    "binaries": [
+      "openssl-3.4.3-libssl",
+      "openssl-3.5.4-libssl",
+      "openssl-3.6.0-libssl",
+      "openssl-3.5.5-libssl",
+      "openssl-3.5.6-libssl"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-15469",
+    "functions": [
+      "bio_to_mem",
+      "do_fp_oneshot_sign",
+      "do_raw_keyop",
+      "pkeyutl_main"
+    ],
+    "binaries": [
+      "openssl-3.5.3-openssl",
+      "openssl-3.5.4-openssl",
+      "openssl-3.6.0-openssl",
+      "openssl-3.5.5-openssl",
+      "openssl-3.5.6-openssl"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-4575",
+    "functions": [
+      "x509_main"
+    ],
+    "binaries": [
+      "openssl-3.5.0-openssl",
+      "openssl-3.5.1-openssl",
+      "openssl-3.5.2-openssl",
+      "openssl-3.5.3-openssl"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-66199",
+    "functions": [
+      "tls13_process_compressed_certificate"
+    ],
+    "binaries": [
+      "openssl-3.3.6-openssl",
+      "openssl-3.3.7-openssl",
+      "openssl-3.4.3-openssl",
+      "openssl-3.5.4-openssl",
+      "openssl-3.6.0-openssl"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-68160",
+    "functions": [
+      "linebuffer_write"
+    ],
+    "binaries": [
+      "openssl-3.4.3-libcrypto",
+      "openssl-3.5.4-libcrypto",
+      "openssl-3.6.0-libcrypto",
+      "openssl-3.3.6-libcrypto",
+      "openssl-3.3.7-libcrypto"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-69418",
+    "functions": [
+      "CRYPTO_ocb128_decrypt",
+      "CRYPTO_ocb128_encrypt"
+    ],
+    "binaries": [
+      "openssl-3.4.3-libcrypto",
+      "openssl-3.5.4-libcrypto",
+      "openssl-3.6.0-libcrypto",
+      "openssl-3.4.4-libcrypto",
+      "openssl-3.4.5-libcrypto"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-69419",
+    "functions": [
+      "OPENSSL_uni2utf8",
+      "do_buf"
+    ],
+    "binaries": [
+      "openssl-3.4.3-libcrypto",
+      "openssl-3.5.4-libcrypto",
+      "openssl-3.6.0-libcrypto",
+      "openssl-3.0.19-libcrypto",
+      "openssl-3.0.20-libcrypto"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-69420",
+    "functions": [
+      "ossl_ess_get_signing_cert",
+      "ossl_ess_get_signing_cert_v2"
+    ],
+    "binaries": [
+      "openssl-3.4.3-libcrypto",
+      "openssl-3.5.4-libcrypto",
+      "openssl-3.6.0-libcrypto",
+      "openssl-3.4.4-libcrypto",
+      "openssl-3.4.5-libcrypto"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-69421",
+    "functions": [
+      "PKCS12_item_decrypt_d2i_ex"
+    ],
+    "binaries": [
+      "openssl-3.4.3-libcrypto",
+      "openssl-3.5.4-libcrypto",
+      "openssl-3.6.0-libcrypto",
+      "openssl-3.5.5-libcrypto",
+      "openssl-3.5.6-libcrypto"
+    ]
+  },
+  {
+    "CVE": "CVE-2026-22795",
+    "functions": [
+      "PKCS7_digest_from_attributes",
+      "parse_bag",
+      "s_client_main"
+    ],
+    "binaries": [
+      "openssl-3.3.5-openssl",
+      "openssl-3.4.3-openssl",
+      "openssl-3.5.4-openssl",
+      "openssl-3.5.5-openssl",
+      "openssl-3.5.6-openssl"
+    ]
+  },
+  {
+    "CVE": "CVE-2026-22796",
+    "functions": [
+      "PKCS7_digest_from_attributes",
+      "parse_bag",
+      "s_client_main"
+    ],
+    "binaries": [
+      "openssl-3.3.5-openssl",
+      "openssl-3.4.3-openssl",
+      "openssl-3.5.4-openssl",
+      "openssl-3.5.5-openssl",
+      "openssl-3.5.6-openssl"
+    ]
+  },
+  {
+    "CVE": "CVE-2026-28387",
+    "functions": [
+      "dane_match_cert"
+    ],
+    "binaries": [
+      "openssl-3.4.4-libcrypto",
+      "openssl-3.5.5-libcrypto",
+      "openssl-3.6.1-libcrypto",
+      "openssl-3.4.5-libcrypto"
+    ]
+  },
+  {
+    "CVE": "CVE-2026-28388",
+    "functions": [
+      "check_delta_base"
+    ],
+    "binaries": [
+      "openssl-3.4.4-libcrypto",
+      "openssl-3.5.5-libcrypto",
+      "openssl-3.6.1-libcrypto",
+      "openssl-3.0.20-libcrypto"
+    ]
+  },
+  {
+    "CVE": "CVE-2026-28389",
+    "functions": [
+      "dh_cms_set_shared_info",
+      "ecdh_cms_set_shared_info"
+    ],
+    "binaries": [
+      "openssl-3.4.4-libcrypto",
+      "openssl-3.5.5-libcrypto",
+      "openssl-3.6.1-libcrypto",
+      "openssl-3.5.6-libcrypto"
+    ]
+  },
+  {
+    "CVE": "CVE-2026-28390",
+    "functions": [
+      "rsa_cms_decrypt"
+    ],
+    "binaries": [
+      "openssl-3.4.4-libcrypto",
+      "openssl-3.5.5-libcrypto",
+      "openssl-3.6.1-libcrypto",
+      "openssl-3.6.2-libcrypto"
+    ]
+  }
+]

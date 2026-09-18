@@ -1,0 +1,293 @@
+[
+  {
+    "CVE": "CVE-2015-3416",
+    "functions": [
+      "sqlite3VXPrintf"
+    ],
+    "binaries": [
+      "sqlite-3.8.10-sqlite3",
+      "sqlite-3.8.10.1-sqlite3",
+      "sqlite-3.8.8.1-sqlite3",
+      "sqlite-3.8.8.2-sqlite3",
+      "sqlite-3.8.8.3-sqlite3",
+      "sqlite-3.8.9-sqlite3"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-6153",
+    "functions": [
+      "unixGetTempname",
+      "unixTempFileDir"
+    ],
+    "binaries": [
+      "sqlite-3.12.1-sqlite3",
+      "sqlite-3.12.2-sqlite3",
+      "sqlite-3.13.0-sqlite3",
+      "sqlite-3.14.0-sqlite3",
+      "sqlite-3.14.1-sqlite3",
+      "sqlite-3.9.3-sqlite3"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-10989",
+    "functions": [
+      "getNodeSize"
+    ],
+    "binaries": [
+      "sqlite-3.18.1-sqlite3",
+      "sqlite-3.18.2-sqlite3",
+      "sqlite-3.19.3-sqlite3",
+      "sqlite-3.19.4-sqlite3",
+      "sqlite-3.20.0-sqlite3",
+      "sqlite-3.20.1-sqlite3"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-20346",
+    "functions": [
+      "fts3ScanInteriorNode",
+      "fts3SegReaderNext",
+      "nodeReaderNext"
+    ],
+    "binaries": [
+      "sqlite-3.25.0-sqlite3",
+      "sqlite-3.25.1-sqlite3",
+      "sqlite-3.25.2-sqlite3",
+      "sqlite-3.26.0-sqlite3",
+      "sqlite-3.27.0-sqlite3",
+      "sqlite-3.27.1-sqlite3"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-20505",
+    "functions": [
+      "removeUnindexableInClauseTerms"
+    ],
+    "binaries": [
+      "sqlite-3.25.0-sqlite3",
+      "sqlite-3.25.1-sqlite3",
+      "sqlite-3.25.2-sqlite3",
+      "sqlite-3.26.0-sqlite3",
+      "sqlite-3.27.0-sqlite3",
+      "sqlite-3.27.1-sqlite3"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-20506",
+    "functions": [
+      "fts3ScanInteriorNode",
+      "fts3SegReaderNext",
+      "nodeReaderNext"
+    ],
+    "binaries": [
+      "sqlite-3.25.0-sqlite3",
+      "sqlite-3.25.1-sqlite3",
+      "sqlite-3.25.2-sqlite3",
+      "sqlite-3.26.0-sqlite3",
+      "sqlite-3.27.0-sqlite3",
+      "sqlite-3.27.1-sqlite3"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-16168",
+    "functions": [
+      "decodeIntArray",
+      "whereLoopAddBtreeIndex"
+    ],
+    "binaries": [
+      "sqlite-3.27.2-sqlite3",
+      "sqlite-3.28.0-sqlite3",
+      "sqlite-3.29.0-sqlite3",
+      "sqlite-3.30.0-sqlite3",
+      "sqlite-3.30.1-sqlite3",
+      "sqlite-3.31.0-sqlite3"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-19244",
+    "functions": [
+      "sqlite3Select"
+    ],
+    "binaries": [
+      "sqlite-3.30.1-sqlite3",
+      "sqlite-3.31.0-sqlite3",
+      "sqlite-3.31.1-sqlite3",
+      "sqlite-3.32.0-sqlite3"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-19645",
+    "functions": [
+      "renameColumnFunc",
+      "renameColumnSelectCb",
+      "renameTableFunc",
+      "renameTableSelectCb",
+      "renameUnmapSelectCb",
+      "sqlite3CreateView"
+    ],
+    "binaries": [
+      "sqlite-3.29.0-sqlite3",
+      "sqlite-3.30.0-sqlite3",
+      "sqlite-3.30.1-sqlite3",
+      "sqlite-3.31.0-sqlite3",
+      "sqlite-3.31.1-sqlite3",
+      "sqlite-3.32.0-sqlite3"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-19923",
+    "functions": [
+      "flattenSubquery"
+    ],
+    "binaries": [
+      "sqlite-3.30.1-sqlite3",
+      "sqlite-3.31.0-sqlite3",
+      "sqlite-3.31.1-sqlite3",
+      "sqlite-3.32.0-sqlite3"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-19924",
+    "functions": [
+      "codeCompare",
+      "sqlite3WindowRewrite",
+      "vdbeVComment"
+    ],
+    "binaries": [
+      "sqlite-3.30.1-sqlite3",
+      "sqlite-3.31.0-sqlite3",
+      "sqlite-3.31.1-sqlite3",
+      "sqlite-3.32.0-sqlite3"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-20218",
+    "functions": [
+      "selectExpander"
+    ],
+    "binaries": [
+      "sqlite-3.30.1-sqlite3",
+      "sqlite-3.31.0-sqlite3",
+      "sqlite-3.31.1-sqlite3",
+      "sqlite-3.32.0-sqlite3"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-11655",
+    "functions": [
+      "resetAccumulator"
+    ],
+    "binaries": [
+      "sqlite-3.30.1-sqlite3",
+      "sqlite-3.31.0-sqlite3",
+      "sqlite-3.31.1-sqlite3",
+      "sqlite-3.32.0-sqlite3",
+      "sqlite-3.32.1-sqlite3",
+      "sqlite-3.32.2-sqlite3"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-13434",
+    "functions": [
+      "sqlite3_str_vappendf"
+    ],
+    "binaries": [
+      "sqlite-3.31.0-sqlite3",
+      "sqlite-3.31.1-sqlite3",
+      "sqlite-3.32.0-sqlite3",
+      "sqlite-3.32.1-sqlite3",
+      "sqlite-3.32.2-sqlite3",
+      "sqlite-3.32.3-sqlite3"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-13435",
+    "functions": [
+      "sqlite3WindowExtraAggFuncDepth",
+      "sqlite3WindowRewrite"
+    ],
+    "binaries": [
+      "sqlite-3.31.0-sqlite3",
+      "sqlite-3.31.1-sqlite3",
+      "sqlite-3.32.0-sqlite3",
+      "sqlite-3.32.1-sqlite3",
+      "sqlite-3.32.2-sqlite3",
+      "sqlite-3.32.3-sqlite3"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-13631",
+    "functions": [
+      "sqlite3AlterRenameTable",
+      "sqlite3IsShadowTableOf",
+      "sqlite3ShadowTableName"
+    ],
+    "binaries": [
+      "sqlite-3.30.1-sqlite3",
+      "sqlite-3.31.0-sqlite3",
+      "sqlite-3.31.1-sqlite3",
+      "sqlite-3.32.0-sqlite3",
+      "sqlite-3.32.1-sqlite3",
+      "sqlite-3.32.2-sqlite3"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-15358",
+    "functions": [
+      "flattenSubquery",
+      "multiSelect",
+      "sqlite3Select"
+    ],
+    "binaries": [
+      "sqlite-3.32.0-sqlite3",
+      "sqlite-3.32.1-sqlite3",
+      "sqlite-3.32.2-sqlite3",
+      "sqlite-3.33.0-sqlite3",
+      "sqlite-3.34.0-sqlite3",
+      "sqlite-3.34.1-sqlite3"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-35737",
+    "functions": [
+      "sqlite3_str_vappendf"
+    ],
+    "binaries": [
+      "sqlite-3.38.5-sqlite3",
+      "sqlite-3.39.0-sqlite3",
+      "sqlite-3.39.1-sqlite3",
+      "sqlite-3.40.0-sqlite3",
+      "sqlite-3.40.1-sqlite3",
+      "sqlite-3.41.0-sqlite3"
+    ]
+  },
+  {
+    "CVE": "CVE-2024-0232",
+    "functions": [
+      "jsonReplaceFunc",
+      "jsonSetFunc"
+    ],
+    "binaries": [
+      "sqlite-3.43.0-sqlite3",
+      "sqlite-3.43.1-sqlite3",
+      "sqlite-3.44.0-sqlite3",
+      "sqlite-3.44.1-sqlite3",
+      "sqlite-3.44.2-sqlite3"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-6965",
+    "functions": [
+      "analyzeAggregate",
+      "findOrCreateAggInfoColumn"
+    ],
+    "binaries": [
+      "sqlite-3.49.2-sqlite3",
+      "sqlite-3.50.0-sqlite3",
+      "sqlite-3.50.1-sqlite3",
+      "sqlite-3.51.0-sqlite3",
+      "sqlite-3.51.1-sqlite3",
+      "sqlite-3.51.2-sqlite3"
+    ]
+  }
+]

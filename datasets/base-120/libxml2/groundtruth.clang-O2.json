@@ -1,0 +1,349 @@
+[
+  {
+    "CVE": "CVE-2012-5134",
+    "functions": [
+      "xmlParseAttValueComplex"
+    ],
+    "vuln": [
+      "libxml2-2.8.0-libxml2",
+      "libxml2-2.8.0-rc2-libxml2",
+      "libxml2-2.9.0-libxml2"
+    ],
+    "patch": [
+      "libxml2-2.9.1-libxml2",
+      "libxml2-2.9.2-rc1-libxml2",
+      "libxml2-2.9.2-rc2-libxml2"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2013-0338",
+    "functions": [
+      "xmlCtxtReset",
+      "xmlInitParserCtxt",
+      "xmlParseReference",
+      "xmlParserEntityCheck",
+      "xmlStringLenDecodeEntities"
+    ],
+    "vuln": [
+      "libxml2-2.8.0-libxml2",
+      "libxml2-2.8.0-rc2-libxml2",
+      "libxml2-2.9.0-libxml2"
+    ],
+    "patch": [
+      "libxml2-2.9.1-libxml2",
+      "libxml2-2.9.2-rc1-libxml2",
+      "libxml2-2.9.2-rc2-libxml2"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2014-3660",
+    "functions": [
+      "xmlParseReference"
+    ],
+    "vuln": [
+      "libxml2-2.9.0-libxml2",
+      "libxml2-2.9.0-rc2-libxml2",
+      "libxml2-2.9.1-libxml2"
+    ],
+    "patch": [
+      "libxml2-2.9.3-libxml2",
+      "libxml2-2.9.4-libxml2",
+      "libxml2-2.9.5-rc1-libxml2"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2015-5312",
+    "functions": [
+      "xmlStringLenDecodeEntities"
+    ],
+    "vuln": [
+      "libxml2-2.9.0-libxml2",
+      "libxml2-2.9.1-libxml2",
+      "libxml2-2.9.2-libxml2"
+    ],
+    "patch": [
+      "libxml2-2.9.4-libxml2",
+      "libxml2-2.9.5-rc1-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2015-7497",
+    "functions": [
+      "xmlDictComputeFastQKey"
+    ],
+    "vuln": [
+      "libxml2-2.9.0-libxml2",
+      "libxml2-2.9.1-libxml2",
+      "libxml2-2.9.2-libxml2"
+    ],
+    "patch": [
+      "libxml2-2.9.4-libxml2",
+      "libxml2-2.9.5-rc1-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2015-7498",
+    "functions": [
+      "xmlParseDocument",
+      "xmlParseXMLDecl",
+      "xmlSwitchEncoding"
+    ],
+    "vuln": [
+      "libxml2-2.9.0-libxml2",
+      "libxml2-2.9.1-libxml2",
+      "libxml2-2.9.2-libxml2"
+    ],
+    "patch": [
+      "libxml2-2.9.3-libxml2",
+      "libxml2-2.9.4-libxml2",
+      "libxml2-2.9.5-rc1-libxml2"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2015-7499",
+    "functions": [
+      "xmlHaltParser",
+      "xmlStopParser"
+    ],
+    "vuln": [
+      "libxml2-2.9.0-libxml2",
+      "libxml2-2.9.1-libxml2",
+      "libxml2-2.9.2-libxml2"
+    ],
+    "patch": [
+      "libxml2-2.9.4-libxml2",
+      "libxml2-2.9.5-rc1-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2015-7500",
+    "functions": [
+      "xmlParseStartTag2"
+    ],
+    "vuln": [
+      "libxml2-2.9.0-libxml2",
+      "libxml2-2.9.1-libxml2",
+      "libxml2-2.9.2-libxml2"
+    ],
+    "patch": [
+      "libxml2-2.9.4-libxml2",
+      "libxml2-2.9.5-rc1-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2015-7941",
+    "functions": [
+      "xmlParseConditionalSections"
+    ],
+    "vuln": [
+      "libxml2-2.9.2-libxml2"
+    ],
+    "patch": [
+      "libxml2-2.9.3-libxml2",
+      "libxml2-2.9.4-libxml2",
+      "libxml2-2.9.5-rc1-libxml2"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2016-1834",
+    "functions": [
+      "xmlStrncat",
+      "xmlStrncatNew"
+    ],
+    "vuln": [
+      "libxml2-2.9.2-libxml2",
+      "libxml2-2.9.2-rc2-libxml2",
+      "libxml2-2.9.3-libxml2"
+    ],
+    "patch": [
+      "libxml2-2.9.4-libxml2",
+      "libxml2-2.9.5-rc1-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2016-1836",
+    "functions": [
+      "xmlParseNCNameComplex"
+    ],
+    "vuln": [
+      "libxml2-2.9.2-libxml2",
+      "libxml2-2.9.2-rc2-libxml2",
+      "libxml2-2.9.3-libxml2"
+    ],
+    "patch": [
+      "libxml2-2.9.5-libxml2",
+      "libxml2-2.9.5-rc1-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2016-1838",
+    "functions": [
+      "xmlParseEndTag2"
+    ],
+    "vuln": [
+      "libxml2-2.9.2-libxml2",
+      "libxml2-2.9.3-libxml2"
+    ],
+    "patch": [
+      "libxml2-2.9.4-libxml2",
+      "libxml2-2.9.5-libxml2",
+      "libxml2-2.9.5-rc1-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2016-1840",
+    "functions": [
+      "xmlFAParseCharRange"
+    ],
+    "vuln": [
+      "libxml2-2.9.2-libxml2",
+      "libxml2-2.9.2-rc2-libxml2",
+      "libxml2-2.9.3-libxml2"
+    ],
+    "patch": [
+      "libxml2-2.9.5-libxml2",
+      "libxml2-2.9.5-rc1-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2016-4483",
+    "functions": [
+      "xmlBufAttrSerializeTxtContent"
+    ],
+    "vuln": [
+      "libxml2-2.9.2-libxml2",
+      "libxml2-2.9.2-rc2-libxml2",
+      "libxml2-2.9.3-libxml2"
+    ],
+    "patch": [
+      "libxml2-2.9.5-libxml2",
+      "libxml2-2.9.5-rc1-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2017-16932",
+    "functions": [
+      "xmlParsePEReference",
+      "xmlPushInput"
+    ],
+    "vuln": [
+      "libxml2-2.9.2-libxml2",
+      "libxml2-2.9.3-libxml2",
+      "libxml2-2.9.4-libxml2"
+    ],
+    "patch": [
+      "libxml2-2.9.5-libxml2",
+      "libxml2-2.9.5-rc1-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2017-5130",
+    "functions": [
+      "xmlMallocLoc",
+      "xmlMemStrdupLoc",
+      "xmlReallocLoc"
+    ],
+    "vuln": [
+      "libxml2-2.9.2-libxml2",
+      "libxml2-2.9.3-libxml2",
+      "libxml2-2.9.4-libxml2"
+    ],
+    "patch": [
+      "libxml2-2.9.5-libxml2",
+      "libxml2-2.9.5-rc1-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2017-7375",
+    "functions": [
+      "xmlParsePEReference"
+    ],
+    "vuln": [
+      "libxml2-2.9.2-libxml2",
+      "libxml2-2.9.3-libxml2",
+      "libxml2-2.9.4-libxml2"
+    ],
+    "patch": [
+      "libxml2-2.9.5-libxml2",
+      "libxml2-2.9.5-rc1-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2018-14404",
+    "functions": [
+      "xmlXPathCompOpEval"
+    ],
+    "vuln": [
+      "libxml2-2.9.7-libxml2",
+      "libxml2-2.9.7-rc1-libxml2",
+      "libxml2-2.9.8-libxml2"
+    ],
+    "patch": [
+      "libxml2-2.9.9-libxml2",
+      "libxml2-2.9.9-rc1-libxml2",
+      "libxml2-2.9.9-rc2-libxml2"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2020-7595",
+    "functions": [
+      "xmlStringLenDecodeEntities"
+    ],
+    "vuln": [
+      "libxml2-2.9.10-libxml2"
+    ],
+    "patch": [
+      "libxml2-2.9.11-libxml2",
+      "libxml2-2.9.12-libxml2",
+      "libxml2-2.9.13-libxml2"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2023-28484",
+    "functions": [
+      "xmlSchemaFixupComplexType"
+    ],
+    "vuln": [
+      "libxml2-2.10.1-libxml2",
+      "libxml2-2.10.2-libxml2",
+      "libxml2-2.10.3-libxml2"
+    ],
+    "patch": [
+      "libxml2-2.11.0-libxml2",
+      "libxml2-2.11.1-libxml2",
+      "libxml2-2.11.2-libxml2"
+    ],
+    "not_affected": []
+  }
+]

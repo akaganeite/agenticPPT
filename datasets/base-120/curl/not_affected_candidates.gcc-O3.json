@@ -1,0 +1,3424 @@
+[
+  {
+    "CVE": "CVE-2013-0249",
+    "label": "patch",
+    "tag": "curl-7_29_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.29.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2013-0249",
+    "label": "patch",
+    "tag": "curl-7_30_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.30.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2013-0249",
+    "label": "patch",
+    "tag": "curl-7_31_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.31.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2013-0249",
+    "label": "vuln",
+    "tag": "curl-7_27_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.27.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2013-0249",
+    "label": "vuln",
+    "tag": "curl-7_28_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.28.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2013-0249",
+    "label": "vuln",
+    "tag": "curl-7_28_1",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.28.1-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2014-3620",
+    "label": "patch",
+    "tag": "curl-7_38_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.38.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2014-3620",
+    "label": "patch",
+    "tag": "curl-7_39_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.39.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2014-3620",
+    "label": "patch",
+    "tag": "curl-7_40_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.40.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2014-3620",
+    "label": "vuln",
+    "tag": "curl-7_36_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.36.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2014-3620",
+    "label": "vuln",
+    "tag": "curl-7_37_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.37.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2014-3620",
+    "label": "vuln",
+    "tag": "curl-7_37_1",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.37.1-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-3144",
+    "label": "patch",
+    "tag": "curl-7_42_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.42.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-3144",
+    "label": "patch",
+    "tag": "curl-7_42_1",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.42.1-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-3144",
+    "label": "patch",
+    "tag": "curl-7_43_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.43.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-3144",
+    "label": "vuln",
+    "tag": "curl-7_39_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.39.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-3144",
+    "label": "vuln",
+    "tag": "curl-7_40_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.40.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-3144",
+    "label": "vuln",
+    "tag": "curl-7_41_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.41.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-3153",
+    "label": "patch",
+    "tag": "curl-7_43_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.43.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-3153",
+    "label": "patch",
+    "tag": "curl-7_44_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.44.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-3153",
+    "label": "patch",
+    "tag": "curl-7_45_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.45.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-3153",
+    "label": "vuln",
+    "tag": "curl-7_40_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.40.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-3153",
+    "label": "vuln",
+    "tag": "curl-7_41_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.41.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-3153",
+    "label": "vuln",
+    "tag": "curl-7_42_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.42.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-3739",
+    "label": "patch",
+    "tag": "curl-7_49_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.49.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-3739",
+    "label": "patch",
+    "tag": "curl-7_49_1",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.49.1-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-3739",
+    "label": "patch",
+    "tag": "curl-7_50_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.50.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-3739",
+    "label": "vuln",
+    "tag": "curl-7_46_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.46.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-3739",
+    "label": "vuln",
+    "tag": "curl-7_47_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.47.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-3739",
+    "label": "vuln",
+    "tag": "curl-7_48_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.48.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-8621",
+    "label": "patch",
+    "tag": "curl-7_51_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.51.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-8621",
+    "label": "patch",
+    "tag": "curl-7_52_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.52.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-8621",
+    "label": "patch",
+    "tag": "curl-7_52_1",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.52.1-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-8621",
+    "label": "vuln",
+    "tag": "curl-7_50_1",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.50.1-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-8621",
+    "label": "vuln",
+    "tag": "curl-7_50_2",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.50.2-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-8621",
+    "label": "vuln",
+    "tag": "curl-7_50_3",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.50.3-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-8623",
+    "label": "patch",
+    "tag": "curl-7_51_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.51.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-8623",
+    "label": "patch",
+    "tag": "curl-7_52_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.52.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-8623",
+    "label": "patch",
+    "tag": "curl-7_52_1",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.52.1-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-8623",
+    "label": "vuln",
+    "tag": "curl-7_50_1",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.50.1-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-8623",
+    "label": "vuln",
+    "tag": "curl-7_50_2",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.50.2-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-8623",
+    "label": "vuln",
+    "tag": "curl-7_50_3",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.50.3-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-1000101",
+    "label": "patch",
+    "tag": "curl-7_55_0",
+    "binary": "curl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.55.0-curl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-1000101",
+    "label": "patch",
+    "tag": "curl-7_55_1",
+    "binary": "curl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.55.1-curl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-1000101",
+    "label": "patch",
+    "tag": "curl-7_56_0",
+    "binary": "curl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.56.0-curl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-1000101",
+    "label": "vuln",
+    "tag": "curl-7_53_1",
+    "binary": "curl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.53.1-curl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-1000101",
+    "label": "vuln",
+    "tag": "curl-7_54_0",
+    "binary": "curl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.54.0-curl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-1000101",
+    "label": "vuln",
+    "tag": "curl-7_54_1",
+    "binary": "curl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.54.1-curl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-7407",
+    "label": "patch",
+    "tag": "curl-7_54_0",
+    "binary": "curl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.54.0-curl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-7407",
+    "label": "patch",
+    "tag": "curl-7_54_1",
+    "binary": "curl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.54.1-curl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-7407",
+    "label": "patch",
+    "tag": "curl-7_55_0",
+    "binary": "curl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.55.0-curl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-7407",
+    "label": "vuln",
+    "tag": "curl-7_53_1",
+    "binary": "curl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.53.1-curl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-9502",
+    "label": "patch",
+    "tag": "curl-7_54_1",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.54.1-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-9502",
+    "label": "patch",
+    "tag": "curl-7_55_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.55.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-9502",
+    "label": "patch",
+    "tag": "curl-7_55_1",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.55.1-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-9502",
+    "label": "vuln",
+    "tag": "curl-7_53_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.53.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-9502",
+    "label": "vuln",
+    "tag": "curl-7_53_1",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.53.1-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-9502",
+    "label": "vuln",
+    "tag": "curl-7_54_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.54.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-1000007",
+    "label": "patch",
+    "tag": "curl-7_58_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.58.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-1000007",
+    "label": "patch",
+    "tag": "curl-7_59_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.59.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-1000007",
+    "label": "patch",
+    "tag": "curl-7_60_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.60.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-1000007",
+    "label": "vuln",
+    "tag": "curl-7_56_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.56.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-1000007",
+    "label": "vuln",
+    "tag": "curl-7_56_1",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.56.1-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-1000007",
+    "label": "vuln",
+    "tag": "curl-7_57_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.57.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-1000122",
+    "label": "patch",
+    "tag": "curl-7_59_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.59.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-1000122",
+    "label": "patch",
+    "tag": "curl-7_60_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.60.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-1000122",
+    "label": "patch",
+    "tag": "curl-7_61_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.61.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-1000122",
+    "label": "vuln",
+    "tag": "curl-7_56_1",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.56.1-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-1000122",
+    "label": "vuln",
+    "tag": "curl-7_57_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.57.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-1000122",
+    "label": "vuln",
+    "tag": "curl-7_58_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.58.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-1000300",
+    "label": "patch",
+    "tag": "curl-7_60_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.60.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-1000300",
+    "label": "patch",
+    "tag": "curl-7_61_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.61.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-1000300",
+    "label": "patch",
+    "tag": "curl-7_61_1",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.61.1-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-1000300",
+    "label": "vuln",
+    "tag": "curl-7_57_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.57.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-1000300",
+    "label": "vuln",
+    "tag": "curl-7_58_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.58.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-1000300",
+    "label": "vuln",
+    "tag": "curl-7_59_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.59.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-16839",
+    "label": "patch",
+    "tag": "curl-7_62_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.62.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-16839",
+    "label": "patch",
+    "tag": "curl-7_63_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.63.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-16839",
+    "label": "patch",
+    "tag": "curl-7_64_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.64.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-16839",
+    "label": "vuln",
+    "tag": "curl-7_60_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.60.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-16839",
+    "label": "vuln",
+    "tag": "curl-7_61_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.61.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-16839",
+    "label": "vuln",
+    "tag": "curl-7_61_1",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.61.1-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2019-5481",
+    "label": "patch",
+    "tag": "curl-7_66_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.66.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2019-5481",
+    "label": "patch",
+    "tag": "curl-7_67_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.67.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2019-5481",
+    "label": "patch",
+    "tag": "curl-7_68_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.68.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2019-5481",
+    "label": "vuln",
+    "tag": "curl-7_65_1",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.65.1-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2019-5481",
+    "label": "vuln",
+    "tag": "curl-7_65_2",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.65.2-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2019-5481",
+    "label": "vuln",
+    "tag": "curl-7_65_3",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.65.3-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2019-5482",
+    "label": "patch",
+    "tag": "curl-7_66_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.66.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2019-5482",
+    "label": "patch",
+    "tag": "curl-7_67_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.67.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2019-5482",
+    "label": "patch",
+    "tag": "curl-7_68_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.68.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2019-5482",
+    "label": "vuln",
+    "tag": "curl-7_65_1",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.65.1-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2019-5482",
+    "label": "vuln",
+    "tag": "curl-7_65_2",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.65.2-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2019-5482",
+    "label": "vuln",
+    "tag": "curl-7_65_3",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.65.3-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-8169",
+    "label": "patch",
+    "tag": "curl-7_71_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.71.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-8169",
+    "label": "patch",
+    "tag": "curl-7_71_1",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.71.1-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-8169",
+    "label": "patch",
+    "tag": "curl-7_72_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.72.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-8169",
+    "label": "vuln",
+    "tag": "curl-7_69_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.69.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-8169",
+    "label": "vuln",
+    "tag": "curl-7_69_1",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.69.1-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-8169",
+    "label": "vuln",
+    "tag": "curl-7_70_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.70.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-8177",
+    "label": "patch",
+    "tag": "curl-7_71_0",
+    "binary": "curl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.71.0-curl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-8177",
+    "label": "patch",
+    "tag": "curl-7_71_1",
+    "binary": "curl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.71.1-curl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-8177",
+    "label": "patch",
+    "tag": "curl-7_72_0",
+    "binary": "curl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.72.0-curl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-8177",
+    "label": "vuln",
+    "tag": "curl-7_69_0",
+    "binary": "curl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.69.0-curl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-8177",
+    "label": "vuln",
+    "tag": "curl-7_69_1",
+    "binary": "curl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.69.1-curl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-8177",
+    "label": "vuln",
+    "tag": "curl-7_70_0",
+    "binary": "curl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.70.0-curl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-8284",
+    "label": "patch",
+    "tag": "curl-7_74_0",
+    "binary": "curl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.74.0-curl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-8284",
+    "label": "patch",
+    "tag": "curl-7_75_0",
+    "binary": "curl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.75.0-curl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-8284",
+    "label": "patch",
+    "tag": "curl-7_76_0",
+    "binary": "curl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.76.0-curl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-8284",
+    "label": "vuln",
+    "tag": "curl-7_71_1",
+    "binary": "curl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.71.1-curl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-8284",
+    "label": "vuln",
+    "tag": "curl-7_72_0",
+    "binary": "curl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.72.0-curl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-8284",
+    "label": "vuln",
+    "tag": "curl-7_73_0",
+    "binary": "curl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.73.0-curl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-46219",
+    "label": "patch",
+    "tag": "curl-8_5_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-8.5.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-46219",
+    "label": "patch",
+    "tag": "curl-8_6_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-8.6.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-46219",
+    "label": "patch",
+    "tag": "curl-8_7_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-8.7.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-46219",
+    "label": "vuln",
+    "tag": "curl-8_2_1",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-8.2.1-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-46219",
+    "label": "vuln",
+    "tag": "curl-8_3_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-8.3.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-46219",
+    "label": "vuln",
+    "tag": "curl-8_4_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/curl/binaries/target/curl_stripped/curl-8.4.0-libcurl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  }
+]

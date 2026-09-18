@@ -1,0 +1,2554 @@
+[
+  {
+    "CVE": "CVE-2014-8484",
+    "label": "patch",
+    "tag": "binutils-2_25",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.25-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2014-8484",
+    "label": "patch",
+    "tag": "binutils-2_25_1",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.25.1-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2014-8484",
+    "label": "patch",
+    "tag": "binutils-2_26",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.26-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2014-8484",
+    "label": "vuln",
+    "tag": "binutils-2_24",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.24-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12448",
+    "label": "patch",
+    "tag": "binutils-2_29_1",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.29.1-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12448",
+    "label": "patch",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12448",
+    "label": "patch",
+    "tag": "binutils-2_31",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.31-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12448",
+    "label": "vuln",
+    "tag": "binutils-2_27",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.27-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12448",
+    "label": "vuln",
+    "tag": "binutils-2_28",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.28-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12448",
+    "label": "vuln",
+    "tag": "binutils-2_29",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.29-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-13757",
+    "label": "patch",
+    "tag": "binutils-2_29_1",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.29.1-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-13757",
+    "label": "patch",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-13757",
+    "label": "patch",
+    "tag": "binutils-2_31",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.31-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-13757",
+    "label": "vuln",
+    "tag": "binutils-2_29",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.29-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14129",
+    "label": "patch",
+    "tag": "binutils-2_29_1",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.29.1-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14129",
+    "label": "patch",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14129",
+    "label": "patch",
+    "tag": "binutils-2_31",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.31-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14129",
+    "label": "vuln",
+    "tag": "binutils-2_29",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.29-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14930",
+    "label": "patch",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14930",
+    "label": "patch",
+    "tag": "binutils-2_31",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.31-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14930",
+    "label": "vuln",
+    "tag": "binutils-2_29",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.29-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14930",
+    "label": "vuln",
+    "tag": "binutils-2_29_1",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.29.1-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14933",
+    "label": "patch",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14933",
+    "label": "patch",
+    "tag": "binutils-2_31",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.31-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14933",
+    "label": "patch",
+    "tag": "binutils-2_31_1",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.31.1-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14933",
+    "label": "vuln",
+    "tag": "binutils-2_29",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.29-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14934",
+    "label": "patch",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14934",
+    "label": "patch",
+    "tag": "binutils-2_31",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.31-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14934",
+    "label": "patch",
+    "tag": "binutils-2_31_1",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.31.1-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14934",
+    "label": "vuln",
+    "tag": "binutils-2_29",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.29-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14938",
+    "label": "patch",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14938",
+    "label": "patch",
+    "tag": "binutils-2_31",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.31-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14938",
+    "label": "vuln",
+    "tag": "binutils-2_29",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.29-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14938",
+    "label": "vuln",
+    "tag": "binutils-2_29_1",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.29.1-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14939",
+    "label": "patch",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14939",
+    "label": "patch",
+    "tag": "binutils-2_31",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.31-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14939",
+    "label": "vuln",
+    "tag": "binutils-2_29",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.29-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-14939",
+    "label": "vuln",
+    "tag": "binutils-2_29_1",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.29.1-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-15023",
+    "label": "patch",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-15023",
+    "label": "patch",
+    "tag": "binutils-2_31",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.31-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-15023",
+    "label": "patch",
+    "tag": "binutils-2_31_1",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.31.1-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-15023",
+    "label": "vuln",
+    "tag": "binutils-2_29",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.29-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-15025",
+    "label": "patch",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-15025",
+    "label": "patch",
+    "tag": "binutils-2_31",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.31-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-15025",
+    "label": "vuln",
+    "tag": "binutils-2_29",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.29-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-15025",
+    "label": "vuln",
+    "tag": "binutils-2_29_1",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.29.1-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-8396",
+    "label": "patch",
+    "tag": "binutils-2_29",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.29-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-8396",
+    "label": "patch",
+    "tag": "binutils-2_29_1",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.29.1-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-8396",
+    "label": "patch",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-8396",
+    "label": "vuln",
+    "tag": "binutils-2_28",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.28-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-10372",
+    "label": "patch",
+    "tag": "binutils-2_31",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.31-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-10372",
+    "label": "patch",
+    "tag": "binutils-2_31_1",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.31.1-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-10372",
+    "label": "patch",
+    "tag": "binutils-2_32",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.32-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-10372",
+    "label": "vuln",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-17358",
+    "label": "patch",
+    "tag": "binutils-2_41",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.41-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-17358",
+    "label": "patch",
+    "tag": "binutils-2_42",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.42-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-17358",
+    "label": "patch",
+    "tag": "binutils-2_43",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.43-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-17358",
+    "label": "vuln",
+    "tag": "binutils-2_31_1",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.31.1-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-19932",
+    "label": "patch",
+    "tag": "binutils-2_32",
+    "binary": "objcopy",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.32-objcopy-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-19932",
+    "label": "patch",
+    "tag": "binutils-2_33_1",
+    "binary": "objcopy",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.33.1-objcopy-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-19932",
+    "label": "patch",
+    "tag": "binutils-2_34",
+    "binary": "objcopy",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.34-objcopy-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-19932",
+    "label": "vuln",
+    "tag": "binutils-2_29_1",
+    "binary": "objcopy",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.29.1-objcopy-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-19932",
+    "label": "vuln",
+    "tag": "binutils-2_30",
+    "binary": "objcopy",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.30-objcopy-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-19932",
+    "label": "vuln",
+    "tag": "binutils-2_31",
+    "binary": "objcopy",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.31-objcopy-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-6759",
+    "label": "patch",
+    "tag": "binutils-2_31",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.31-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-6759",
+    "label": "patch",
+    "tag": "binutils-2_31_1",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.31.1-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-6759",
+    "label": "patch",
+    "tag": "binutils-2_32",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.32-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-6759",
+    "label": "vuln",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-7569",
+    "label": "patch",
+    "tag": "binutils-2_31",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.31-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-7569",
+    "label": "patch",
+    "tag": "binutils-2_31_1",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.31.1-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-7569",
+    "label": "patch",
+    "tag": "binutils-2_32",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.32-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-7569",
+    "label": "vuln",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-19724",
+    "label": "patch",
+    "tag": "binutils-2_34",
+    "binary": "nm",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.34-nm-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-19724",
+    "label": "patch",
+    "tag": "binutils-2_35",
+    "binary": "nm",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.35-nm-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-19724",
+    "label": "patch",
+    "tag": "binutils-2_35_1",
+    "binary": "nm",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.35.1-nm-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-19724",
+    "label": "vuln",
+    "tag": "binutils-2_31_1",
+    "binary": "nm",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.31.1-nm-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-19724",
+    "label": "vuln",
+    "tag": "binutils-2_32",
+    "binary": "nm",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.32-nm-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-19724",
+    "label": "vuln",
+    "tag": "binutils-2_33_1",
+    "binary": "nm",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.33.1-nm-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2022-48063",
+    "label": "patch",
+    "tag": "binutils-2_40",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.40-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2022-48063",
+    "label": "patch",
+    "tag": "binutils-2_41",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.41-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2022-48063",
+    "label": "patch",
+    "tag": "binutils-2_42",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.42-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2022-48063",
+    "label": "vuln",
+    "tag": "binutils-2_37",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.37-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2022-48063",
+    "label": "vuln",
+    "tag": "binutils-2_38",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.38-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2022-48063",
+    "label": "vuln",
+    "tag": "binutils-2_39",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.39-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-1579",
+    "label": "patch",
+    "tag": "binutils-2_40",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.40-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-1579",
+    "label": "patch",
+    "tag": "binutils-2_41",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.41-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-1579",
+    "label": "patch",
+    "tag": "binutils-2_42",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.42-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-1579",
+    "label": "vuln",
+    "tag": "binutils-2_39",
+    "binary": "objdump",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/binutils/binaries/target/binutils_stripped/binutils-2.39-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  }
+]

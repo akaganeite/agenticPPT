@@ -1,0 +1,213 @@
+[
+  {
+    "CVE": "CVE-2012-5134",
+    "functions": [
+      "xmlParseAttValueComplex"
+    ],
+    "binaries": [
+      "libxml2-2.8.0-libxml2",
+      "libxml2-2.9.2-rc2-libxml2"
+    ]
+  },
+  {
+    "CVE": "CVE-2013-0338",
+    "functions": [
+      "xmlCtxtReset",
+      "xmlInitParserCtxt",
+      "xmlParseReference",
+      "xmlParserEntityCheck",
+      "xmlStringLenDecodeEntities"
+    ],
+    "binaries": [
+      "libxml2-2.8.0-libxml2",
+      "libxml2-2.9.2-rc2-libxml2"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-3660",
+    "functions": [
+      "xmlParseReference"
+    ],
+    "binaries": [
+      "libxml2-2.9.0-libxml2",
+      "libxml2-2.9.5-rc1-libxml2"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-5312",
+    "functions": [
+      "xmlStringLenDecodeEntities"
+    ],
+    "binaries": [
+      "libxml2-2.9.0-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-7497",
+    "functions": [
+      "xmlDictComputeFastQKey"
+    ],
+    "binaries": [
+      "libxml2-2.9.0-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-7498",
+    "functions": [
+      "xmlParseDocument",
+      "xmlParseXMLDecl",
+      "xmlSwitchEncoding"
+    ],
+    "binaries": [
+      "libxml2-2.9.0-libxml2",
+      "libxml2-2.9.5-rc1-libxml2"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-7499",
+    "functions": [
+      "xmlHaltParser",
+      "xmlStopParser"
+    ],
+    "binaries": [
+      "libxml2-2.9.0-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-7500",
+    "functions": [
+      "xmlParseStartTag2"
+    ],
+    "binaries": [
+      "libxml2-2.9.0-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-7941",
+    "functions": [
+      "xmlParseConditionalSections"
+    ],
+    "binaries": [
+      "libxml2-2.9.2-libxml2",
+      "libxml2-2.9.5-rc1-libxml2"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-1834",
+    "functions": [
+      "xmlStrncat",
+      "xmlStrncatNew"
+    ],
+    "binaries": [
+      "libxml2-2.9.2-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-1836",
+    "functions": [
+      "xmlParseNCNameComplex"
+    ],
+    "binaries": [
+      "libxml2-2.9.2-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-1838",
+    "functions": [
+      "xmlParseEndTag2"
+    ],
+    "binaries": [
+      "libxml2-2.9.2-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-1840",
+    "functions": [
+      "xmlFAParseCharRange"
+    ],
+    "binaries": [
+      "libxml2-2.9.2-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-4483",
+    "functions": [
+      "xmlBufAttrSerializeTxtContent"
+    ],
+    "binaries": [
+      "libxml2-2.9.2-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-16932",
+    "functions": [
+      "xmlParsePEReference",
+      "xmlPushInput"
+    ],
+    "binaries": [
+      "libxml2-2.9.2-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-5130",
+    "functions": [
+      "xmlMallocLoc",
+      "xmlMemStrdupLoc",
+      "xmlReallocLoc"
+    ],
+    "binaries": [
+      "libxml2-2.9.2-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-7375",
+    "functions": [
+      "xmlParsePEReference"
+    ],
+    "binaries": [
+      "libxml2-2.9.2-libxml2",
+      "libxml2-2.9.5-rc2-libxml2"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-14404",
+    "functions": [
+      "xmlXPathCompOpEval"
+    ],
+    "binaries": [
+      "libxml2-2.9.7-libxml2",
+      "libxml2-2.9.9-rc2-libxml2"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-7595",
+    "functions": [
+      "xmlStringLenDecodeEntities"
+    ],
+    "binaries": [
+      "libxml2-2.9.10-libxml2",
+      "libxml2-2.9.13-libxml2"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-28484",
+    "functions": [
+      "xmlSchemaFixupComplexType"
+    ],
+    "binaries": [
+      "libxml2-2.10.1-libxml2",
+      "libxml2-2.11.2-libxml2"
+    ]
+  }
+]

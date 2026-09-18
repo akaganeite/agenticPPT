@@ -1,0 +1,250 @@
+[
+  {
+    "CVE": "CVE-2020-20446",
+    "functions": [
+      "psy_3gpp_analyze_channel"
+    ],
+    "vuln": [
+      "ffmpeg-7_4.2.4-1ubuntu0.1-libavcodec.so.58.54.100"
+    ],
+    "patch": [
+      "ffmpeg-7_4.2.7-0ubuntu0.1-libavcodec.so.58.54.100"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-20451",
+    "functions": [
+      "open_files"
+    ],
+    "vuln": [
+      "ffmpeg-7_4.2.4-1ubuntu0.1-ffmpeg"
+    ],
+    "patch": [
+      "ffmpeg-7_4.2.7-0ubuntu0.1-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-20453",
+    "functions": [
+      "aac_encode_frame"
+    ],
+    "vuln": [
+      "ffmpeg-7_4.2.4-1ubuntu0.1-libavcodec.so.58.54.100"
+    ],
+    "patch": [
+      "ffmpeg-7_4.2.7-0ubuntu0.1-libavcodec.so.58.54.100"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-21688",
+    "functions": [
+      "mov_get_codec_tag"
+    ],
+    "vuln": [
+      "ffmpeg-7_4.2.4-1ubuntu0.1-libavformat.so.58.29.100"
+    ],
+    "patch": [
+      "ffmpeg-7_4.2.7-0ubuntu0.1-libavformat.so.58.29.100"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22020",
+    "functions": [
+      "config_input"
+    ],
+    "vuln": [
+      "ffmpeg-7_4.2.4-1ubuntu0.1-libavfilter.so.7.57.100"
+    ],
+    "patch": [
+      "ffmpeg-7_4.2.7-0ubuntu0.1-libavfilter.so.7.57.100"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22022",
+    "functions": [
+      "filter_frame"
+    ],
+    "vuln": [
+      "ffmpeg-7_4.2.4-1ubuntu0.1-libavcodec.so.58.54.100"
+    ],
+    "patch": [
+      "ffmpeg-7_4.2.7-0ubuntu0.1-libavcodec.so.58.54.100"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22023",
+    "functions": [
+      "filter_frame"
+    ],
+    "vuln": [
+      "ffmpeg-7_4.2.4-1ubuntu0.1-libavcodec.so.58.54.100"
+    ],
+    "patch": [
+      "ffmpeg-7_4.2.7-0ubuntu0.1-libavcodec.so.58.54.100"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22025",
+    "functions": [
+      "gaussian_blur"
+    ],
+    "vuln": [
+      "ffmpeg-7_4.2.4-1ubuntu0.1-libavfilter.so.7.57.100"
+    ],
+    "patch": [
+      "ffmpeg-7_4.2.7-0ubuntu0.1-libavfilter.so.7.57.100"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22026",
+    "functions": [
+      "config_input",
+      "filter_frame"
+    ],
+    "vuln": [
+      "ffmpeg-7_4.2.4-1ubuntu0.1-libavfilter.so.7.57.100",
+      "ffmpeg-7_4.2.4-1ubuntu0.1-libavcodec.so.58.54.100"
+    ],
+    "patch": [
+      "ffmpeg-7_4.2.7-0ubuntu0.1-libavfilter.so.7.57.100",
+      "ffmpeg-7_4.2.7-0ubuntu0.1-libavcodec.so.58.54.100"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22027",
+    "functions": [
+      "filter_slice"
+    ],
+    "vuln": [
+      "ffmpeg-7_4.2.4-1ubuntu0.1-libavfilter.so.7.57.100"
+    ],
+    "patch": [
+      "ffmpeg-7_4.2.7-0ubuntu0.1-libavfilter.so.7.57.100"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22028",
+    "functions": [
+      "filter_vertically_16",
+      "filter_vertically_8"
+    ],
+    "vuln": [
+      "ffmpeg-7_4.2.4-1ubuntu0.1-libavfilter.so.7.57.100"
+    ],
+    "patch": [
+      "ffmpeg-7_4.2.7-0ubuntu0.1-libavfilter.so.7.57.100"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22031",
+    "functions": [
+      "config_input"
+    ],
+    "vuln": [
+      "ffmpeg-7_4.2.4-1ubuntu0.1-libavfilter.so.7.57.100"
+    ],
+    "patch": [
+      "ffmpeg-7_4.2.7-0ubuntu0.1-libavfilter.so.7.57.100"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22032",
+    "functions": [
+      "gaussian_blur"
+    ],
+    "vuln": [
+      "ffmpeg-7_4.2.4-1ubuntu0.1-libavfilter.so.7.57.100"
+    ],
+    "patch": [
+      "ffmpeg-7_4.2.7-0ubuntu0.1-libavfilter.so.7.57.100"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22036",
+    "functions": [
+      "config_props"
+    ],
+    "vuln": [
+      "ffmpeg-7_4.2.4-1ubuntu0.1-libavfilter.so.7.57.100"
+    ],
+    "patch": [
+      "ffmpeg-7_4.2.7-0ubuntu0.1-libavfilter.so.7.57.100"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22037",
+    "functions": [
+      "ff_frame_thread_encoder_init"
+    ],
+    "vuln": [
+      "ffmpeg-7_4.2.4-1ubuntu0.1-libavcodec.so.58.54.100"
+    ],
+    "patch": [
+      "ffmpeg-7_4.2.7-0ubuntu0.1-libavcodec.so.58.54.100"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-38114",
+    "functions": [
+      "dnxhd_init_vlc"
+    ],
+    "vuln": [
+      "ffmpeg-7_4.2.4-1ubuntu0.1-libavcodec.so.58.54.100"
+    ],
+    "patch": [
+      "ffmpeg-7_4.2.7-0ubuntu0.1-libavcodec.so.58.54.100"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-38171",
+    "functions": [
+      "adts_decode_extradata"
+    ],
+    "vuln": [
+      "ffmpeg-7_4.2.4-1ubuntu0.1-libavformat.so.58.29.100"
+    ],
+    "patch": [
+      "ffmpeg-7_4.2.7-0ubuntu0.1-libavformat.so.58.29.100"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-49502",
+    "functions": [
+      "config_output",
+      "config_props"
+    ],
+    "vuln": [
+      "ffmpeg-7_6.0-6ubuntu1-libavfilter.so.9.3.100"
+    ],
+    "patch": [
+      "ffmpeg-7_6.0-6ubuntu1.1-libavfilter.so.9.3.100"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-50007",
+    "functions": [
+      "activate",
+      "filter_frame"
+    ],
+    "vuln": [
+      "ffmpeg-7_6.0-6ubuntu1-libavfilter.so.9.3.100",
+      "ffmpeg-7_6.0-6ubuntu1-libavcodec.so.60.3.100"
+    ],
+    "patch": [
+      "ffmpeg-7_6.0-6ubuntu1.1-libavfilter.so.9.3.100",
+      "ffmpeg-7_6.0-6ubuntu1.1-libavcodec.so.60.3.100"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-50008",
+    "functions": [
+      "uninit"
+    ],
+    "vuln": [
+      "ffmpeg-7_6.0-6ubuntu1-libavcodec.so.60.3.100"
+    ],
+    "patch": [
+      "ffmpeg-7_6.0-6ubuntu1.1-libavcodec.so.60.3.100"
+    ]
+  }
+]

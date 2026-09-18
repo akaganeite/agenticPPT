@@ -1,0 +1,2844 @@
+[
+  {
+    "CVE": "CVE-2015-0288",
+    "label": "patch",
+    "tag": "OpenSSL_1_1_0",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-1.1.0-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-0288",
+    "label": "patch",
+    "tag": "OpenSSL_1_1_0a",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-1.1.0a-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-0288",
+    "label": "patch",
+    "tag": "OpenSSL_1_1_0b",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-1.1.0b-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-0288",
+    "label": "vuln",
+    "tag": "OpenSSL_0_9_8-post-auto-reformat",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-0.9.8-post-auto-reformat-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-0288",
+    "label": "vuln",
+    "tag": "OpenSSL_0_9_8-post-reformat",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-0.9.8-post-reformat-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-0288",
+    "label": "vuln",
+    "tag": "OpenSSL_1_0_2",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-1.0.2-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-1789",
+    "label": "patch",
+    "tag": "OpenSSL_1_1_0",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-1.1.0-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-1789",
+    "label": "patch",
+    "tag": "OpenSSL_1_1_0a",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-1.1.0a-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-1789",
+    "label": "patch",
+    "tag": "OpenSSL_1_1_0b",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-1.1.0b-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-1789",
+    "label": "vuln",
+    "tag": "OpenSSL_1_0_0r",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-1.0.0r-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-1789",
+    "label": "vuln",
+    "tag": "OpenSSL_1_0_1m",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-1.0.1m-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-1789",
+    "label": "vuln",
+    "tag": "OpenSSL_1_0_2a",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-1.0.2a-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-1790",
+    "label": "patch",
+    "tag": "OpenSSL_1_1_0",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-1.1.0-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-1790",
+    "label": "patch",
+    "tag": "OpenSSL_1_1_0a",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-1.1.0a-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-1790",
+    "label": "patch",
+    "tag": "OpenSSL_1_1_0b",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-1.1.0b-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-1790",
+    "label": "vuln",
+    "tag": "OpenSSL_1_0_0r",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-1.0.0r-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-1790",
+    "label": "vuln",
+    "tag": "OpenSSL_1_0_1m",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-1.0.1m-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-1790",
+    "label": "vuln",
+    "tag": "OpenSSL_1_0_2a",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-1.0.2a-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-11187",
+    "label": "patch",
+    "tag": "openssl-3.4.4",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.4.4-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-11187",
+    "label": "patch",
+    "tag": "openssl-3.4.5",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.4.5-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-11187",
+    "label": "vuln",
+    "tag": "openssl-3.4.3",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.4.3-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-11187",
+    "label": "vuln",
+    "tag": "openssl-3.5.4",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.4-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-11187",
+    "label": "vuln",
+    "tag": "openssl-3.6.0",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.6.0-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-15467",
+    "label": "patch",
+    "tag": "openssl-3.0.19",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.0.19-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-15467",
+    "label": "patch",
+    "tag": "openssl-3.0.20",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.0.20-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-15467",
+    "label": "vuln",
+    "tag": "openssl-3.4.3",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.4.3-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-15467",
+    "label": "vuln",
+    "tag": "openssl-3.5.4",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.4-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-15467",
+    "label": "vuln",
+    "tag": "openssl-3.6.0",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.6.0-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-15468",
+    "label": "patch",
+    "tag": "openssl-3.5.5",
+    "binary": "libssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.5-libssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-15468",
+    "label": "patch",
+    "tag": "openssl-3.5.6",
+    "binary": "libssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.6-libssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-15468",
+    "label": "vuln",
+    "tag": "openssl-3.4.3",
+    "binary": "libssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.4.3-libssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-15468",
+    "label": "vuln",
+    "tag": "openssl-3.5.4",
+    "binary": "libssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.4-libssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-15468",
+    "label": "vuln",
+    "tag": "openssl-3.6.0",
+    "binary": "libssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.6.0-libssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-15469",
+    "label": "patch",
+    "tag": "openssl-3.5.5",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.5-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-15469",
+    "label": "patch",
+    "tag": "openssl-3.5.6",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.6-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-15469",
+    "label": "vuln",
+    "tag": "openssl-3.5.3",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.3-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-15469",
+    "label": "vuln",
+    "tag": "openssl-3.5.4",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.4-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-15469",
+    "label": "vuln",
+    "tag": "openssl-3.6.0",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.6.0-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-4575",
+    "label": "patch",
+    "tag": "openssl-3.5.1",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.1-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-4575",
+    "label": "patch",
+    "tag": "openssl-3.5.2",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.2-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-4575",
+    "label": "patch",
+    "tag": "openssl-3.5.3",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.3-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-4575",
+    "label": "vuln",
+    "tag": "openssl-3.5.0",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.0-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-66199",
+    "label": "patch",
+    "tag": "openssl-3.3.6",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.3.6-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-66199",
+    "label": "patch",
+    "tag": "openssl-3.3.7",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.3.7-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-66199",
+    "label": "vuln",
+    "tag": "openssl-3.4.3",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.4.3-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-66199",
+    "label": "vuln",
+    "tag": "openssl-3.5.4",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.4-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-66199",
+    "label": "vuln",
+    "tag": "openssl-3.6.0",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.6.0-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-68160",
+    "label": "patch",
+    "tag": "openssl-3.3.6",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.3.6-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-68160",
+    "label": "patch",
+    "tag": "openssl-3.3.7",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.3.7-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-68160",
+    "label": "vuln",
+    "tag": "openssl-3.4.3",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.4.3-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-68160",
+    "label": "vuln",
+    "tag": "openssl-3.5.4",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.4-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-68160",
+    "label": "vuln",
+    "tag": "openssl-3.6.0",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.6.0-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-69418",
+    "label": "patch",
+    "tag": "openssl-3.4.4",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.4.4-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-69418",
+    "label": "patch",
+    "tag": "openssl-3.4.5",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.4.5-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-69418",
+    "label": "vuln",
+    "tag": "openssl-3.4.3",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.4.3-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-69418",
+    "label": "vuln",
+    "tag": "openssl-3.5.4",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.4-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-69418",
+    "label": "vuln",
+    "tag": "openssl-3.6.0",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.6.0-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-69419",
+    "label": "patch",
+    "tag": "openssl-3.0.19",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.0.19-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-69419",
+    "label": "patch",
+    "tag": "openssl-3.0.20",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.0.20-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-69419",
+    "label": "vuln",
+    "tag": "openssl-3.4.3",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.4.3-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-69419",
+    "label": "vuln",
+    "tag": "openssl-3.5.4",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.4-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-69419",
+    "label": "vuln",
+    "tag": "openssl-3.6.0",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.6.0-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-69420",
+    "label": "patch",
+    "tag": "openssl-3.4.4",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.4.4-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-69420",
+    "label": "patch",
+    "tag": "openssl-3.4.5",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.4.5-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-69420",
+    "label": "vuln",
+    "tag": "openssl-3.4.3",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.4.3-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-69420",
+    "label": "vuln",
+    "tag": "openssl-3.5.4",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.4-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-69420",
+    "label": "vuln",
+    "tag": "openssl-3.6.0",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.6.0-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-69421",
+    "label": "patch",
+    "tag": "openssl-3.5.5",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.5-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-69421",
+    "label": "patch",
+    "tag": "openssl-3.5.6",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.6-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-69421",
+    "label": "vuln",
+    "tag": "openssl-3.4.3",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.4.3-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-69421",
+    "label": "vuln",
+    "tag": "openssl-3.5.4",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.4-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-69421",
+    "label": "vuln",
+    "tag": "openssl-3.6.0",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.6.0-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-22795",
+    "label": "patch",
+    "tag": "openssl-3.5.5",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.5-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-22795",
+    "label": "patch",
+    "tag": "openssl-3.5.6",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.6-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-22795",
+    "label": "vuln",
+    "tag": "openssl-3.3.5",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.3.5-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-22795",
+    "label": "vuln",
+    "tag": "openssl-3.4.3",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.4.3-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-22795",
+    "label": "vuln",
+    "tag": "openssl-3.5.4",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.4-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-22796",
+    "label": "patch",
+    "tag": "openssl-3.5.5",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.5-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-22796",
+    "label": "patch",
+    "tag": "openssl-3.5.6",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.6-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-22796",
+    "label": "vuln",
+    "tag": "openssl-3.3.5",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.3.5-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-22796",
+    "label": "vuln",
+    "tag": "openssl-3.4.3",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.4.3-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-22796",
+    "label": "vuln",
+    "tag": "openssl-3.5.4",
+    "binary": "openssl",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.4-openssl-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-28387",
+    "label": "patch",
+    "tag": "openssl-3.4.5",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.4.5-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-28387",
+    "label": "vuln",
+    "tag": "openssl-3.4.4",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.4.4-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-28387",
+    "label": "vuln",
+    "tag": "openssl-3.5.5",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.5-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-28387",
+    "label": "vuln",
+    "tag": "openssl-3.6.1",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.6.1-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-28388",
+    "label": "patch",
+    "tag": "openssl-3.0.20",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.0.20-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-28388",
+    "label": "vuln",
+    "tag": "openssl-3.4.4",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.4.4-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-28388",
+    "label": "vuln",
+    "tag": "openssl-3.5.5",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.5-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-28388",
+    "label": "vuln",
+    "tag": "openssl-3.6.1",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.6.1-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-28389",
+    "label": "patch",
+    "tag": "openssl-3.5.6",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.6-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-28389",
+    "label": "vuln",
+    "tag": "openssl-3.4.4",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.4.4-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-28389",
+    "label": "vuln",
+    "tag": "openssl-3.5.5",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.5-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-28389",
+    "label": "vuln",
+    "tag": "openssl-3.6.1",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.6.1-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-28390",
+    "label": "patch",
+    "tag": "openssl-3.6.2",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.6.2-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-28390",
+    "label": "vuln",
+    "tag": "openssl-3.4.4",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.4.4-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-28390",
+    "label": "vuln",
+    "tag": "openssl-3.5.5",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.5-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2026-28390",
+    "label": "vuln",
+    "tag": "openssl-3.6.1",
+    "binary": "libcrypto",
+    "target_path": "/home/zhangxb/server/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.6.1-libcrypto-gcc-O3",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  }
+]

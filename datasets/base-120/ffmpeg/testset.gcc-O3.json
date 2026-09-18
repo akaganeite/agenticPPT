@@ -1,0 +1,272 @@
+[
+  {
+    "CVE": "CVE-2020-12284",
+    "functions": [
+      "cbs_jpeg_split_fragment"
+    ],
+    "binaries": [
+      "ffmpeg-4.1-ffmpeg",
+      "ffmpeg-4.2.2-ffmpeg",
+      "ffmpeg-4.3-ffmpeg",
+      "ffmpeg-4.3.1-ffmpeg",
+      "ffmpeg-4.3.2-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-20448",
+    "functions": [
+      "encode_frame",
+      "encode_q_branch"
+    ],
+    "binaries": [
+      "ffmpeg-4.1.3-ffmpeg",
+      "ffmpeg-4.3-ffmpeg",
+      "ffmpeg-4.3.1-ffmpeg",
+      "ffmpeg-4.3.2-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-20450",
+    "functions": [
+      "mxf_parse_dnxhd_frame",
+      "mxf_parse_h264_frame",
+      "mxf_parse_mpeg2_frame",
+      "mxf_parse_prores_frame"
+    ],
+    "binaries": [
+      "ffmpeg-4.2-ffmpeg",
+      "ffmpeg-4.4-ffmpeg",
+      "ffmpeg-4.4.1-ffmpeg",
+      "ffmpeg-5.0-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-20453",
+    "functions": [
+      "aac_encode_frame"
+    ],
+    "binaries": [
+      "ffmpeg-4.2-ffmpeg",
+      "ffmpeg-5.0-ffmpeg",
+      "ffmpeg-5.0.1-ffmpeg",
+      "ffmpeg-5.1-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22015",
+    "functions": [
+      "mov_write_video_tag"
+    ],
+    "binaries": [
+      "ffmpeg-4.2-ffmpeg",
+      "ffmpeg-5.0-ffmpeg",
+      "ffmpeg-5.0.1-ffmpeg",
+      "ffmpeg-5.1-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22016",
+    "functions": [
+      "ff_mov_write_packet",
+      "mov_create_dvd_sub_decoder_specific_info",
+      "mov_write_header",
+      "mov_write_trailer"
+    ],
+    "binaries": [
+      "ffmpeg-4.2-ffmpeg",
+      "ffmpeg-4.3-ffmpeg",
+      "ffmpeg-4.3.1-ffmpeg",
+      "ffmpeg-4.3.2-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22021",
+    "functions": [
+      "filter_edges",
+      "filter_edges_16bit"
+    ],
+    "binaries": [
+      "ffmpeg-4.2-ffmpeg",
+      "ffmpeg-5.0-ffmpeg",
+      "ffmpeg-5.0.1-ffmpeg",
+      "ffmpeg-5.1-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22026",
+    "functions": [
+      "config_input",
+      "filter_frame"
+    ],
+    "binaries": [
+      "ffmpeg-4.2-ffmpeg",
+      "ffmpeg-4.3-ffmpeg",
+      "ffmpeg-4.3.1-ffmpeg",
+      "ffmpeg-4.3.2-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22043",
+    "functions": [
+      "mpeg_mux_deinit",
+      "mpeg_mux_end",
+      "mpeg_mux_init"
+    ],
+    "binaries": [
+      "ffmpeg-4.2-ffmpeg",
+      "ffmpeg-4.3-ffmpeg",
+      "ffmpeg-4.3.1-ffmpeg",
+      "ffmpeg-4.3.2-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-33815",
+    "functions": [
+      "dwa_uncompress"
+    ],
+    "binaries": [
+      "ffmpeg-4.4-ffmpeg",
+      "ffmpeg-5.0-ffmpeg",
+      "ffmpeg-5.0.1-ffmpeg",
+      "ffmpeg-5.1-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-38171",
+    "functions": [
+      "adts_decode_extradata"
+    ],
+    "binaries": [
+      "ffmpeg-4.4-ffmpeg",
+      "ffmpeg-5.0-ffmpeg",
+      "ffmpeg-5.0.1-ffmpeg",
+      "ffmpeg-5.1-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-38291",
+    "functions": [
+      "av_get_audio_frame_duration",
+      "av_get_audio_frame_duration2"
+    ],
+    "binaries": [
+      "ffmpeg-4.2.4-ffmpeg",
+      "ffmpeg-4.3.1-ffmpeg",
+      "ffmpeg-4.3.2-ffmpeg",
+      "ffmpeg-5.0-ffmpeg",
+      "ffmpeg-5.0.1-ffmpeg",
+      "ffmpeg-5.1-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-2566",
+    "functions": [
+      "build_open_gop_key_points"
+    ],
+    "binaries": [
+      "ffmpeg-5.1-ffmpeg",
+      "ffmpeg-6.0-ffmpeg",
+      "ffmpeg-6.0.1-ffmpeg",
+      "ffmpeg-6.1-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-3341",
+    "functions": [
+      "decode_main_header",
+      "nut_read_header"
+    ],
+    "binaries": [
+      "ffmpeg-4.3.3-ffmpeg",
+      "ffmpeg-4.4.1-ffmpeg",
+      "ffmpeg-5.0-ffmpeg",
+      "ffmpeg-5.1-ffmpeg",
+      "ffmpeg-5.1.1-ffmpeg",
+      "ffmpeg-5.1.2-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-3965",
+    "functions": [
+      "smc_encode_stream"
+    ],
+    "binaries": [
+      "ffmpeg-5.0.2-ffmpeg",
+      "ffmpeg-5.1.1-ffmpeg",
+      "ffmpeg-5.1.2-ffmpeg",
+      "ffmpeg-6.0-ffmpeg",
+      "ffmpeg-6.0.1-ffmpeg",
+      "ffmpeg-6.1-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-47342",
+    "functions": [
+      "parse_fmtp"
+    ],
+    "binaries": [
+      "ffmpeg-3.4.13-ffmpeg",
+      "ffmpeg-4.1.11-ffmpeg",
+      "ffmpeg-4.2.9-ffmpeg",
+      "ffmpeg-6.1-ffmpeg",
+      "ffmpeg-6.1.1-ffmpeg",
+      "ffmpeg-7.0-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-47343",
+    "functions": [
+      "mov_probe"
+    ],
+    "binaries": [
+      "ffmpeg-4.2.4-ffmpeg",
+      "ffmpeg-4.3.1-ffmpeg",
+      "ffmpeg-4.3.2-ffmpeg",
+      "ffmpeg-5.0-ffmpeg",
+      "ffmpeg-5.0.1-ffmpeg",
+      "ffmpeg-5.1-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2024-31578",
+    "functions": [
+      "av_hwframe_ctx_init"
+    ],
+    "binaries": [
+      "ffmpeg-5.1.4-ffmpeg",
+      "ffmpeg-6.1-ffmpeg",
+      "ffmpeg-6.1.1-ffmpeg",
+      "ffmpeg-7.0-ffmpeg",
+      "ffmpeg-7.0.1-ffmpeg",
+      "ffmpeg-7.0.2-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2024-7055",
+    "functions": [
+      "pnm_decode_frame"
+    ],
+    "binaries": [
+      "ffmpeg-4.3.7-ffmpeg",
+      "ffmpeg-5.1.5-ffmpeg",
+      "ffmpeg-7.0.1-ffmpeg",
+      "ffmpeg-7.1-ffmpeg",
+      "ffmpeg-7.1.1-ffmpeg",
+      "ffmpeg-8.0-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-1816",
+    "functions": [
+      "audio_element_obu"
+    ],
+    "binaries": [
+      "ffmpeg-4.3.8-ffmpeg",
+      "ffmpeg-5.1.6-ffmpeg",
+      "ffmpeg-7.1-ffmpeg",
+      "ffmpeg-8.0-ffmpeg",
+      "ffmpeg-8.0.1-ffmpeg",
+      "ffmpeg-8.1-ffmpeg"
+    ]
+  }
+]

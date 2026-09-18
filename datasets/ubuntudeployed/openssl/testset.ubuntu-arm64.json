@@ -1,0 +1,218 @@
+[
+  {
+    "CVE": "CVE-2015-1788",
+    "functions": [
+      "BN_GF2m_mod_inv"
+    ],
+    "binaries": [
+      "openssl-1.0.2a-1ubuntu1-libcrypto.so.1.0.0",
+      "openssl-1.0.2c-1ubuntu1-libcrypto.so.1.0.0"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-1789",
+    "functions": [
+      "X509_cmp_time"
+    ],
+    "binaries": [
+      "openssl-1.0.2a-1ubuntu1-libcrypto.so.1.0.0",
+      "openssl-1.0.2c-1ubuntu1-libcrypto.so.1.0.0"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-11187",
+    "functions": [
+      "PBMAC1_PBKDF2_HMAC"
+    ],
+    "binaries": [
+      "openssl-3.5.3-1ubuntu2-libcrypto.so.3",
+      "openssl-3.5.5-1ubuntu1-libcrypto.so.3"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-15467",
+    "functions": [
+      "evp_cipher_get_asn1_aead_params"
+    ],
+    "binaries": [
+      "openssl-3.5.3-1ubuntu2-libcrypto.so.3",
+      "openssl-3.5.5-1ubuntu1-libcrypto.so.3"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-15468",
+    "functions": [
+      "ossl_quic_get_cipher_by_char"
+    ],
+    "binaries": [
+      "openssl-3.5.3-1ubuntu2-libssl.so.3",
+      "openssl-3.5.5-1ubuntu1-libssl.so.3"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-15469",
+    "functions": [
+      "bio_to_mem",
+      "do_fp_oneshot_sign",
+      "do_raw_keyop",
+      "pkeyutl_main"
+    ],
+    "binaries": [
+      "openssl-3.5.3-1ubuntu2-openssl",
+      "openssl-3.5.5-1ubuntu1-openssl"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-66199",
+    "functions": [
+      "tls13_process_compressed_certificate"
+    ],
+    "binaries": [
+      "openssl-3.5.3-1ubuntu2-libssl.so.3",
+      "openssl-3.5.5-1ubuntu1-libssl.so.3"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-68160",
+    "functions": [
+      "linebuffer_write"
+    ],
+    "binaries": [
+      "openssl-3.5.3-1ubuntu2-libcrypto.so.3",
+      "openssl-3.5.5-1ubuntu1-libcrypto.so.3"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-69418",
+    "functions": [
+      "CRYPTO_ocb128_decrypt",
+      "CRYPTO_ocb128_encrypt"
+    ],
+    "binaries": [
+      "openssl-3.5.3-1ubuntu2-libcrypto.so.3",
+      "openssl-3.5.5-1ubuntu1-libcrypto.so.3"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-69419",
+    "functions": [
+      "OPENSSL_uni2utf8",
+      "do_buf"
+    ],
+    "binaries": [
+      "openssl-3.5.3-1ubuntu2-libcrypto.so.3",
+      "openssl-3.5.5-1ubuntu1-libcrypto.so.3"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-69420",
+    "functions": [
+      "ossl_ess_get_signing_cert",
+      "ossl_ess_get_signing_cert_v2"
+    ],
+    "binaries": [
+      "openssl-3.5.3-1ubuntu2-libcrypto.so.3",
+      "openssl-3.5.5-1ubuntu1-libcrypto.so.3"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-69421",
+    "functions": [
+      "PKCS12_item_decrypt_d2i_ex"
+    ],
+    "binaries": [
+      "openssl-3.5.3-1ubuntu2-libcrypto.so.3",
+      "openssl-3.5.5-1ubuntu1-libcrypto.so.3"
+    ]
+  },
+  {
+    "CVE": "CVE-2026-22795",
+    "functions": [
+      "PKCS7_digest_from_attributes",
+      "parse_bag",
+      "s_client_main"
+    ],
+    "binaries": [
+      "openssl-3.5.3-1ubuntu2-libcrypto.so.3",
+      "openssl-3.5.3-1ubuntu2-openssl",
+      "openssl-3.5.5-1ubuntu1-libcrypto.so.3",
+      "openssl-3.5.5-1ubuntu1-openssl"
+    ]
+  },
+  {
+    "CVE": "CVE-2026-22796",
+    "functions": [
+      "PKCS7_digest_from_attributes",
+      "parse_bag",
+      "s_client_main"
+    ],
+    "binaries": [
+      "openssl-3.5.3-1ubuntu2-libcrypto.so.3",
+      "openssl-3.5.3-1ubuntu2-openssl",
+      "openssl-3.5.5-1ubuntu1-libcrypto.so.3",
+      "openssl-3.5.5-1ubuntu1-openssl"
+    ]
+  },
+  {
+    "CVE": "CVE-2026-28387",
+    "functions": [
+      "dane_match_cert"
+    ],
+    "binaries": [
+      "openssl-3.5.5-1ubuntu1-libcrypto.so.3",
+      "openssl-3.5.5-1ubuntu3-libcrypto.so.3"
+    ]
+  },
+  {
+    "CVE": "CVE-2026-28388",
+    "functions": [
+      "check_delta_base"
+    ],
+    "binaries": [
+      "openssl-3.5.5-1ubuntu1-libcrypto.so.3",
+      "openssl-3.5.5-1ubuntu3-libcrypto.so.3"
+    ]
+  },
+  {
+    "CVE": "CVE-2026-28389",
+    "functions": [
+      "dh_cms_set_shared_info",
+      "ecdh_cms_set_shared_info"
+    ],
+    "binaries": [
+      "openssl-3.5.5-1ubuntu1-libcrypto.so.3",
+      "openssl-3.5.5-1ubuntu3-libcrypto.so.3"
+    ]
+  },
+  {
+    "CVE": "CVE-2026-28390",
+    "functions": [
+      "rsa_cms_decrypt"
+    ],
+    "binaries": [
+      "openssl-3.5.5-1ubuntu1-libcrypto.so.3",
+      "openssl-3.5.5-1ubuntu3-libcrypto.so.3"
+    ]
+  },
+  {
+    "CVE": "CVE-2026-31789",
+    "functions": [
+      "buf2hexstr_sep",
+      "ossl_buf2hexstr_sep"
+    ],
+    "binaries": [
+      "openssl-3.5.5-1ubuntu1-libcrypto.so.3",
+      "openssl-3.5.5-1ubuntu3-libcrypto.so.3"
+    ]
+  },
+  {
+    "CVE": "CVE-2026-31790",
+    "functions": [
+      "rsasve_generate"
+    ],
+    "binaries": [
+      "openssl-3.5.5-1ubuntu1-libcrypto.so.3",
+      "openssl-3.5.5-1ubuntu3-libcrypto.so.3"
+    ]
+  }
+]

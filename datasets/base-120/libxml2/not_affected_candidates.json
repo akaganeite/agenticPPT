@@ -1,0 +1,3366 @@
+[
+  {
+    "CVE": "CVE-2012-5134",
+    "label": "patch",
+    "tag": "v2.9.1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2012-5134",
+    "label": "patch",
+    "tag": "v2.9.2-rc1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-rc1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2012-5134",
+    "label": "patch",
+    "tag": "v2.9.2-rc2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-rc2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2012-5134",
+    "label": "vuln",
+    "tag": "v2.8.0",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.8.0-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2012-5134",
+    "label": "vuln",
+    "tag": "v2.8.0-rc2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.8.0-rc2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2012-5134",
+    "label": "vuln",
+    "tag": "v2.9.0",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.0-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2013-0338",
+    "label": "patch",
+    "tag": "v2.9.1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2013-0338",
+    "label": "patch",
+    "tag": "v2.9.2-rc1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-rc1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2013-0338",
+    "label": "patch",
+    "tag": "v2.9.2-rc2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-rc2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2013-0338",
+    "label": "vuln",
+    "tag": "v2.8.0",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.8.0-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2013-0338",
+    "label": "vuln",
+    "tag": "v2.8.0-rc2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.8.0-rc2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2013-0338",
+    "label": "vuln",
+    "tag": "v2.9.0",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.0-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2014-3660",
+    "label": "patch",
+    "tag": "v2.9.3",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.3-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2014-3660",
+    "label": "patch",
+    "tag": "v2.9.4",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.4-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2014-3660",
+    "label": "patch",
+    "tag": "v2.9.5-rc1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2014-3660",
+    "label": "vuln",
+    "tag": "v2.9.0",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.0-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2014-3660",
+    "label": "vuln",
+    "tag": "v2.9.0-rc2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.0-rc2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2014-3660",
+    "label": "vuln",
+    "tag": "v2.9.1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-5312",
+    "label": "patch",
+    "tag": "v2.9.4",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.4-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-5312",
+    "label": "patch",
+    "tag": "v2.9.5-rc1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-5312",
+    "label": "patch",
+    "tag": "v2.9.5-rc2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-5312",
+    "label": "vuln",
+    "tag": "v2.9.0",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.0-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-5312",
+    "label": "vuln",
+    "tag": "v2.9.1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-5312",
+    "label": "vuln",
+    "tag": "v2.9.2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7497",
+    "label": "patch",
+    "tag": "v2.9.4",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.4-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7497",
+    "label": "patch",
+    "tag": "v2.9.5-rc1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7497",
+    "label": "patch",
+    "tag": "v2.9.5-rc2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7497",
+    "label": "vuln",
+    "tag": "v2.9.0",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.0-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7497",
+    "label": "vuln",
+    "tag": "v2.9.1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7497",
+    "label": "vuln",
+    "tag": "v2.9.2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7498",
+    "label": "patch",
+    "tag": "v2.9.3",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.3-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7498",
+    "label": "patch",
+    "tag": "v2.9.4",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.4-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7498",
+    "label": "patch",
+    "tag": "v2.9.5-rc1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7498",
+    "label": "vuln",
+    "tag": "v2.9.0",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.0-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7498",
+    "label": "vuln",
+    "tag": "v2.9.1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7498",
+    "label": "vuln",
+    "tag": "v2.9.2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7499",
+    "label": "patch",
+    "tag": "v2.9.4",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.4-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7499",
+    "label": "patch",
+    "tag": "v2.9.5-rc1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7499",
+    "label": "patch",
+    "tag": "v2.9.5-rc2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7499",
+    "label": "vuln",
+    "tag": "v2.9.0",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.0-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7499",
+    "label": "vuln",
+    "tag": "v2.9.1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7499",
+    "label": "vuln",
+    "tag": "v2.9.2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7500",
+    "label": "patch",
+    "tag": "v2.9.4",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.4-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7500",
+    "label": "patch",
+    "tag": "v2.9.5-rc1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7500",
+    "label": "patch",
+    "tag": "v2.9.5-rc2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7500",
+    "label": "vuln",
+    "tag": "v2.9.0",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.0-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7500",
+    "label": "vuln",
+    "tag": "v2.9.1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7500",
+    "label": "vuln",
+    "tag": "v2.9.2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7941",
+    "label": "patch",
+    "tag": "v2.9.3",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.3-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7941",
+    "label": "patch",
+    "tag": "v2.9.4",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.4-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7941",
+    "label": "patch",
+    "tag": "v2.9.5-rc1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-7941",
+    "label": "vuln",
+    "tag": "v2.9.2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1834",
+    "label": "patch",
+    "tag": "v2.9.4",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.4-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1834",
+    "label": "patch",
+    "tag": "v2.9.5-rc1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1834",
+    "label": "patch",
+    "tag": "v2.9.5-rc2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1834",
+    "label": "vuln",
+    "tag": "v2.9.2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1834",
+    "label": "vuln",
+    "tag": "v2.9.2-rc2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-rc2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1834",
+    "label": "vuln",
+    "tag": "v2.9.3",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.3-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1836",
+    "label": "patch",
+    "tag": "v2.9.5",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1836",
+    "label": "patch",
+    "tag": "v2.9.5-rc1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1836",
+    "label": "patch",
+    "tag": "v2.9.5-rc2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1836",
+    "label": "vuln",
+    "tag": "v2.9.2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1836",
+    "label": "vuln",
+    "tag": "v2.9.2-rc2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-rc2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1836",
+    "label": "vuln",
+    "tag": "v2.9.3",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.3-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1838",
+    "label": "patch",
+    "tag": "v2.9.4",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.4-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1838",
+    "label": "patch",
+    "tag": "v2.9.5",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1838",
+    "label": "patch",
+    "tag": "v2.9.5-rc1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1838",
+    "label": "patch",
+    "tag": "v2.9.5-rc2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1838",
+    "label": "vuln",
+    "tag": "v2.9.2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1838",
+    "label": "vuln",
+    "tag": "v2.9.3",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.3-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1840",
+    "label": "patch",
+    "tag": "v2.9.5",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1840",
+    "label": "patch",
+    "tag": "v2.9.5-rc1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1840",
+    "label": "patch",
+    "tag": "v2.9.5-rc2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1840",
+    "label": "vuln",
+    "tag": "v2.9.2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1840",
+    "label": "vuln",
+    "tag": "v2.9.2-rc2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-rc2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-1840",
+    "label": "vuln",
+    "tag": "v2.9.3",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.3-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-4483",
+    "label": "patch",
+    "tag": "v2.9.5",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-4483",
+    "label": "patch",
+    "tag": "v2.9.5-rc1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-4483",
+    "label": "patch",
+    "tag": "v2.9.5-rc2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-4483",
+    "label": "vuln",
+    "tag": "v2.9.2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-4483",
+    "label": "vuln",
+    "tag": "v2.9.2-rc2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-rc2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2016-4483",
+    "label": "vuln",
+    "tag": "v2.9.3",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.3-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-16932",
+    "label": "patch",
+    "tag": "v2.9.5",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-16932",
+    "label": "patch",
+    "tag": "v2.9.5-rc1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-16932",
+    "label": "patch",
+    "tag": "v2.9.5-rc2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-16932",
+    "label": "vuln",
+    "tag": "v2.9.2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-16932",
+    "label": "vuln",
+    "tag": "v2.9.3",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.3-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-16932",
+    "label": "vuln",
+    "tag": "v2.9.4",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.4-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-5130",
+    "label": "patch",
+    "tag": "v2.9.5",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-5130",
+    "label": "patch",
+    "tag": "v2.9.5-rc1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-5130",
+    "label": "patch",
+    "tag": "v2.9.5-rc2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-5130",
+    "label": "vuln",
+    "tag": "v2.9.2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-5130",
+    "label": "vuln",
+    "tag": "v2.9.3",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.3-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-5130",
+    "label": "vuln",
+    "tag": "v2.9.4",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.4-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-7375",
+    "label": "patch",
+    "tag": "v2.9.5",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-7375",
+    "label": "patch",
+    "tag": "v2.9.5-rc1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-7375",
+    "label": "patch",
+    "tag": "v2.9.5-rc2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-rc2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-7375",
+    "label": "vuln",
+    "tag": "v2.9.2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-7375",
+    "label": "vuln",
+    "tag": "v2.9.3",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.3-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-7375",
+    "label": "vuln",
+    "tag": "v2.9.4",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.4-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-14404",
+    "label": "patch",
+    "tag": "v2.9.9",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.9-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-14404",
+    "label": "patch",
+    "tag": "v2.9.9-rc1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.9-rc1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-14404",
+    "label": "patch",
+    "tag": "v2.9.9-rc2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.9-rc2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-14404",
+    "label": "vuln",
+    "tag": "v2.9.7",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.7-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-14404",
+    "label": "vuln",
+    "tag": "v2.9.7-rc1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.7-rc1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2018-14404",
+    "label": "vuln",
+    "tag": "v2.9.8",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.8-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-7595",
+    "label": "patch",
+    "tag": "v2.9.11",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.11-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-7595",
+    "label": "patch",
+    "tag": "v2.9.12",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.12-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-7595",
+    "label": "patch",
+    "tag": "v2.9.13",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.13-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-7595",
+    "label": "vuln",
+    "tag": "v2.9.10",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.10-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-28484",
+    "label": "patch",
+    "tag": "v2.11.0",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.11.0-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-28484",
+    "label": "patch",
+    "tag": "v2.11.1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.11.1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-28484",
+    "label": "patch",
+    "tag": "v2.11.2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.11.2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-28484",
+    "label": "vuln",
+    "tag": "v2.10.1",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.10.1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-28484",
+    "label": "vuln",
+    "tag": "v2.10.2",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.10.2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-28484",
+    "label": "vuln",
+    "tag": "v2.10.3",
+    "binary": "libxml2",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/libxml2/binaries/target/libxml2_stripped/libxml2-2.10.3-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  }
+]

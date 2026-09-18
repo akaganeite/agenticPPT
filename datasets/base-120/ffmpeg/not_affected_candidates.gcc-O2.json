@@ -1,0 +1,2815 @@
+[
+  {
+    "CVE": "CVE-2020-12284",
+    "label": "vuln",
+    "tag": "n4.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-12284",
+    "label": "vuln",
+    "tag": "n4.2.2",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.2.2-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-12284",
+    "label": "vuln",
+    "tag": "n4.3",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.3-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-12284",
+    "label": "vuln",
+    "tag": "n4.3.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.3.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-12284",
+    "label": "vuln",
+    "tag": "n4.3.2",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.3.2-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-20448",
+    "label": "patch",
+    "tag": "n4.3",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.3-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-20448",
+    "label": "patch",
+    "tag": "n4.3.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.3.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-20448",
+    "label": "patch",
+    "tag": "n4.3.2",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.3.2-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-20448",
+    "label": "vuln",
+    "tag": "n4.1.3",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.1.3-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-20450",
+    "label": "patch",
+    "tag": "n4.4",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.4-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-20450",
+    "label": "patch",
+    "tag": "n4.4.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.4.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-20450",
+    "label": "patch",
+    "tag": "n5.0",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.0-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-20450",
+    "label": "vuln",
+    "tag": "n4.2",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.2-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-20453",
+    "label": "patch",
+    "tag": "n5.0",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.0-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-20453",
+    "label": "patch",
+    "tag": "n5.0.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.0.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-20453",
+    "label": "patch",
+    "tag": "n5.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-20453",
+    "label": "vuln",
+    "tag": "n4.2",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.2-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-22015",
+    "label": "patch",
+    "tag": "n5.0",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.0-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-22015",
+    "label": "patch",
+    "tag": "n5.0.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.0.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-22015",
+    "label": "patch",
+    "tag": "n5.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-22015",
+    "label": "vuln",
+    "tag": "n4.2",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.2-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-22016",
+    "label": "patch",
+    "tag": "n4.3",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.3-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-22016",
+    "label": "patch",
+    "tag": "n4.3.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.3.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-22016",
+    "label": "patch",
+    "tag": "n4.3.2",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.3.2-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-22016",
+    "label": "vuln",
+    "tag": "n4.2",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.2-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-22021",
+    "label": "patch",
+    "tag": "n5.0",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.0-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-22021",
+    "label": "patch",
+    "tag": "n5.0.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.0.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-22021",
+    "label": "patch",
+    "tag": "n5.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-22021",
+    "label": "vuln",
+    "tag": "n4.2",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.2-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-22026",
+    "label": "patch",
+    "tag": "n4.3",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.3-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-22026",
+    "label": "patch",
+    "tag": "n4.3.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.3.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-22026",
+    "label": "patch",
+    "tag": "n4.3.2",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.3.2-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-22026",
+    "label": "vuln",
+    "tag": "n4.2",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.2-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-22043",
+    "label": "patch",
+    "tag": "n4.3",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.3-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-22043",
+    "label": "patch",
+    "tag": "n4.3.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.3.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-22043",
+    "label": "patch",
+    "tag": "n4.3.2",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.3.2-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2020-22043",
+    "label": "vuln",
+    "tag": "n4.2",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.2-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2021-33815",
+    "label": "patch",
+    "tag": "n5.0",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.0-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2021-33815",
+    "label": "patch",
+    "tag": "n5.0.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.0.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2021-33815",
+    "label": "patch",
+    "tag": "n5.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2021-33815",
+    "label": "vuln",
+    "tag": "n4.4",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.4-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2021-38171",
+    "label": "patch",
+    "tag": "n5.0",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.0-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2021-38171",
+    "label": "patch",
+    "tag": "n5.0.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.0.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2021-38171",
+    "label": "patch",
+    "tag": "n5.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2021-38171",
+    "label": "vuln",
+    "tag": "n4.4",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.4-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2021-38291",
+    "label": "patch",
+    "tag": "n5.0",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.0-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2021-38291",
+    "label": "patch",
+    "tag": "n5.0.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.0.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2021-38291",
+    "label": "patch",
+    "tag": "n5.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2021-38291",
+    "label": "vuln",
+    "tag": "n4.2.4",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.2.4-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2021-38291",
+    "label": "vuln",
+    "tag": "n4.3.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.3.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2021-38291",
+    "label": "vuln",
+    "tag": "n4.3.2",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.3.2-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2022-2566",
+    "label": "patch",
+    "tag": "n6.0",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-6.0-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2022-2566",
+    "label": "patch",
+    "tag": "n6.0.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-6.0.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2022-2566",
+    "label": "patch",
+    "tag": "n6.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-6.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2022-2566",
+    "label": "vuln",
+    "tag": "n5.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2022-3341",
+    "label": "patch",
+    "tag": "n5.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2022-3341",
+    "label": "patch",
+    "tag": "n5.1.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.1.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2022-3341",
+    "label": "patch",
+    "tag": "n5.1.2",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.1.2-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2022-3341",
+    "label": "vuln",
+    "tag": "n4.3.3",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.3.3-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2022-3341",
+    "label": "vuln",
+    "tag": "n4.4.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.4.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2022-3341",
+    "label": "vuln",
+    "tag": "n5.0",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.0-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2022-3965",
+    "label": "patch",
+    "tag": "n6.0",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-6.0-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2022-3965",
+    "label": "patch",
+    "tag": "n6.0.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-6.0.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2022-3965",
+    "label": "patch",
+    "tag": "n6.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-6.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2022-3965",
+    "label": "vuln",
+    "tag": "n5.0.2",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.0.2-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2022-3965",
+    "label": "vuln",
+    "tag": "n5.1.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.1.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2022-3965",
+    "label": "vuln",
+    "tag": "n5.1.2",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.1.2-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-47342",
+    "label": "patch",
+    "tag": "n6.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-6.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-47342",
+    "label": "patch",
+    "tag": "n6.1.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-6.1.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-47342",
+    "label": "patch",
+    "tag": "n7.0",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-7.0-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-47342",
+    "label": "vuln",
+    "tag": "n3.4.13",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-3.4.13-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-47342",
+    "label": "vuln",
+    "tag": "n4.1.11",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.1.11-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-47342",
+    "label": "vuln",
+    "tag": "n4.2.9",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.2.9-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-47343",
+    "label": "patch",
+    "tag": "n5.0",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.0-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-47343",
+    "label": "patch",
+    "tag": "n5.0.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.0.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-47343",
+    "label": "patch",
+    "tag": "n5.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-47343",
+    "label": "vuln",
+    "tag": "n4.2.4",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.2.4-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-47343",
+    "label": "vuln",
+    "tag": "n4.3.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.3.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2023-47343",
+    "label": "vuln",
+    "tag": "n4.3.2",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.3.2-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2024-31578",
+    "label": "patch",
+    "tag": "n7.0",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-7.0-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2024-31578",
+    "label": "patch",
+    "tag": "n7.0.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-7.0.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2024-31578",
+    "label": "patch",
+    "tag": "n7.0.2",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-7.0.2-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2024-31578",
+    "label": "vuln",
+    "tag": "n5.1.4",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.1.4-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2024-31578",
+    "label": "vuln",
+    "tag": "n6.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-6.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2024-31578",
+    "label": "vuln",
+    "tag": "n6.1.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-6.1.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2024-7055",
+    "label": "patch",
+    "tag": "n7.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-7.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2024-7055",
+    "label": "patch",
+    "tag": "n7.1.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-7.1.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2024-7055",
+    "label": "patch",
+    "tag": "n8.0",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-8.0-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2024-7055",
+    "label": "vuln",
+    "tag": "n4.3.7",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.3.7-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2024-7055",
+    "label": "vuln",
+    "tag": "n5.1.5",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.1.5-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2024-7055",
+    "label": "vuln",
+    "tag": "n7.0.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-7.0.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-1816",
+    "label": "patch",
+    "tag": "n8.0",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-8.0-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-1816",
+    "label": "patch",
+    "tag": "n8.0.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-8.0.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-1816",
+    "label": "patch",
+    "tag": "n8.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-8.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: patch",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "patch"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-1816",
+    "label": "vuln",
+    "tag": "n4.3.8",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-4.3.8-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-1816",
+    "label": "vuln",
+    "tag": "n5.1.6",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-5.1.6-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-1816",
+    "label": "vuln",
+    "tag": "n7.1",
+    "binary": "ffmpeg",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/ffmpeg/binaries/target/ffmpeg_stripped/ffmpeg-7.1-ffmpeg-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: vuln",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "vuln"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  }
+]

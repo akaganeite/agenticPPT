@@ -1,0 +1,221 @@
+[
+  {
+    "CVE": "CVE-2014-2522",
+    "functions": [
+      "schannel_connect_step1"
+    ],
+    "binaries": [
+      "curl-7.33.0-libcurl",
+      "curl-7.34.0-libcurl",
+      "curl-7.35.0-libcurl",
+      "curl-7.36.0-libcurl",
+      "curl-7.37.0-libcurl",
+      "curl-7.37.1-libcurl"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-3237",
+    "functions": [
+      "smb_request_state"
+    ],
+    "binaries": [
+      "curl-7.41.0-libcurl",
+      "curl-7.45.0-libcurl"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-3739",
+    "functions": [
+      "mbed_connect_step1",
+      "polarssl_connect_step1"
+    ],
+    "binaries": [
+      "curl-7.46.0-libcurl",
+      "curl-7.50.0-libcurl"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-8617",
+    "functions": [
+      "base64_encode"
+    ],
+    "binaries": [
+      "curl-7.50.1-libcurl",
+      "curl-7.50.2-libcurl",
+      "curl-7.50.3-libcurl",
+      "curl-7.51.0-libcurl",
+      "curl-7.52.0-libcurl",
+      "curl-7.52.1-libcurl"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-8618",
+    "functions": [
+      "alloc_addbyter"
+    ],
+    "binaries": [
+      "curl-7.50.1-libcurl",
+      "curl-7.50.2-libcurl",
+      "curl-7.50.3-libcurl",
+      "curl-7.51.0-libcurl",
+      "curl-7.52.0-libcurl",
+      "curl-7.52.1-libcurl"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-8619",
+    "functions": [
+      "read_data"
+    ],
+    "binaries": [
+      "curl-7.50.1-libcurl",
+      "curl-7.52.1-libcurl"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-8625",
+    "functions": [
+      "Curl_idn_strerror",
+      "create_conn",
+      "curl_version",
+      "curl_version_info",
+      "fix_hostname",
+      "free_fixed_hostname",
+      "global_init",
+      "idna_init",
+      "tld_check_name"
+    ],
+    "binaries": [
+      "curl-7.50.1-libcurl",
+      "curl-7.52.1-libcurl"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-9594",
+    "functions": [
+      "randit"
+    ],
+    "binaries": [
+      "curl-7.50.3-libcurl",
+      "curl-7.51.0-libcurl"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-9952",
+    "functions": [
+      "verify_certificate"
+    ],
+    "binaries": [
+      "curl-7.50.2-libcurl",
+      "curl-7.50.3-libcurl",
+      "curl-7.51.0-libcurl",
+      "curl-7.52.0-libcurl",
+      "curl-7.52.1-libcurl",
+      "curl-7.53.0-libcurl"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-9953",
+    "functions": [
+      "verify_certificate"
+    ],
+    "binaries": [
+      "curl-7.50.2-libcurl",
+      "curl-7.50.3-libcurl",
+      "curl-7.51.0-libcurl",
+      "curl-7.52.0-libcurl",
+      "curl-7.52.1-libcurl",
+      "curl-7.53.0-libcurl"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-2629",
+    "functions": [
+      "allocate_conn"
+    ],
+    "binaries": [
+      "curl-7.51.0-libcurl"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-8816",
+    "functions": [
+      "Curl_ntlm_core_mk_ntlmv2_hash"
+    ],
+    "binaries": [
+      "curl-7.55.1-libcurl",
+      "curl-7.56.0-libcurl",
+      "curl-7.56.1-libcurl",
+      "curl-7.57.0-libcurl",
+      "curl-7.58.0-libcurl",
+      "curl-7.59.0-libcurl"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-8818",
+    "functions": [
+      "allocate_conn"
+    ],
+    "binaries": [
+      "curl-7.56.0-libcurl",
+      "curl-7.56.1-libcurl",
+      "curl-7.57.0-libcurl",
+      "curl-7.58.0-libcurl",
+      "curl-7.59.0-libcurl"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-9502",
+    "functions": [
+      "parseurlandfillconn"
+    ],
+    "binaries": [
+      "curl-7.53.0-libcurl",
+      "curl-7.55.1-libcurl"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-1000121",
+    "functions": [
+      "ldap_recv"
+    ],
+    "binaries": [
+      "curl-7.56.1-libcurl",
+      "curl-7.61.0-libcurl"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-5435",
+    "functions": [
+      "Curl_setstropt",
+      "curl_url_set",
+      "seturl",
+      "test"
+    ],
+    "binaries": [
+      "curl-7.63.0-libcurl",
+      "curl-7.64.0-libcurl",
+      "curl-7.64.1-libcurl"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-5481",
+    "functions": [
+      "read_data"
+    ],
+    "binaries": [
+      "curl-7.65.1-libcurl",
+      "curl-7.68.0-libcurl"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-46218",
+    "functions": [
+      "Curl_cookie_add"
+    ],
+    "binaries": [
+      "curl-8.2.1-libcurl",
+      "curl-8.7.0-libcurl"
+    ]
+  }
+]

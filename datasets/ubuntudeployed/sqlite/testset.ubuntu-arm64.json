@@ -1,0 +1,215 @@
+[
+  {
+    "CVE": "CVE-2015-3416",
+    "functions": [
+      "sqlite3VXPrintf"
+    ],
+    "binaries": [
+      "sqlite-3.8.2-1ubuntu2-libsqlite3.so.0.8.6",
+      "sqlite-3.8.2-1ubuntu2.1-libsqlite3.so.0.8.6"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-6153",
+    "functions": [
+      "unixGetTempname",
+      "unixTempFileDir"
+    ],
+    "binaries": [
+      "sqlite-3.11.0-1ubuntu1.1-libsqlite3.so.0.8.6",
+      "sqlite-3.11.0-1ubuntu1.2-libsqlite3.so.0.8.6"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-10989",
+    "functions": [
+      "getNodeSize"
+    ],
+    "binaries": [
+      "sqlite-3.11.0-1ubuntu1.1-libsqlite3.so.0.8.6",
+      "sqlite-3.11.0-1ubuntu1.2-libsqlite3.so.0.8.6"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-20346",
+    "functions": [
+      "fts3ScanInteriorNode",
+      "fts3SegReaderNext",
+      "nodeReaderNext"
+    ],
+    "binaries": [
+      "sqlite-3.22.0-1-libsqlite3.so.0.8.6",
+      "sqlite-3.22.0-1ubuntu0.2-libsqlite3.so.0.8.6"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-20505",
+    "functions": [
+      "removeUnindexableInClauseTerms"
+    ],
+    "binaries": [
+      "sqlite-3.22.0-1-libsqlite3.so.0.8.6",
+      "sqlite-3.22.0-1ubuntu0.2-libsqlite3.so.0.8.6"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-20506",
+    "functions": [
+      "fts3ScanInteriorNode",
+      "fts3SegReaderNext",
+      "nodeReaderNext"
+    ],
+    "binaries": [
+      "sqlite-3.22.0-1-libsqlite3.so.0.8.6",
+      "sqlite-3.22.0-1ubuntu0.2-libsqlite3.so.0.8.6"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-16168",
+    "functions": [
+      "decodeIntArray",
+      "whereLoopAddBtreeIndex"
+    ],
+    "binaries": [
+      "sqlite-3.22.0-1ubuntu0.1-libsqlite3.so.0.8.6",
+      "sqlite-3.22.0-1ubuntu0.3-libsqlite3.so.0.8.6"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-19244",
+    "functions": [
+      "sqlite3Select"
+    ],
+    "binaries": [
+      "sqlite-3.29.0-1-libsqlite3.so.0.8.6",
+      "sqlite-3.29.0-2ubuntu0.1-libsqlite3.so.0.8.6"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-19923",
+    "functions": [
+      "flattenSubquery"
+    ],
+    "binaries": [
+      "sqlite-3.29.0-2ubuntu0.1-libsqlite3.so.0.8.6",
+      "sqlite-3.29.0-2ubuntu0.2-libsqlite3.so.0.8.6"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-19924",
+    "functions": [
+      "codeCompare",
+      "sqlite3WindowRewrite",
+      "vdbeVComment"
+    ],
+    "binaries": [
+      "sqlite-3.29.0-2ubuntu0.1-libsqlite3.so.0.8.6",
+      "sqlite-3.29.0-2ubuntu0.1-sqlite3",
+      "sqlite-3.29.0-2ubuntu0.2-libsqlite3.so.0.8.6",
+      "sqlite-3.29.0-2ubuntu0.2-sqlite3"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-20218",
+    "functions": [
+      "selectExpander"
+    ],
+    "binaries": [
+      "sqlite-3.29.0-2ubuntu0.1-libsqlite3.so.0.8.6",
+      "sqlite-3.29.0-2ubuntu0.2-libsqlite3.so.0.8.6"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-11655",
+    "functions": [
+      "resetAccumulator"
+    ],
+    "binaries": [
+      "sqlite-3.31.1-4-libsqlite3.so.0.8.6",
+      "sqlite-3.31.1-4ubuntu0.2-libsqlite3.so.0.8.6"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-13434",
+    "functions": [
+      "sqlite3_str_vappendf"
+    ],
+    "binaries": [
+      "sqlite-3.31.1-4-libsqlite3.so.0.8.6",
+      "sqlite-3.31.1-4ubuntu0.2-libsqlite3.so.0.8.6"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-13630",
+    "functions": [
+      "fts3EvalNextRow"
+    ],
+    "binaries": [
+      "sqlite-3.31.1-4-libsqlite3.so.0.8.6",
+      "sqlite-3.31.1-4ubuntu0.2-libsqlite3.so.0.8.6"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-13632",
+    "functions": [
+      "fts3ExprLHits"
+    ],
+    "binaries": [
+      "sqlite-3.31.1-4-libsqlite3.so.0.8.6",
+      "sqlite-3.31.1-4ubuntu0.2-libsqlite3.so.0.8.6"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-15358",
+    "functions": [
+      "flattenSubquery",
+      "multiSelect",
+      "sqlite3Select"
+    ],
+    "binaries": [
+      "sqlite-3.31.1-4ubuntu0.1-libsqlite3.so.0.8.6",
+      "sqlite-3.31.1-4ubuntu0.2-libsqlite3.so.0.8.6"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-35737",
+    "functions": [
+      "sqlite3_str_vappendf"
+    ],
+    "binaries": [
+      "sqlite-3.37.2-2-libsqlite3.so.0.8.6",
+      "sqlite-3.37.2-2ubuntu0.3-libsqlite3.so.0.8.6"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-7104",
+    "functions": [
+      "sessionReadRecord"
+    ],
+    "binaries": [
+      "sqlite-3.42.0-1-libsqlite3.so.0.8.6",
+      "sqlite-3.42.0-1ubuntu0.1-libsqlite3.so.0.8.6"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-3277",
+    "functions": [
+      "concatFuncCore"
+    ],
+    "binaries": [
+      "sqlite-3.45.1-1ubuntu2.1-libsqlite3.so.0.8.6",
+      "sqlite-3.45.1-1ubuntu2.4-libsqlite3.so.0.8.6"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-6965",
+    "functions": [
+      "analyzeAggregate",
+      "findOrCreateAggInfoColumn"
+    ],
+    "binaries": [
+      "sqlite-3.46.1-6-libsqlite3.so.0.8.6",
+      "sqlite-3.46.1-7-libsqlite3.so.0.8.6"
+    ]
+  }
+]

@@ -1,0 +1,1221 @@
+[
+  {
+    "CVE": "CVE-2014-8484",
+    "functions": [
+      "srec_scan"
+    ],
+    "binaries": [
+      "binutils-2.24-objdump",
+      "binutils-2.25-objdump",
+      "binutils-2.25.1-objdump",
+      "binutils-2.26-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-8485",
+    "functions": [
+      "setup_group"
+    ],
+    "binaries": [
+      "binutils-2.24-objdump",
+      "binutils-2.25-objdump",
+      "binutils-2.25.1-objdump",
+      "binutils-2.26-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-8738",
+    "functions": [
+      "_bfd_slurp_extended_name_table"
+    ],
+    "binaries": [
+      "binutils-2.24-objdump",
+      "binutils-2.25-objdump",
+      "binutils-2.25.1-objdump",
+      "binutils-2.26-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12448",
+    "functions": [
+      "bfd_generic_archive_p"
+    ],
+    "binaries": [
+      "binutils-2.27-objdump",
+      "binutils-2.28-objdump",
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12799",
+    "functions": [
+      "elf_read_notes"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12967",
+    "functions": [
+      "getsym"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13710",
+    "functions": [
+      "setup_group"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13757",
+    "functions": [
+      "elf_i386_get_synthetic_symtab",
+      "elf_x86_64_get_synthetic_symtab"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-14128",
+    "functions": [
+      "decode_line_info"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-14129",
+    "functions": [
+      "read_section"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-14130",
+    "functions": [
+      "_bfd_elf_parse_attributes"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-14529",
+    "functions": [
+      "pe_print_idata"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-14729",
+    "functions": [
+      "elf_i386_get_synthetic_symtab",
+      "elf_x86_64_get_synthetic_symtab"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-14745",
+    "functions": [
+      "_bfd_x86_elf_get_synthetic_symtab"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-14930",
+    "functions": [
+      "decode_line_info"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-14932",
+    "functions": [
+      "decode_line_info"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-14933",
+    "functions": [
+      "read_formatted_entries"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-14934",
+    "functions": [
+      "process_debug_info"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-14938",
+    "functions": [
+      "_bfd_elf_slurp_version_tables"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-14939",
+    "functions": [
+      "decode_line_info"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-14940",
+    "functions": [
+      "scan_unit_for_symbols"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-14974",
+    "functions": [
+      "elf_i386_get_synthetic_symtab",
+      "elf_x86_64_get_synthetic_symtab"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-15020",
+    "functions": [
+      "parse_die",
+      "parse_line_table"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-15021",
+    "functions": [
+      "bfd_get_debug_link_info_1"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-15022",
+    "functions": [
+      "parse_comp_unit",
+      "scan_unit_for_symbols"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-15023",
+    "functions": [
+      "read_formatted_entries"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-15024",
+    "functions": [
+      "find_abstract_instance_name",
+      "scan_unit_for_symbols"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-15025",
+    "functions": [
+      "decode_line_info"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-15225",
+    "functions": [
+      "_bfd_dwarf2_cleanup_debug_info"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-15938",
+    "functions": [
+      "find_abstract_instance_name",
+      "parse_comp_unit"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-15939",
+    "functions": [
+      "concat_filename",
+      "decode_line_info",
+      "read_formatted_entries"
+    ],
+    "binaries": [
+      "binutils-2.29-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-15996",
+    "functions": [
+      "get_archive_member_name",
+      "process_archive_index_and_symbols",
+      "setup_archive"
+    ],
+    "binaries": [
+      "binutils-2.29-readelf",
+      "binutils-2.30-readelf",
+      "binutils-2.31-readelf",
+      "binutils-2.31.1-readelf"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-16828",
+    "functions": [
+      "display_augmentation_data",
+      "display_debug_frames",
+      "read_cie"
+    ],
+    "binaries": [
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-16829",
+    "functions": [
+      "_bfd_elf_parse_gnu_properties"
+    ],
+    "binaries": [
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-16830",
+    "functions": [
+      "print_gnu_property_note"
+    ],
+    "binaries": [
+      "binutils-2.29.1-readelf",
+      "binutils-2.30-readelf",
+      "binutils-2.31-readelf",
+      "binutils-2.31.1-readelf"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-16831",
+    "functions": [
+      "_bfd_coff_get_external_symbols",
+      "coff_get_normalized_symtab"
+    ],
+    "binaries": [
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-17080",
+    "functions": [
+      "elfcore_grok_freebsd_psinfo",
+      "elfcore_grok_netbsd_procinfo",
+      "elfcore_grok_nto_status",
+      "elfcore_grok_openbsd_procinfo"
+    ],
+    "binaries": [
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-17122",
+    "functions": [
+      "dump_relocs_in_section"
+    ],
+    "binaries": [
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-17124",
+    "functions": [
+      "_bfd_coff_read_string_table"
+    ],
+    "binaries": [
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-17126",
+    "functions": [
+      "load_debug_section"
+    ],
+    "binaries": [
+      "binutils-2.29.1-readelf",
+      "binutils-2.30-readelf",
+      "binutils-2.31-readelf",
+      "binutils-2.31.1-readelf"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-6965",
+    "functions": [
+      "apply_relocations",
+      "target_specific_reloc_handling"
+    ],
+    "binaries": [
+      "binutils-2.28-readelf",
+      "binutils-2.29-readelf",
+      "binutils-2.29.1-readelf",
+      "binutils-2.30-readelf"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-6966",
+    "functions": [
+      "apply_relocations",
+      "target_specific_reloc_handling"
+    ],
+    "binaries": [
+      "binutils-2.28-readelf",
+      "binutils-2.29-readelf",
+      "binutils-2.29.1-readelf",
+      "binutils-2.30-readelf"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-6969",
+    "functions": [
+      "target_specific_reloc_handling"
+    ],
+    "binaries": [
+      "binutils-2.28-readelf",
+      "binutils-2.29-readelf",
+      "binutils-2.29.1-readelf",
+      "binutils-2.30-readelf"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-7209",
+    "functions": [
+      "dump_section_as_bytes"
+    ],
+    "binaries": [
+      "binutils-2.28-readelf",
+      "binutils-2.29-readelf",
+      "binutils-2.29.1-readelf",
+      "binutils-2.30-readelf"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-7299",
+    "functions": [
+      "bfd_elf_final_link"
+    ],
+    "binaries": [
+      "binutils-2.28-objdump",
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-7303",
+    "functions": [
+      "find_link"
+    ],
+    "binaries": [
+      "binutils-2.28-objdump",
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-7304",
+    "functions": [
+      "copy_special_section_fields"
+    ],
+    "binaries": [
+      "binutils-2.28-objdump",
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-8392",
+    "functions": [
+      "_bfd_dwarf2_find_nearest_line"
+    ],
+    "binaries": [
+      "binutils-2.28-objdump",
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-8394",
+    "functions": [
+      "_bfd_elf_get_synthetic_symtab"
+    ],
+    "binaries": [
+      "binutils-2.28-objdump",
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-8395",
+    "functions": [
+      "bfd_init_section_compress_status"
+    ],
+    "binaries": [
+      "binutils-2.28-objcopy",
+      "binutils-2.29-objcopy",
+      "binutils-2.29.1-objcopy",
+      "binutils-2.30-objcopy"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-8396",
+    "functions": [
+      "_bfd_final_link_relocate",
+      "bfd_install_relocation",
+      "bfd_perform_relocation",
+      "reloc_offset_in_range"
+    ],
+    "binaries": [
+      "binutils-2.28-objdump",
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-8397",
+    "functions": [
+      "bfd_perform_relocation"
+    ],
+    "binaries": [
+      "binutils-2.28-objdump",
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-8398",
+    "functions": [
+      "fetch_indexed_string",
+      "fetch_indirect_line_string",
+      "fetch_indirect_string",
+      "process_extended_line_op"
+    ],
+    "binaries": [
+      "binutils-2.28-objdump",
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-8421",
+    "functions": [
+      "dump_relocs_in_section"
+    ],
+    "binaries": [
+      "binutils-2.28-objdump",
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-9038",
+    "functions": [
+      "get_unwind_section_word"
+    ],
+    "binaries": [
+      "binutils-2.28-readelf",
+      "binutils-2.29-readelf",
+      "binutils-2.29.1-readelf",
+      "binutils-2.30-readelf"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-9039",
+    "functions": [
+      "get_program_headers",
+      "process_mips_specific"
+    ],
+    "binaries": [
+      "binutils-2.28-readelf",
+      "binutils-2.29-readelf",
+      "binutils-2.29.1-readelf",
+      "binutils-2.30-readelf"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-9040",
+    "functions": [
+      "print_gnu_build_attribute_name",
+      "print_symbol_for_build_attribute",
+      "process_arch_specific",
+      "process_dynamic_section",
+      "process_mips_specific"
+    ],
+    "binaries": [
+      "binutils-2.28-readelf",
+      "binutils-2.29-readelf",
+      "binutils-2.29.1-readelf",
+      "binutils-2.30-readelf"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-9043",
+    "functions": [
+      "print_gnu_build_attribute_name"
+    ],
+    "binaries": [
+      "binutils-2.28-readelf",
+      "binutils-2.29-readelf",
+      "binutils-2.29.1-readelf",
+      "binutils-2.30-readelf"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-9954",
+    "functions": [
+      "getvalue",
+      "pass_over"
+    ],
+    "binaries": [
+      "binutils-2.28-objdump",
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-9955",
+    "functions": [
+      "_bfd_generic_get_section_contents",
+      "_bfd_generic_get_section_contents_in_window",
+      "bfd_get_full_section_contents"
+    ],
+    "binaries": [
+      "binutils-2.28-objdump",
+      "binutils-2.29-objdump",
+      "binutils-2.29.1-objdump",
+      "binutils-2.30-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-1000876",
+    "functions": [
+      "_bfd_elf_get_dynamic_reloc_upper_bound",
+      "_bfd_elf_get_dynamic_symtab_upper_bound",
+      "_bfd_elf_get_symtab_upper_bound"
+    ],
+    "binaries": [
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump",
+      "binutils-2.32-objdump",
+      "binutils-2.33.1-objdump",
+      "binutils-2.34-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-10372",
+    "functions": [
+      "process_cu_tu_index"
+    ],
+    "binaries": [
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump",
+      "binutils-2.32-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-10373",
+    "functions": [
+      "concat_filename"
+    ],
+    "binaries": [
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump",
+      "binutils-2.32-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-17358",
+    "functions": [
+      "_bfd_stab_section_find_nearest_line"
+    ],
+    "binaries": [
+      "binutils-2.31.1-objdump",
+      "binutils-2.41-objdump",
+      "binutils-2.42-objdump",
+      "binutils-2.43-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-17360",
+    "functions": [
+      "pe_print_edata"
+    ],
+    "binaries": [
+      "binutils-2.31.1-objdump",
+      "binutils-2.32-objdump",
+      "binutils-2.33.1-objdump",
+      "binutils-2.34-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-18605",
+    "functions": [
+      "_bfd_add_merge_section"
+    ],
+    "binaries": [
+      "binutils-2.31-ld",
+      "binutils-2.32-ld",
+      "binutils-2.33.1-ld",
+      "binutils-2.34-ld"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-18606",
+    "functions": [
+      "_bfd_add_merge_section"
+    ],
+    "binaries": [
+      "binutils-2.31-ld",
+      "binutils-2.32-ld",
+      "binutils-2.33.1-ld",
+      "binutils-2.34-ld"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-18607",
+    "functions": [
+      "elf_link_input_bfd"
+    ],
+    "binaries": [
+      "binutils-2.31-objdump",
+      "binutils-2.32-objdump",
+      "binutils-2.33.1-objdump",
+      "binutils-2.34-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-19932",
+    "functions": [
+      "rewrite_elf_program_header"
+    ],
+    "binaries": [
+      "binutils-2.29.1-objcopy",
+      "binutils-2.30-objcopy",
+      "binutils-2.31-objcopy",
+      "binutils-2.32-objcopy",
+      "binutils-2.33.1-objcopy",
+      "binutils-2.34-objcopy"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-20002",
+    "functions": [
+      "_bfd_generic_read_minisymbols",
+      "display_rel_file"
+    ],
+    "binaries": [
+      "binutils-2.31-nm",
+      "binutils-2.32-nm",
+      "binutils-2.33.1-nm",
+      "binutils-2.34-nm"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-20651",
+    "functions": [
+      "elf_link_add_object_symbols"
+    ],
+    "binaries": [
+      "binutils-2.31.1-objdump",
+      "binutils-2.32-objdump",
+      "binutils-2.33.1-objdump",
+      "binutils-2.34-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-20671",
+    "functions": [
+      "load_specific_debug_section"
+    ],
+    "binaries": [
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump",
+      "binutils-2.32-objdump",
+      "binutils-2.33.1-objdump",
+      "binutils-2.34-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-6543",
+    "functions": [
+      "load_specific_debug_section"
+    ],
+    "binaries": [
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump",
+      "binutils-2.32-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-6759",
+    "functions": [
+      "bfd_get_alt_debug_link_info",
+      "bfd_get_debug_link_info_1"
+    ],
+    "binaries": [
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump",
+      "binutils-2.32-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-6872",
+    "functions": [
+      "elf_parse_notes"
+    ],
+    "binaries": [
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump",
+      "binutils-2.32-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-7208",
+    "functions": [
+      "coff_pointerize_aux"
+    ],
+    "binaries": [
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump",
+      "binutils-2.32-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-7568",
+    "functions": [
+      "parse_die"
+    ],
+    "binaries": [
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump",
+      "binutils-2.32-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-7569",
+    "functions": [
+      "read_attribute_value",
+      "read_n_bytes"
+    ],
+    "binaries": [
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump",
+      "binutils-2.32-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-7570",
+    "functions": [
+      "assign_file_positions_for_non_load_sections"
+    ],
+    "binaries": [
+      "binutils-2.30-objcopy",
+      "binutils-2.31-objcopy",
+      "binutils-2.31.1-objcopy",
+      "binutils-2.32-objcopy"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-7643",
+    "functions": [
+      "display_debug_ranges",
+      "display_debug_ranges_list"
+    ],
+    "binaries": [
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump",
+      "binutils-2.32-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-8945",
+    "functions": [
+      "_bfd_elf_parse_attributes",
+      "bfd_elf_get_str_section"
+    ],
+    "binaries": [
+      "binutils-2.30-objdump",
+      "binutils-2.31-objdump",
+      "binutils-2.31.1-objdump",
+      "binutils-2.32-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-17451",
+    "functions": [
+      "_bfd_dwarf2_slurp_debug_info"
+    ],
+    "binaries": [
+      "binutils-2.32-objdump",
+      "binutils-2.33.1-objdump",
+      "binutils-2.34-objdump",
+      "binutils-2.35-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-16590",
+    "functions": [
+      "get_num_dynamic_syms"
+    ],
+    "binaries": [
+      "binutils-2.35-readelf",
+      "binutils-2.35.1-readelf",
+      "binutils-2.35.2-readelf",
+      "binutils-2.36.1-readelf"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-16591",
+    "functions": [
+      "get_num_dynamic_syms"
+    ],
+    "binaries": [
+      "binutils-2.35-readelf",
+      "binutils-2.35.1-readelf",
+      "binutils-2.35.2-readelf",
+      "binutils-2.36.1-readelf"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-16593",
+    "functions": [
+      "scan_unit_for_symbols"
+    ],
+    "binaries": [
+      "binutils-2.35-objdump",
+      "binutils-2.35.1-objdump",
+      "binutils-2.35.2-objdump",
+      "binutils-2.36.1-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-16599",
+    "functions": [
+      "_bfd_elf_get_symbol_version_string"
+    ],
+    "binaries": [
+      "binutils-2.35-objdump",
+      "binutils-2.35.1-objdump",
+      "binutils-2.35.2-objdump",
+      "binutils-2.36.1-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-19724",
+    "functions": [
+      "display_rel_file"
+    ],
+    "binaries": [
+      "binutils-2.31.1-nm",
+      "binutils-2.32-nm",
+      "binutils-2.33.1-nm",
+      "binutils-2.34-nm",
+      "binutils-2.35-nm",
+      "binutils-2.35.1-nm"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-35448",
+    "functions": [
+      "_bfd_elf_slurp_secondary_reloc_section"
+    ],
+    "binaries": [
+      "binutils-2.35.1-objdump",
+      "binutils-2.35.2-objdump",
+      "binutils-2.36.1-objdump",
+      "binutils-2.37-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-20294",
+    "functions": [
+      "print_dynamic_symbol"
+    ],
+    "binaries": [
+      "binutils-2.35-readelf",
+      "binutils-2.35.1-readelf",
+      "binutils-2.35.2-readelf",
+      "binutils-2.36.1-readelf",
+      "binutils-2.37-readelf"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-45078",
+    "functions": [
+      "stab_xcoff_builtin_type"
+    ],
+    "binaries": [
+      "binutils-2.35.2-objdump",
+      "binutils-2.36.1-objdump",
+      "binutils-2.37-objdump",
+      "binutils-2.38-objdump",
+      "binutils-2.39-objdump",
+      "binutils-2.40-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-38533",
+    "functions": [
+      "is_contained_by",
+      "is_note",
+      "rewrite_elf_program_header",
+      "section_size",
+      "segment_end",
+      "segment_size"
+    ],
+    "binaries": [
+      "binutils-2.37-objdump",
+      "binutils-2.38-objdump",
+      "binutils-2.39-objdump",
+      "binutils-2.40-objdump",
+      "binutils-2.41-objdump",
+      "binutils-2.42-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-48063",
+    "functions": [
+      "load_specific_debug_section"
+    ],
+    "binaries": [
+      "binutils-2.37-objdump",
+      "binutils-2.38-objdump",
+      "binutils-2.39-objdump",
+      "binutils-2.40-objdump",
+      "binutils-2.41-objdump",
+      "binutils-2.42-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-48064",
+    "functions": [
+      "find_debug_info"
+    ],
+    "binaries": [
+      "binutils-2.37-objdump",
+      "binutils-2.38-objdump",
+      "binutils-2.39-objdump",
+      "binutils-2.40-objdump",
+      "binutils-2.41-objdump",
+      "binutils-2.42-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-48065",
+    "functions": [
+      "find_abstract_instance",
+      "scan_unit_for_symbols"
+    ],
+    "binaries": [
+      "binutils-2.37-objdump",
+      "binutils-2.38-objdump",
+      "binutils-2.39-objdump",
+      "binutils-2.40-objdump",
+      "binutils-2.41-objdump",
+      "binutils-2.42-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-1579",
+    "functions": [
+      "read_indexed_address"
+    ],
+    "binaries": [
+      "binutils-2.39-objdump",
+      "binutils-2.40-objdump",
+      "binutils-2.41-objdump",
+      "binutils-2.42-objdump"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-25586",
+    "functions": [
+      "bfd_init_section_decompress_status"
+    ],
+    "binaries": [
+      "binutils-2.40-objdump",
+      "binutils-2.41-objdump",
+      "binutils-2.42-objdump",
+      "binutils-2.43-objdump"
+    ]
+  }
+]
