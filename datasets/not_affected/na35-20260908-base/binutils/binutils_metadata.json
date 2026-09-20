@@ -1,0 +1,343 @@
+{
+  "CVE-2017-12459": {
+    "functions": [
+      "_bfd_vms_slurp_ehdr",
+      "bfd_mach_o_read_symtab_strtab",
+      "bfd_make_section_with_flags",
+      "evax_bfd_print_emh"
+    ],
+    "summary": "The bfd_mach_o_read_symtab_strtab function in bfd/mach-o.c in the Binary File Descriptor (BFD) library (aka libbfd), as distributed in GNU Binutils 2.29 and earlier, allows remote attackers to cause an out of bounds heap write and possibly achieve code execution via a crafted mach-o file.",
+    "cwe": [
+      "CWE-787"
+    ],
+    "diff_related": [
+      {
+        "file": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/Diff/binutils/diff_files/binutils_CVE-2017-12459_8bdf0be19d27.diff"
+      }
+    ],
+    "function_code": {
+      "commit": "8bdf0be19d2777565a8b1c88347f65d6a4b8c5fc",
+      "by_function": {
+        "_bfd_vms_slurp_ehdr": {
+          "file": "bfd/vms-alpha.c",
+          "change_type": "modified"
+        },
+        "bfd_mach_o_read_symtab_strtab": {
+          "file": "bfd/mach-o.c",
+          "change_type": "modified"
+        },
+        "bfd_make_section_with_flags": {
+          "file": "bfd/section.c",
+          "change_type": "modified"
+        },
+        "evax_bfd_print_emh": {
+          "file": "bfd/vms-alpha.c",
+          "change_type": "modified"
+        }
+      }
+    }
+  },
+  "CVE-2017-12455": {
+    "functions": [
+      "_bfd_vms_slurp_ehdr",
+      "bfd_mach_o_read_symtab_strtab",
+      "bfd_make_section_with_flags",
+      "evax_bfd_print_emh"
+    ],
+    "summary": "The evax_bfd_print_emh function in vms-alpha.c in the Binary File Descriptor (BFD) library (aka libbfd), as distributed in GNU Binutils 2.29 and earlier, allows remote attackers to cause an out of bounds heap read via a crafted vms alpha file.",
+    "cwe": [
+      "CWE-125"
+    ],
+    "diff_related": [
+      {
+        "file": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/Diff/binutils/diff_files/binutils_CVE-2017-12455_8bdf0be19d27.diff"
+      }
+    ],
+    "function_code": {
+      "commit": "8bdf0be19d2777565a8b1c88347f65d6a4b8c5fc",
+      "by_function": {
+        "_bfd_vms_slurp_ehdr": {
+          "file": "bfd/vms-alpha.c",
+          "change_type": "modified"
+        },
+        "bfd_mach_o_read_symtab_strtab": {
+          "file": "bfd/mach-o.c",
+          "change_type": "modified"
+        },
+        "bfd_make_section_with_flags": {
+          "file": "bfd/section.c",
+          "change_type": "modified"
+        },
+        "evax_bfd_print_emh": {
+          "file": "bfd/vms-alpha.c",
+          "change_type": "modified"
+        }
+      }
+    }
+  },
+  "CVE-2017-12454": {
+    "functions": [
+      "_bfd_vms_slurp_eeom",
+      "_bfd_vms_slurp_egsd",
+      "_bfd_vms_slurp_eihd",
+      "alpha_vms_slurp_relocs",
+      "bfd_mach_o_arm64_canonicalize_one_reloc",
+      "bfd_mach_o_arm_canonicalize_one_reloc",
+      "bfd_mach_o_canonicalize_relocs",
+      "bfd_mach_o_i386_canonicalize_one_reloc",
+      "bfd_mach_o_x86_64_canonicalize_one_reloc",
+      "image_set_ptr",
+      "read_symbol_stabs_debugging_info"
+    ],
+    "summary": "The _bfd_vms_slurp_egsd function in bfd/vms-alpha.c in the Binary File Descriptor (BFD) library (aka libbfd), as distributed in GNU Binutils 2.29 and earlier, allows remote attackers to cause an arbitrary memory read via a crafted vms alpha file.",
+    "cwe": [
+      "CWE-125"
+    ],
+    "diff_related": [
+      {
+        "file": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/Diff/binutils/diff_files/binutils_CVE-2017-12454_ca4cf9b9c622.diff"
+      }
+    ],
+    "function_code": {
+      "commit": "ca4cf9b9c622a5695e01f7f5815a7382a31fcf51",
+      "by_function": {
+        "_bfd_vms_slurp_eeom": {
+          "file": "bfd/vms-alpha.c",
+          "change_type": "modified"
+        },
+        "_bfd_vms_slurp_egsd": {
+          "file": "bfd/vms-alpha.c",
+          "change_type": "modified"
+        },
+        "_bfd_vms_slurp_eihd": {
+          "file": "bfd/vms-alpha.c",
+          "change_type": "modified"
+        },
+        "alpha_vms_slurp_relocs": {
+          "file": "bfd/vms-alpha.c",
+          "change_type": "modified"
+        },
+        "bfd_mach_o_arm64_canonicalize_one_reloc": {
+          "file": "bfd/mach-o-aarch64.c",
+          "change_type": "modified"
+        },
+        "bfd_mach_o_arm_canonicalize_one_reloc": {
+          "file": "bfd/mach-o-arm.c",
+          "change_type": "modified"
+        },
+        "bfd_mach_o_canonicalize_relocs": {
+          "file": "bfd/mach-o.c",
+          "change_type": "modified"
+        },
+        "bfd_mach_o_i386_canonicalize_one_reloc": {
+          "file": "bfd/mach-o-i386.c",
+          "change_type": "modified"
+        },
+        "bfd_mach_o_x86_64_canonicalize_one_reloc": {
+          "file": "bfd/mach-o-x86-64.c",
+          "change_type": "modified"
+        },
+        "image_set_ptr": {
+          "file": "bfd/vms-alpha.c",
+          "change_type": "modified"
+        },
+        "read_symbol_stabs_debugging_info": {
+          "file": "binutils/rddbg.c",
+          "change_type": "modified"
+        }
+      }
+    }
+  },
+  "CVE-2017-12453": {
+    "functions": [
+      "_bfd_vms_slurp_eeom",
+      "_bfd_vms_slurp_egsd",
+      "_bfd_vms_slurp_eihd",
+      "alpha_vms_slurp_relocs",
+      "bfd_mach_o_arm64_canonicalize_one_reloc",
+      "bfd_mach_o_arm_canonicalize_one_reloc",
+      "bfd_mach_o_canonicalize_relocs",
+      "bfd_mach_o_i386_canonicalize_one_reloc",
+      "bfd_mach_o_x86_64_canonicalize_one_reloc",
+      "image_set_ptr",
+      "read_symbol_stabs_debugging_info"
+    ],
+    "summary": "The _bfd_vms_slurp_eeom function in libbfd.c in the Binary File Descriptor (BFD) library (aka libbfd), as distributed in GNU Binutils 2.29 and earlier, allows remote attackers to cause an out of bounds heap read via a crafted vms alpha file.",
+    "cwe": [
+      "CWE-125"
+    ],
+    "diff_related": [
+      {
+        "file": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/Diff/binutils/diff_files/binutils_CVE-2017-12453_ca4cf9b9c622.diff"
+      }
+    ],
+    "function_code": {
+      "commit": "ca4cf9b9c622a5695e01f7f5815a7382a31fcf51",
+      "by_function": {
+        "_bfd_vms_slurp_eeom": {
+          "file": "bfd/vms-alpha.c",
+          "change_type": "modified"
+        },
+        "_bfd_vms_slurp_egsd": {
+          "file": "bfd/vms-alpha.c",
+          "change_type": "modified"
+        },
+        "_bfd_vms_slurp_eihd": {
+          "file": "bfd/vms-alpha.c",
+          "change_type": "modified"
+        },
+        "alpha_vms_slurp_relocs": {
+          "file": "bfd/vms-alpha.c",
+          "change_type": "modified"
+        },
+        "bfd_mach_o_arm64_canonicalize_one_reloc": {
+          "file": "bfd/mach-o-aarch64.c",
+          "change_type": "modified"
+        },
+        "bfd_mach_o_arm_canonicalize_one_reloc": {
+          "file": "bfd/mach-o-arm.c",
+          "change_type": "modified"
+        },
+        "bfd_mach_o_canonicalize_relocs": {
+          "file": "bfd/mach-o.c",
+          "change_type": "modified"
+        },
+        "bfd_mach_o_i386_canonicalize_one_reloc": {
+          "file": "bfd/mach-o-i386.c",
+          "change_type": "modified"
+        },
+        "bfd_mach_o_x86_64_canonicalize_one_reloc": {
+          "file": "bfd/mach-o-x86-64.c",
+          "change_type": "modified"
+        },
+        "image_set_ptr": {
+          "file": "bfd/vms-alpha.c",
+          "change_type": "modified"
+        },
+        "read_symbol_stabs_debugging_info": {
+          "file": "binutils/rddbg.c",
+          "change_type": "modified"
+        }
+      }
+    }
+  },
+  "CVE-2017-12452": {
+    "functions": [
+      "_bfd_vms_slurp_eeom",
+      "_bfd_vms_slurp_egsd",
+      "_bfd_vms_slurp_eihd",
+      "alpha_vms_slurp_relocs",
+      "bfd_mach_o_arm64_canonicalize_one_reloc",
+      "bfd_mach_o_arm_canonicalize_one_reloc",
+      "bfd_mach_o_canonicalize_relocs",
+      "bfd_mach_o_i386_canonicalize_one_reloc",
+      "bfd_mach_o_x86_64_canonicalize_one_reloc",
+      "image_set_ptr",
+      "read_symbol_stabs_debugging_info"
+    ],
+    "summary": "The bfd_mach_o_i386_canonicalize_one_reloc function in bfd/mach-o-i386.c in the Binary File Descriptor (BFD) library (aka libbfd), as distributed in GNU Binutils 2.29 and earlier, allows remote attackers to cause an out of bounds heap read via a crafted mach-o file.",
+    "cwe": [
+      "CWE-125"
+    ],
+    "diff_related": [
+      {
+        "file": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/Diff/binutils/diff_files/binutils_CVE-2017-12452_ca4cf9b9c622.diff"
+      }
+    ],
+    "function_code": {
+      "commit": "ca4cf9b9c622a5695e01f7f5815a7382a31fcf51",
+      "by_function": {
+        "_bfd_vms_slurp_eeom": {
+          "file": "bfd/vms-alpha.c",
+          "change_type": "modified"
+        },
+        "_bfd_vms_slurp_egsd": {
+          "file": "bfd/vms-alpha.c",
+          "change_type": "modified"
+        },
+        "_bfd_vms_slurp_eihd": {
+          "file": "bfd/vms-alpha.c",
+          "change_type": "modified"
+        },
+        "alpha_vms_slurp_relocs": {
+          "file": "bfd/vms-alpha.c",
+          "change_type": "modified"
+        },
+        "bfd_mach_o_arm64_canonicalize_one_reloc": {
+          "file": "bfd/mach-o-aarch64.c",
+          "change_type": "modified"
+        },
+        "bfd_mach_o_arm_canonicalize_one_reloc": {
+          "file": "bfd/mach-o-arm.c",
+          "change_type": "modified"
+        },
+        "bfd_mach_o_canonicalize_relocs": {
+          "file": "bfd/mach-o.c",
+          "change_type": "modified"
+        },
+        "bfd_mach_o_i386_canonicalize_one_reloc": {
+          "file": "bfd/mach-o-i386.c",
+          "change_type": "modified"
+        },
+        "bfd_mach_o_x86_64_canonicalize_one_reloc": {
+          "file": "bfd/mach-o-x86-64.c",
+          "change_type": "modified"
+        },
+        "image_set_ptr": {
+          "file": "bfd/vms-alpha.c",
+          "change_type": "modified"
+        },
+        "read_symbol_stabs_debugging_info": {
+          "file": "binutils/rddbg.c",
+          "change_type": "modified"
+        }
+      }
+    }
+  },
+  "CVE-2017-12450": {
+    "functions": [
+      "alpha_vms_object_p"
+    ],
+    "summary": "The alpha_vms_object_p function in bfd/vms-alpha.c in the Binary File Descriptor (BFD) library (aka libbfd), as distributed in GNU Binutils 2.29 and earlier, allows remote attackers to cause an out of bounds heap write and possibly achieve code execution via a crafted vms alpha file.",
+    "cwe": [
+      "CWE-787"
+    ],
+    "diff_related": [
+      {
+        "file": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/Diff/binutils/diff_files/binutils_CVE-2017-12450_8a2df5e2df37.diff"
+      }
+    ],
+    "function_code": {
+      "commit": "8a2df5e2df374289e00ecd8f099eb46d76ef982e",
+      "by_function": {
+        "alpha_vms_object_p": {
+          "file": "bfd/vms-alpha.c",
+          "change_type": "modified"
+        }
+      }
+    }
+  },
+  "CVE-2017-9756": {
+    "functions": [
+      "aarch64_ext_ldst_reglist"
+    ],
+    "summary": "The aarch64_ext_ldst_reglist function in opcodes/aarch64-dis.c in GNU Binutils 2.28 allows remote attackers to cause a denial of service (buffer overflow and application crash) or possibly have unspecified other impact via a crafted binary file, as demonstrated by mishandling of this file during \"objdump -D\" execution.",
+    "cwe": [
+      "CWE-119"
+    ],
+    "diff_related": [
+      {
+        "file": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/Diff/binutils/diff_files/binutils_CVE-2017-9756_cd3ea7c69acc.diff"
+      }
+    ],
+    "function_code": {
+      "commit": "cd3ea7c69acc5045eb28f9bf80d923116e15e4f5",
+      "by_function": {
+        "aarch64_ext_ldst_reglist": {
+          "file": "opcodes/aarch64-dis.c",
+          "change_type": "modified"
+        }
+      }
+    }
+  }
+}

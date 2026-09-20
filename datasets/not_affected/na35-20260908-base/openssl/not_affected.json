@@ -1,0 +1,29 @@
+[
+  {
+    "CVE": "CVE-2022-1434",
+    "functions": [
+      "rc4_hmac_md5_set_ctx_params"
+    ],
+    "not_affected": [
+      "openssl-3.0.0-legacy",
+      "openssl-3.0.1-legacy",
+      "openssl-3.0.2-legacy",
+      "openssl-3.0.3-legacy",
+      "openssl-3.0.4-legacy",
+      "openssl-3.0.5-legacy"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-66199",
+    "functions": [
+      "tls13_process_compressed_certificate"
+    ],
+    "not_affected": [
+      "openssl-3.3.6-openssl",
+      "openssl-3.3.7-openssl",
+      "openssl-3.4.3-openssl",
+      "openssl-3.5.4-openssl",
+      "openssl-3.6.0-openssl"
+    ]
+  }
+]

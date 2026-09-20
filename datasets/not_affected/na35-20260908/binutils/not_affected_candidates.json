@@ -1,0 +1,353 @@
+[
+  {
+    "CVE": "CVE-2017-12450",
+    "label": "patch",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The patch label applies: the VMS Alpha parser is reachable in this artifact and contains the selected truncated-record bounds check.",
+      "evidence": [
+        "Target and x86-64 debug companion match Build-ID e1affb7f21f7c79357d551f9e2a1236ebbcf0a43 and debuglink CRC32 0x5f085911.",
+        "Retained build configuration uses --enable-targets=all --disable-shared --enable-static. The artifact registers alpha_vms_vec at 0x15ac1c0, whose object-recognition callback points to alpha_vms_object_p at 0x85aca0.",
+        "display_object_bfd calls bfd_check_format_matches with bfd_object at 0x5f64fa; that function dispatches through the registered format callback, establishing parser reachability.",
+        "At 0x85ae6d–0x85ae71, the parser rejects record sizes below 12 before the subtraction at 0x85ae73 and subsequent bfd_bread call.",
+        "binutils-2_30 contains selected fix 8a2df5e2df374289e00ecd8f099eb46d76ef982e; the observed machine-code guard matches its bfd/vms-alpha.c change."
+      ],
+      "suggested_action": "Keep the patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12450",
+    "label": "vuln",
+    "tag": "binutils-2_28",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908/binutils/binaries/target/binutils_stripped/binutils-2.28-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The vuln label applies: the artifact exposes the VMS Alpha parser and retains the unchecked record-size subtraction underlying this CVE.",
+      "evidence": [
+        "Target and x86-64 debug companion match Build-ID 5a528e8a954a3328a6750c0b2a8a7956036a851b and debuglink CRC32 0xce229503.",
+        "The artifact advertises vms-alpha and registers alpha_vms_vec at 0x15444e0. Its object-recognition callback points to alpha_vms_object_p at 0x82a800.",
+        "display_object_bfd calls bfd_check_format_matches with bfd_object at 0x5d746a; format dispatch invokes the registered backend callback.",
+        "The parser allocates 12 bytes at 0x82a866–0x82a86b. For nonzero record sizes below 12, subtraction at 0x82ab15 occurs without the required lower-bound check, permitting unsigned underflow and an oversized bfd_bread into the buffer at 0x82aafb.",
+        "binutils-2_28 lacks selected fix 8a2df5e2df374289e00ecd8f099eb46d76ef982e; its source matches the observed vulnerable subtraction/read sequence."
+      ],
+      "suggested_action": "Keep the vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12450",
+    "label": "vuln",
+    "tag": "binutils-2_29",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908/binutils/binaries/target/binutils_stripped/binutils-2.29-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 0.99,
+      "reason": "This artifact is outside the CVE's configuration scope because its registered BFD backends exclude VMS Alpha. The conclusion is artifact-specific, not inferred from symbol absence or host architecture.",
+      "evidence": [
+        "Target and x86-64 debug companion match Build-ID 8b4e9cdd66b7fb230f42e28dfc86d5b6e6763d28 and debuglink CRC32 0x8bffac6c.",
+        "Decoded artifact backend table at 0x295d60 contains 20 registered targets, none supporting VMS Alpha. The runtime --help target list independently agrees.",
+        "Running this artifact with -b vms-alpha -f on an existing ELF returns 'Invalid bfd target'.",
+        "DT_NEEDED lists only libc.so.6; there is no dynamically supplied libbfd providing the missing backend.",
+        "Build provenance identifies an unmodified copied original artifact, not a rebuild under the current all-target adapter. Although binutils-2_29 source retains the vulnerable code, this artifact excludes the required backend."
+      ],
+      "suggested_action": "Classify this artifact as not_affected; exclude it from vulnerable examples.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12455",
+    "label": "patch",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The patch label applies: this artifact has a reachable VMS Alpha header-printing backend containing the selected bounds checks.",
+      "evidence": [
+        "Target and debug companion match Build-ID e1affb7f21f7c79357d551f9e2a1236ebbcf0a43 and debuglink CRC32 0x5f085911.",
+        "Target --help advertises vms-alpha. The registered alpha_vms_vec points to vms_bfd_print_private_bfd_data at 0x8555b0; its object-printing path calls evax_bfd_print_emh at 0x84ee30.",
+        "Target disassembly checks record size at 0x84ef53 and validates module-name/version boundaries at 0x84efbb, 0x84efd1, 0x84eff4 and 0x84f009 before printing.",
+        "Tag binutils-2_30 contains fix 8bdf0be19d2777565a8b1c88347f65d6a4b8c5fc; retained build configuration confirms --enable-targets=all and static BFD linkage."
+      ],
+      "suggested_action": "Keep the patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12455",
+    "label": "vuln",
+    "tag": "binutils-2_28",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908/binutils/binaries/target/binutils_stripped/binutils-2.28-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The vuln label applies: VMS Alpha private-header printing is reachable and retains the unchecked counted-string handling.",
+      "evidence": [
+        "Target/debug Build-ID is 5a528e8a954a3328a6750c0b2a8a7956036a851b; debuglink CRC32 0xce229503 matches.",
+        "Target --help advertises vms-alpha. Registered alpha_vms_vec dispatches private-header printing to 0x828cc0; evax_bfd_print_eobj calls evax_bfd_print_emh at 0x826a22.",
+        "Within evax_bfd_print_emh, 0x81dae3 through 0x81db4b consumes counted module-name/version strings and advances their pointers without the selected record-boundary checks.",
+        "Tag binutils-2_28 lacks fix 8bdf0be19d2777565a8b1c88347f65d6a4b8c5fc; its bfd/vms-alpha.c implementation agrees with the vulnerable target instructions."
+      ],
+      "suggested_action": "Keep the vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12455",
+    "label": "vuln",
+    "tag": "binutils-2_29",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908/binutils/binaries/target/binutils_stripped/binutils-2.29-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 0.99,
+      "reason": "This particular artifact cannot enter the VMS Alpha parser required by the CVE. The exclusion is established by registered backends and runtime rejection, not missing symbols or host architecture alone.",
+      "evidence": [
+        "Target/debug Build-ID is 8b4e9cdd66b7fb230f42e28dfc86d5b6e6763d28; debuglink CRC32 0x8bffac6c matches.",
+        "Target --help lists 20 supported formats, none VMS. Decoding the actual registered BFD vector table at 0x295d60 confirms no vms-alpha backend.",
+        "Running this target with -b vms-alpha -f against the existing target ELF returns 'Invalid bfd target'.",
+        "The artifact record identifies an unmodified copied binary. Its actual backend configuration excludes VMS despite the current adapter's broader defaults."
+      ],
+      "suggested_action": "Record configuration-specific not_affected; exclude this artifact from the vulnerable pair.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12459",
+    "label": "patch",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The patch label applies: the reachable Mach-O reader rejects the UINT_MAX string-table size before strsize+1 allocation.",
+      "evidence": [
+        "Target/debug Build-ID is e1affb7f21f7c79357d551f9e2a1236ebbcf0a43; debuglink CRC matches.",
+        "Target --help advertises Mach-O formats. Registered Mach-O vectors dispatch symbol canonicalization to 0xa32530, which reaches bfd_mach_o_read_symtab_symbols and bfd_mach_o_read_symtab_strtab at 0xa32340.",
+        "At 0xa32390, cmp edx,0xffffffff followed by je rejects the overflowing string-table size before the allocation at 0xa32398.",
+        "Tag binutils-2_30 contains selected fix 8bdf0be19d2777565a8b1c88347f65d6a4b8c5fc."
+      ],
+      "suggested_action": "Keep the patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12459",
+    "label": "vuln",
+    "tag": "binutils-2_28",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908/binutils/binaries/target/binutils_stripped/binutils-2.28-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The vuln label applies: the reachable Mach-O reader retains the overflowing allocation-size calculation.",
+      "evidence": [
+        "Target/debug Build-ID is 5a528e8a954a3328a6750c0b2a8a7956036a851b; debuglink CRC matches.",
+        "Target --help advertises Mach-O. Registered Mach-O symbol callbacks reach bfd_mach_o_canonicalize_symtab at 0xa012c0 and then bfd_mach_o_read_symtab_strtab at 0xa010d0.",
+        "At 0xa01160, lea esi,[rdx+1] performs 32-bit strsize+1 arithmetic immediately before bfd_alloc, without rejecting UINT_MAX; the later read uses the original strsize.",
+        "The selected 8bdf0be19d27 fix is absent from binutils-2_28, and the target instructions match its unguarded bfd/mach-o.c implementation."
+      ],
+      "suggested_action": "Keep the vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12459",
+    "label": "vuln",
+    "tag": "binutils-2_29",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908/binutils/binaries/target/binutils_stripped/binutils-2.29-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 0.99,
+      "reason": "This artifact lacks a selectable Mach-O reader, so the CVE's crafted-Mach-O precondition cannot reach the affected routine.",
+      "evidence": [
+        "Target/debug Build-ID is 8b4e9cdd66b7fb230f42e28dfc86d5b6e6763d28; debuglink CRC matches.",
+        "Neither target --help nor the complete registered BFD vector table at 0x295d60 includes any Mach-O format.",
+        "Explicit -b mach-o-x86-64 -f selection returns 'Invalid bfd target'.",
+        "Dynamic dependencies contain only libc.so.6; no external libbfd supplies the missing Mach-O backend."
+      ],
+      "suggested_action": "Record configuration-specific not_affected; exclude this artifact from the vulnerable pair.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-9756",
+    "label": "patch",
+    "tag": "binutils-2_29",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908/binutils/binaries/target/binutils_stripped/binutils-2.29-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 0.99,
+      "reason": "The artifact is outside this CVE's configured scope: it cannot perform AArch64 disassembly. Source-level fix containment does not make it an applicable patched example.",
+      "evidence": [
+        "Target/debug Build-ID is 8b4e9cdd66b7fb230f42e28dfc86d5b6e6763d28; debuglink CRC matches.",
+        "Target --help lists x86-family architectures and no AArch64. Explicit -d -m aarch64 selection returns 'can't use supplied machine aarch64'.",
+        "Compiled disassembler at 0xa01b0 only selects the x86 decoder for architecture IDs 9 through 12 and otherwise returns NULL.",
+        "Although binutils-2_29 contains cd3ea7c69acc5045eb28f9bf80d923116e15e4f5, independent artifact dispatch and runtime evidence establish that the required AArch64 decoder is excluded."
+      ],
+      "suggested_action": "Record configuration-specific not_affected; exclude this artifact from the patched pair.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-9756",
+    "label": "patch",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The patch label applies: the x86-64 executable includes a reachable AArch64 decoder with the selected array-index guard.",
+      "evidence": [
+        "Target/debug Build-ID is e1affb7f21f7c79357d551f9e2a1236ebbcf0a43; debuglink CRC matches.",
+        "Target --help advertises AArch64. Compiled disassembler dispatch returns print_insn_aarch64 at 0x635df0; its decoding chain reaches aarch64_extract_operand, whose branch at 0x63e983 enters aarch64_ext_ldst_reglist.",
+        "At 0x6340c7, cmp edx,0xa followed by ja rejects indices above 10 before accessing the 11-element data array.",
+        "Tag binutils-2_30 contains cd3ea7c69acc5045eb28f9bf80d923116e15e4f5, whose actual changed file is opcodes/aarch64-dis.c."
+      ],
+      "suggested_action": "Keep the patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-9756",
+    "label": "vuln",
+    "tag": "binutils-2_28",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908/binutils/binaries/target/binutils_stripped/binutils-2.28-objdump-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The vuln label applies: this executable supports AArch64 disassembly and retains the reachable unchecked opcode-derived array access.",
+      "evidence": [
+        "Target/debug Build-ID is 5a528e8a954a3328a6750c0b2a8a7956036a851b; debuglink CRC matches.",
+        "Target --help advertises AArch64. Compiled disassembler dispatch selects print_insn_aarch64 at 0x611340; the decoding chain reaches aarch64_extract_operand, which branches to aarch64_ext_ldst_reglist at 0x618520.",
+        "After opcode extraction at 0x60f61a, instructions at 0x60f624 and 0x60f628 scale and use the index without checking it against the 11-element data array.",
+        "Tag binutils-2_28 lacks cd3ea7c69acc5045eb28f9bf80d923116e15e4f5; opcodes/aarch64-dis.c contains the corresponding unguarded access."
+      ],
+      "suggested_action": "Keep the vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  }
+]

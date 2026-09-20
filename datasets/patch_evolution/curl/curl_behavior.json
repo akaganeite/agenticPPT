@@ -1,0 +1,299 @@
+{
+  "CVE-2018-0500": {
+    "cve_id": "CVE-2018-0500",
+    "cwe": "CWE-787",
+    "functions": [
+      "Curl_smtp_escape_eob"
+    ],
+    "patch_commit_message": "smtp: use the upload buffer size for scratch buffer malloc\n\n... not the read buffer size, as that can be set smaller and thus cause\na buffer overflow! CVE-2018-0500\n\nReported-by: Peter Wu\nBug: https://curl.haxx.se/docs/adv_2018-70a2.html",
+    "patch_hunk": [
+      {
+        "header": "@@ -1563,13 +1563,14 @@ CURLcode Curl_smtp_escape_eob(struct connectdata *conn, const ssize_t nread)",
+        "new_lines": [
+          "    scratch = newscratch = malloc(2 * UPLOAD_BUFSIZE);",
+          "  DEBUGASSERT(UPLOAD_BUFSIZE >= nread);"
+        ],
+        "old_lines": [
+          "    scratch = newscratch = malloc(2 * data->set.buffer_size);"
+        ]
+      }
+    ],
+    "patch_intent_analysis": {
+      "behavior_changes": [
+        "malloc(2 * data->set.buffer_size) → malloc(2 * UPLOAD_BUFSIZE)",
+        "Added DEBUGASSERT(UPLOAD_BUFSIZE >= nread) to catch logic errors."
+      ],
+      "intended_security_property": "Memory safety: prevent heap buffer overflow by allocating sufficient space based on the actual maximum data size processed, not an unrelated, potentially smaller configuration.",
+      "summary": "Fix the allocation to always use UPLOAD_BUFSIZE instead of the user‑configurable read buffer size, ensuring the scratch buffer is large enough for any possible nread value and its escaped form."
+    },
+    "patch_source": {
+      "commit": "ba1dbd78e5f1ed67c1b8d37ac89d90e5e330b628",
+      "locations": [
+        {
+          "changed_new_lines": [
+            1566,
+            1573
+          ],
+          "changed_old_lines": [
+            1566
+          ],
+          "file": "lib/smtp.c",
+          "function": "Curl_smtp_escape_eob",
+          "function_line_range": [
+            1545,
+            1644
+          ]
+        }
+      ]
+    },
+    "project": "curl",
+    "reduced_function_code": [
+      {
+        "Curl_smtp_escape_eob": "CURLcode Curl_smtp_escape_eob(struct connectdata *conn, const ssize_t nread)\n{\nssize_t i;\nssize_t si;\nstruct Curl_easy *data = conn->data;\nstruct SMTP *smtp = data->req.protop;\nchar *scratch = data->state.scratch;\nchar *newscratch = NULL;\nchar *oldscratch = NULL;\nsize_t eob_sent;\n\nconst ssize_t nread\nif(!scratch || data->set.crlf) {\n    oldscratch = scratch;\n\n    scratch = newscratch = malloc(2 * UPLOAD_BUFSIZE);\n    if(!newscratch) {\n      failf(data, \"Failed to alloc scratch buffer!\");\n\n      return CURLE_OUT_OF_MEMORY;\n    }\n  }\nDEBUGASSERT(UPLOAD_BUFSIZE >= nread);\nfor(i = 0, si = 0; i < nread; i++) {\n    if(SMTP_EOB[smtp->eob] == data->req.upload_fromhere[i]) {\n      smtp->eob++;\n\n      /* Is the EOB potentially the terminating CRLF? */\n      if(2 == smtp->eob || SMTP_EOB_LEN == smtp->eob)\n        smtp->trailing_crlf = TRUE;\n      else\n        smtp->trailing_crlf = FALSE;\n    }\n    else if(smtp->eob) {\n      /* A previous substring matched so output that first */\n      memcpy(&scratch[si], &SMTP_EOB[eob_sent], smtp->eob - eob_sent);\n      si += smtp->eob - eob_sent;\n\n      /* Then compare the first byte */\n      if(SMTP_EOB[0] == data->req.upload_fromhere[i])\n        smtp->eob = 1;\n      else\n        smtp->eob = 0;\n\n      eob_sent = 0;\n\n      /* Reset the trailing CRLF flag as there was more data */\n      smtp->trailing_crlf = FALSE;\n    }\n\n    /* Do we have a match for CRLF. as per RFC-5321, sect. 4.5.2 */\n    if(SMTP_EOB_FIND_LEN == smtp->eob) {\n      /* Copy the replacement data to the target buffer */\n      memcpy(&scratch[si], &SMTP_EOB_REPL[eob_sent],\n             SMTP_EOB_REPL_LEN - eob_sent);\n      si += SMTP_EOB_REPL_LEN - eob_sent;\n      smtp->eob = 0;\n      eob_sent = 0;\n    }\n    else if(!smtp->eob)\n      scratch[si++] = data->req.upload_fromhere[i];\n  }\nmemcpy(&scratch[si], &SMTP_EOB[eob_sent], smtp->eob - eob_sent);\nif(si != nread) {\n    /* Upload from the new (replaced) buffer instead */\n    data->req.upload_fromhere = scratch;\n\n    /* Save the buffer so it can be freed later */\n    data->state.scratch = scratch;\n\n    /* Free the old scratch buffer */\n    free(oldscratch);\n\n    /* Set the new amount too */\n    data->req.upload_present = si;\n  }\n  else\n    free(newscratch);\n}"
+      }
+    ],
+    "root_cause_analysis": {
+      "summary": "The function Curl_smtp_escape_eob allocated a scratch buffer using the configurable read buffer size (data->set.buffer_size) rather than the fixed upload buffer size (UPLOAD_BUFSIZE). Since nread can be as large as UPLOAD_BUFSIZE, a smaller read buffer size leads to an undersized scratch buffer, causing a heap-based overflow when copying escaped data.",
+      "unsafe_mechanism": "Use of data->set.buffer_size (may be smaller than UPLOAD_BUFSIZE) to allocate the scratch buffer, insufficient to hold worst-case escaped output for a full upload buffer (at most 2 * UPLOAD_BUFSIZE)."
+    },
+    "vulnerability_description": "Curl_smtp_escape_eob in lib/smtp.c in curl 7.54.1 to and including curl 7.60.0 has a heap-based buffer overflow that might be exploitable by an attacker who can control the data that curl transmits over SMTP with certain settings (i.e., use of a nonstandard --limit-rate argument or CURLOPT_BUFFERSIZE value)."
+  },
+  "CVE-2018-1000121": {
+    "cve_id": "CVE-2018-1000121",
+    "cwe": "CWE-476",
+    "functions": [
+      "ldap_recv"
+    ],
+    "patch_commit_message": "openldap: check ldap_get_attribute_ber() results for NULL before using\n\nCVE-2018-1000121\nReported-by: Dario Weisser\nBug: https://curl.haxx.se/docs/adv_2018-97a2.html",
+    "patch_hunk": [
+      {
+        "header": "@@ -473,7 +473,7 @@ static ssize_t ldap_recv(struct connectdata *conn, int sockindex, char *buf,",
+        "new_lines": [
+          "    struct berval bv, *bvals;"
+        ],
+        "old_lines": [
+          "    struct berval bv, *bvals, **bvp = &bvals;"
+        ]
+      },
+      {
+        "header": "@@ -535,9 +535,9 @@ static ssize_t ldap_recv(struct connectdata *conn, int sockindex, char *buf,",
+        "new_lines": [
+          "    for(rc = ldap_get_attribute_ber(li->ld, ent, ber, &bv, &bvals);",
+          "        (rc == LDAP_SUCCESS) && bvals;",
+          "        rc = ldap_get_attribute_ber(li->ld, ent, ber, &bv, &bvals)) {"
+        ],
+        "old_lines": [
+          "    for(rc = ldap_get_attribute_ber(li->ld, ent, ber, &bv, bvp);",
+          "      rc == LDAP_SUCCESS;",
+          "      rc = ldap_get_attribute_ber(li->ld, ent, ber, &bv, bvp)) {"
+        ]
+      }
+    ],
+    "patch_intent_analysis": {
+      "behavior_changes": [
+        "Declaration changed from 'struct berval bv, *bvals, **bvp = &bvals;' to 'struct berval bv, *bvals;' to eliminate indirection.",
+        "ldap_get_attribute_ber() now receives '&bvals' directly instead of 'bvp'.",
+        "Loop condition changed from 'rc == LDAP_SUCCESS' to '(rc == LDAP_SUCCESS) && bvals' so the loop exits if bvals is NULL."
+      ],
+      "intended_security_property": "Ensuring that the bvals pointer is not dereferenced when NULL, preventing denial of service via crash.",
+      "summary": "The patch adds a NULL check on bvals in the loop condition to terminate the loop if bvals is NULL, and also removes the intermediate bvp pointer to pass &bvals directly."
+    },
+    "patch_source": {
+      "commit": "9889db043393092e9d4b5a42720bba0b3d58deba",
+      "locations": [
+        {
+          "changed_new_lines": [
+            476,
+            538,
+            539,
+            540
+          ],
+          "changed_old_lines": [
+            476,
+            538,
+            539,
+            540
+          ],
+          "file": "lib/openldap.c",
+          "function": "ldap_recv",
+          "function_line_range": [
+            444,
+            664
+          ]
+        }
+      ]
+    },
+    "project": "curl",
+    "reduced_function_code": [
+      {
+        "ldap_recv": "static ssize_t ldap_recv(struct connectdata *conn, int sockindex, char *buf,\n                         size_t len, CURLcode *err)\n{\nldapconninfo *li = conn->proto.generic;\nstruct Curl_easy *data = conn->data;\nldapreqinfo *lr = data->req.protop;\nint rc, ret;\nLDAPMessage *msg = NULL;\nLDAPMessage *ent;\nBerElement *ber = NULL;\nstruct timeval tv = {0, 1};\n\nrc = ldap_result(li->ld, lr->msgid, LDAP_MSG_RECEIVED, &tv, &msg);\nif(rc < 0) {\n    failf(data, \"LDAP local: search ldap_result %s\", ldap_err2string(rc));\n    *err = CURLE_RECV_ERROR;\n    return -1;\n  }\nfor(ent = ldap_first_message(li->ld, msg); ent;\n    ent = ldap_next_message(li->ld, ent)) {\n    struct berval bv, *bvals;\n    int binary = 0, msgtype;\n    CURLcode writeerr;\n\n    msgtype = ldap_msgtype(ent);\n    if(msgtype == LDAP_RES_SEARCH_RESULT) {\n      int code;\n      char *info = NULL;\n      rc = ldap_parse_result(li->ld, ent, &code, NULL, &info, NULL, NULL, 0);\n      if(rc) {\n        failf(data, \"LDAP local: search ldap_parse_result %s\",\n              ldap_err2string(rc));\n        *err = CURLE_LDAP_SEARCH_FAILED;\n      }\n      else if(code && code != LDAP_SIZELIMIT_EXCEEDED) {\n        failf(data, \"LDAP remote: search failed %s %s\", ldap_err2string(rc),\n              info ? info : \"\");\n        *err = CURLE_LDAP_SEARCH_FAILED;\n      }\n      else {\n        /* successful */\n        if(code == LDAP_SIZELIMIT_EXCEEDED)\n          infof(data, \"There are more than %d entries\\n\", lr->nument);\n        data->req.size = data->req.bytecount;\n        *err = CURLE_OK;\n        ret = 0;\n      }\n      lr->msgid = 0;\n      ldap_memfree(info);\n      break;\n    }\n    else if(msgtype != LDAP_RES_SEARCH_ENTRY)\n      continue;\n\n    lr->nument++;\n    rc = ldap_get_dn_ber(li->ld, ent, &ber, &bv);\n    if(rc < 0) {\n      /* TODO: verify that this is really how this return code should be\n         handled */\n      *err = CURLE_RECV_ERROR;\n      return -1;\n    }\n    writeerr = Curl_client_write(conn, CLIENTWRITE_BODY, (char *)\"DN: \", 4);\n    if(writeerr) {\n      *err = writeerr;\n      return -1;\n    }\n\n    writeerr = Curl_client_write(conn, CLIENTWRITE_BODY, (char *)bv.bv_val,\n                                 bv.bv_len);\n    if(writeerr) {\n      *err = writeerr;\n      return -1;\n    }\n\n    writeerr = Curl_client_write(conn, CLIENTWRITE_BODY, (char *)\"\\n\", 1);\n    if(writeerr) {\n      *err = writeerr;\n      return -1;\n    }\n    data->req.bytecount += bv.bv_len + 5;\n\n    for(rc = ldap_get_attribute_ber(li->ld, ent, ber, &bv, &bvals);\n        (rc == LDAP_SUCCESS) && bvals;\n        rc = ldap_get_attribute_ber(li->ld, ent, ber, &bv, &bvals)) {\n      int i;\n\n      if(bv.bv_val == NULL) break;\n\n      if(bv.bv_len > 7 && !strncmp(bv.bv_val + bv.bv_len - 7, \";binary\", 7))\n        binary = 1;\n      else\n        binary = 0;\n\n      for(i = 0; bvals[i].bv_val != NULL; i++) {\n        int binval = 0;\n        writeerr = Curl_client_write(conn, CLIENTWRITE_BODY, (char *)\"\\t\", 1);\n        if(writeerr) {\n          *err = writeerr;\n          return -1;\n        }\n\n       writeerr = Curl_client_write(conn, CLIENTWRITE_BODY, (char *)bv.bv_val,\n                                    bv.bv_len);\n       if(writeerr) {\n         *err = writeerr;\n         return -1;\n       }\n\n        writeerr = Curl_client_write(conn, CLIENTWRITE_BODY, (char *)\":\", 1);\n       if(writeerr) {\n         *err = writeerr;\n         return -1;\n       }\n        data->req.bytecount += bv.bv_len + 2;\n\n        if(!binary) {\n          /* check for leading or trailing whitespace */\n          if(ISSPACE(bvals[i].bv_val[0]) ||\n              ISSPACE(bvals[i].bv_val[bvals[i].bv_len-1]))\n            binval = 1;\n          else {\n            /* check for unprintable characters */\n            unsigned int j;\n            for(j = 0; j<bvals[i].bv_len; j++)\n              if(!ISPRINT(bvals[i].bv_val[j])) {\n                binval = 1;\n                break;\n              }\n          }\n        }\n        if(binary || binval) {\n          char *val_b64 = NULL;\n          size_t val_b64_sz = 0;\n          /* Binary value, encode to base64. */\n          CURLcode error = Curl_base64_encode(data,\n                                              bvals[i].bv_val,\n                                              bvals[i].bv_len,\n                                              &val_b64,\n                                              &val_b64_sz);\n          if(error) {\n            ber_memfree(bvals);\n            ber_free(ber, 0);\n            ldap_msgfree(msg);\n            *err = error;\n            return -1;\n          }\n          writeerr = Curl_client_write(conn, CLIENTWRITE_BODY,\n                                       (char *)\": \", 2);\n          if(writeerr) {\n            *err = writeerr;\n            return -1;\n          }\n\n          data->req.bytecount += 2;\n          if(val_b64_sz > 0) {\n            writeerr = Curl_client_write(conn, CLIENTWRITE_BODY, val_b64,\n                                     val_b64_sz);\n            if(writeerr) {\n              *err = writeerr;\n              return -1;\n            }\n            free(val_b64);\n            data->req.bytecount += val_b64_sz;\n          }\n        }\n        else {\n          writeerr = Curl_client_write(conn, CLIENTWRITE_BODY, (char *)\" \", 1);\n          if(writeerr) {\n            *err = writeerr;\n            return -1;\n          }\n\n          writeerr = Curl_client_write(conn, CLIENTWRITE_BODY, bvals[i].bv_val,\n                                       bvals[i].bv_len);\n          if(writeerr) {\n            *err = writeerr;\n            return -1;\n          }\n\n          data->req.bytecount += bvals[i].bv_len + 1;\n        }\n        writeerr = Curl_client_write(conn, CLIENTWRITE_BODY, (char *)\"\\n\", 0);\n        if(writeerr) {\n          *err = writeerr;\n          return -1;\n        }\n\n        data->req.bytecount++;\n      }\n      ber_memfree(bvals);\n      writeerr = Curl_client_write(conn, CLIENTWRITE_BODY, (char *)\"\\n\", 0);\n      if(writeerr) {\n        *err = writeerr;\n        return -1;\n      }\n      data->req.bytecount++;\n    }\n    writeerr = Curl_client_write(conn, CLIENTWRITE_BODY, (char *)\"\\n\", 0);\n    if(writeerr) {\n      *err = writeerr;\n      return -1;\n    }\n    data->req.bytecount++;\n    ber_free(ber, 0);\n  }\n}"
+      }
+    ],
+    "root_cause_analysis": {
+      "summary": "The ldap_recv function dereferenced the bvals pointer returned by ldap_get_attribute_ber() without a NULL check. Although the return code was checked for LDAP_SUCCESS, the function could return success while setting bvals to NULL, leading to a NULL pointer dereference in the loop body.",
+      "unsafe_mechanism": "The for loop condition only tested 'rc == LDAP_SUCCESS', not whether bvals was NULL. The ldap_get_attribute_ber() call could return LDAP_SUCCESS but set *bvp (bvals) to NULL, causing subsequent code like 'bvals[i].bv_val' to dereference a null pointer."
+    },
+    "vulnerability_description": "A NULL pointer dereference exists in curl 7.21.0 to and including curl 7.58.0 in the LDAP code that allows an attacker to cause a denial of service"
+  },
+  "CVE-2021-22898": {
+    "cve_id": "CVE-2021-22898",
+    "cwe": "CWE-200",
+    "functions": [
+      "suboption"
+    ],
+    "patch_commit_message": "telnet: check sscanf() for correct number of matches\n\nCVE-2021-22898\n\nBug: https://curl.se/docs/CVE-2021-22898.html",
+    "patch_hunk": [
+      {
+        "header": "@@ -922,7 +922,7 @@ static void suboption(struct Curl_easy *data)",
+        "new_lines": [
+          "          if(sscanf(v->data, \"%127[^,],%127s\", varname, varval) == 2) {"
+        ],
+        "old_lines": [
+          "          if(sscanf(v->data, \"%127[^,],%127s\", varname, varval)) {"
+        ]
+      }
+    ],
+    "patch_intent_analysis": {
+      "behavior_changes": [
+        "Previously, if sscanf matched only 1 format specifier (i.e., if the input lacked a comma after varname), the code would proceed with an uninitialized varval, leaking stack data. Now, such malformed inputs are ignored.",
+        "The patch ensures that only inputs that successfully parse both varname and varval are used to construct the TELNET suboption message."
+      ],
+      "intended_security_property": "Prevents disclosure of uninitialized stack memory by ensuring only fully parsed telnet option variables are processed.",
+      "summary": "Change the condition to require exactly 2 successful matches, ensuring that both `varname` and `varval` were properly parsed before use."
+    },
+    "patch_source": {
+      "commit": "39ce47f219b09c380b81f89fe54ac586c8db6bde",
+      "locations": [
+        {
+          "changed_new_lines": [
+            925
+          ],
+          "changed_old_lines": [
+            925
+          ],
+          "file": "lib/telnet.c",
+          "function": "suboption",
+          "function_line_range": [
+            877,
+            945
+          ]
+        }
+      ]
+    },
+    "project": "curl",
+    "reduced_function_code": [
+      {
+        "suboption": "static void suboption(struct Curl_easy *data)\n{\nstruct curl_slist *v;\nunsigned char temp[2048];\nsize_t len;\nchar varname[128] = \"\";\nchar varval[128] = \"\";\nstruct TELNET *tn = data->req.p.telnet;\n\nfor(v = tn->telnet_vars; v; v = v->next) {\n        size_t tmplen = (strlen(v->data) + 1);\n        /* Add the variable only if it fits */\n        if(len + tmplen < (int)sizeof(temp)-6) {\n          if(sscanf(v->data, \"%127[^,],%127s\", varname, varval) == 2) {\n            msnprintf((char *)&temp[len], sizeof(temp) - len,\n                      \"%c%s%c%s\", CURL_NEW_ENV_VAR, varname,\n                      CURL_NEW_ENV_VALUE, varval);\n            len += tmplen;\n          }\n        }\n      }\n}"
+      }
+    ],
+    "root_cause_analysis": {
+      "summary": "The vulnerable code used `if(sscanf(v->data, \"%127[^,],%127s\", varname, varval))` to parse telnet option variables. Because any non-zero return from sscanf was treated as success, a partial match (e.g., only `varname` matched) would leave `varval` uninitialized. The subsequent `msnprintf` would then copy uninitialized stack data, potentially exposing sensitive information.",
+      "unsafe_mechanism": "Treating a non-zero sscanf return as sufficient validation for full initialization of all destination variables, leading to uninitialized memory copy."
+    },
+    "vulnerability_description": "curl 7.7 through 7.76.1 suffers from an information disclosure when the `-t` command line option, known as `CURLOPT_TELNETOPTIONS` in libcurl, is used to send variable=content pairs to TELNET servers. Due to a flaw in the option parser for sending NEW_ENV variables, libcurl could be made to pass on uninitialized data from a stack based buffer to the server, resulting in potentially revealing sensitive internal information to the server using a clear-text network protocol."
+  },
+  "CVE-2022-42915": {
+    "cve_id": "CVE-2022-42915",
+    "cwe": "CWE-415",
+    "functions": [
+      "Curl_connect_done",
+      "conn_shutdown"
+    ],
+    "patch_commit_message": "http_proxy: restore the protocol pointer on error\n\nReported-by: Trail of Bits\n\nCloses #9790",
+    "patch_hunk": [
+      {
+        "header": "@@ -212,10 +212,8 @@ void Curl_connect_done(struct Curl_easy *data)",
+        "new_lines": [
+          "    /* restore the protocol pointer */",
+          "    data->req.p.http = s->prot_save;"
+        ],
+        "old_lines": [
+          "    /* restore the protocol pointer, if not already done */",
+          "    if(s->prot_save)",
+          "      data->req.p.http = s->prot_save;",
+          "    s->prot_save = NULL;"
+        ]
+      },
+      {
+        "header": "@@ -751,15 +751,6 @@ static void conn_shutdown(struct Curl_easy *data, struct connectdata *conn)",
+        "new_lines": [],
+        "old_lines": [
+          "#ifndef USE_HYPER",
+          "  if(conn->connect_state && conn->connect_state->prot_save) {",
+          "    /* If this was closed with a CONNECT in progress, cleanup this temporary",
+          "       struct arrangement */",
+          "    data->req.p.http = NULL;",
+          "    Curl_safefree(conn->connect_state->prot_save);",
+          "  }",
+          "#endif",
+          ""
+        ]
+      }
+    ],
+    "patch_intent_analysis": {
+      "behavior_changes": [
+        "In `conn_shutdown`, the block that checked for `prot_save` and called `Curl_safefree` on it while setting `data->req.p.http = NULL` is removed.",
+        "In `Curl_connect_done`, the conditional copying of `s->prot_save` to `data->req.p.http` is replaced with an unconditional assignment, and the subsequent `s->prot_save = NULL` is removed."
+      ],
+      "intended_security_property": "Memory safety against double free by preventing dangling pointers and ensuring `prot_save` is deallocated only once.",
+      "summary": "The patch removes the premature free of `prot_save` in `conn_shutdown` and simplifies the restoration logic in `Curl_connect_done` to unconditionally assign `s->prot_save` to `data->req.p.http` without clearing `s->prot_save`, ensuring the pointer is freed only once through the normal protocol cleanup path."
+    },
+    "patch_source": {
+      "commit": "55e1875729f9d9fc7315cec611bffbd2c817ad89",
+      "locations": [
+        {
+          "changed_new_lines": [
+            215,
+            216
+          ],
+          "changed_old_lines": [
+            215,
+            216,
+            217,
+            218
+          ],
+          "file": "lib/http_proxy.c",
+          "function": "Curl_connect_done",
+          "function_line_range": [
+            206,
+            225
+          ]
+        },
+        {
+          "changed_new_lines": [],
+          "changed_old_lines": [
+            754,
+            755,
+            756,
+            757,
+            758,
+            759,
+            760,
+            761,
+            762
+          ],
+          "file": "lib/url.c",
+          "function": "conn_shutdown",
+          "function_line_range": [
+            748,
+            773
+          ]
+        }
+      ]
+    },
+    "project": "curl",
+    "reduced_function_code": [
+      {
+        "Curl_connect_done": "void Curl_connect_done(struct Curl_easy *data)\n{\nstruct connectdata *conn = data->conn;\nstruct http_connect_state *s = conn->connect_state;\n\nstruct Curl_easy *data\nif(s && (s->tunnel_state != TUNNEL_EXIT)) {\n    s->tunnel_state = TUNNEL_EXIT;\n    Curl_dyn_free(&s->rcvbuf);\n    Curl_dyn_free(&s->req);\n\n    /* restore the protocol pointer */\n    data->req.p.http = s->prot_save;\n    data->info.httpcode = 0; /* clear it as it might've been used for the\n                                proxy */\n    data->req.ignorebody = FALSE;\n#ifdef USE_HYPER\n    data->state.hconnect = FALSE;\n#endif\n    infof(data, \"CONNECT phase completed\");\n  }\n}"
+      },
+      {
+        "conn_shutdown": "static void conn_shutdown(struct Curl_easy *data, struct connectdata *conn)\n{\n}"
+      }
+    ],
+    "root_cause_analysis": {
+      "summary": "In the error handling path when an HTTP proxy refuses a CONNECT request for non-HTTP(S) URL schemes, the connection shutdown function `conn_shutdown` prematurely freed the `prot_save` pointer, leaving a dangling pointer in `conn->connect_state->prot_save`. Later, `Curl_connect_done` assigned this dangling pointer to `data->req.p.http`, and a subsequent free during transfer cleanup triggered a double free.",
+      "unsafe_mechanism": "`conn_shutdown` freed `conn->connect_state->prot_save` without setting the pointer to NULL, allowing `Curl_connect_done` to later retain a dangling reference in `data->req.p.http`, which was then freed again."
+    },
+    "vulnerability_description": "curl before 7.86.0 has a double free. If curl is told to use an HTTP proxy for a transfer with a non-HTTP(S) URL, it sets up the connection to the remote server by issuing a CONNECT request to the proxy, and then tunnels the rest of the protocol through. An HTTP proxy might refuse this request (HTTP proxies often only allow outgoing connections to specific port numbers, like 443 for HTTPS) and instead return a non-200 status code to the client. Due to flaws in the error/cleanup handling, this could trigger a double free in curl if one of the following schemes were used in the URL for the transfer: dict, gopher, gophers, ldap, ldaps, rtmp, rtmps, or telnet. The earliest affected version is 7.77.0."
+  }
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "CVE": "CVE-2021-30123",
+    "functions": [
+      "sniff_channel_order"
+    ],
+    "vuln": [],
+    "patch": [
+      "ffmpeg-4.4-ffmpeg",
+      "ffmpeg-4.4.1-ffmpeg",
+      "ffmpeg-5.0-ffmpeg"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2025-1373",
+    "functions": [
+      "mov_read_trak"
+    ],
+    "vuln": [],
+    "patch": [
+      "ffmpeg-8.0-ffmpeg",
+      "ffmpeg-8.0.1-ffmpeg",
+      "ffmpeg-8.1-ffmpeg"
+    ],
+    "not_affected": [
+      "ffmpeg-7.0-ffmpeg",
+      "ffmpeg-7.1-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-22920",
+    "functions": [
+      "dump_stream_group"
+    ],
+    "vuln": [],
+    "patch": [
+      "ffmpeg-8.0-ffmpeg",
+      "ffmpeg-8.0.1-ffmpeg",
+      "ffmpeg-8.1-ffmpeg"
+    ],
+    "not_affected": [
+      "ffmpeg-4.3.8-ffmpeg",
+      "ffmpeg-5.1.6-ffmpeg",
+      "ffmpeg-7.1-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-25471",
+    "functions": [
+      "mov_read_trak"
+    ],
+    "vuln": [],
+    "patch": [
+      "ffmpeg-8.0-ffmpeg",
+      "ffmpeg-8.0.1-ffmpeg",
+      "ffmpeg-8.1-ffmpeg"
+    ],
+    "not_affected": [
+      "ffmpeg-4.3.8-ffmpeg",
+      "ffmpeg-5.1.6-ffmpeg",
+      "ffmpeg-7.1-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-12284",
+    "functions": [
+      "cbs_jpeg_split_fragment"
+    ],
+    "vuln": [],
+    "patch": [],
+    "not_affected": [
+      "ffmpeg-4.1-ffmpeg",
+      "ffmpeg-4.2.2-ffmpeg",
+      "ffmpeg-4.3-ffmpeg",
+      "ffmpeg-4.3.1-ffmpeg",
+      "ffmpeg-4.3.2-ffmpeg"
+    ]
+  },
+  {
+    "CVE": "CVE-2025-1816",
+    "functions": [
+      "audio_element_obu"
+    ],
+    "vuln": [],
+    "patch": [],
+    "not_affected": [
+      "ffmpeg-4.3.8-ffmpeg",
+      "ffmpeg-5.1.6-ffmpeg"
+    ]
+  }
+]

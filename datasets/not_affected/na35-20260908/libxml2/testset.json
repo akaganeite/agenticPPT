@@ -1,0 +1,24 @@
+[
+  {
+    "CVE": "CVE-2015-8035",
+    "functions": [
+      "xz_decomp"
+    ],
+    "binaries": [
+      "libxml2-2.9.1-libxml2",
+      "libxml2-2.9.2-libxml2",
+      "libxml2-2.9.3-libxml2"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-18258",
+    "functions": [
+      "xz_head"
+    ],
+    "binaries": [
+      "libxml2-2.9.2-libxml2",
+      "libxml2-2.9.5-libxml2",
+      "libxml2-2.9.7-libxml2"
+    ]
+  }
+]

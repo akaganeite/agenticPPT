@@ -1,0 +1,46 @@
+[
+  {
+    "CVE": "CVE-2017-12450",
+    "vuln": "CVE-2017-12450-vuln-ca4cf9b9c622-objdump",
+    "patch": "CVE-2017-12450-patch-8a2df5e2df37-objdump",
+    "functions": [
+      "alpha_vms_object_p"
+    ],
+    "compiler": "gcc",
+    "opt": "-O0",
+    "build_profile": ""
+  },
+  {
+    "CVE": "CVE-2017-12455",
+    "vuln": "CVE-2017-12455-vuln-63d4980d60dd-objdump",
+    "patch": "CVE-2017-12455-patch-8bdf0be19d27-objdump",
+    "functions": [
+      "evax_bfd_print_emh"
+    ],
+    "compiler": "gcc",
+    "opt": "-O0",
+    "build_profile": ""
+  },
+  {
+    "CVE": "CVE-2017-12459",
+    "vuln": "CVE-2017-12459-vuln-63d4980d60dd-objdump",
+    "patch": "CVE-2017-12459-patch-8bdf0be19d27-objdump",
+    "functions": [
+      "bfd_mach_o_read_symtab_strtab"
+    ],
+    "compiler": "gcc",
+    "opt": "-O0",
+    "build_profile": ""
+  },
+  {
+    "CVE": "CVE-2017-9756",
+    "vuln": "CVE-2017-9756-vuln-62b76e4b6e0b-objdump",
+    "patch": "CVE-2017-9756-patch-cd3ea7c69acc-objdump",
+    "functions": [
+      "aarch64_ext_ldst_reglist"
+    ],
+    "compiler": "gcc",
+    "opt": "-O0",
+    "build_profile": ""
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "CVE": "CVE-2022-1434",
+    "vuln": "CVE-2022-1434-vuln-6ee1f4f40b51-legacy",
+    "patch": "CVE-2022-1434-patch-33219939c782-legacy",
+    "functions": [
+      "rc4_hmac_md5_set_ctx_params"
+    ],
+    "compiler": "gcc",
+    "opt": "-O0",
+    "build_profile": ""
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "CVE": "CVE-2016-3739",
+    "functions": [
+      "mbed_connect_step1",
+      "polarssl_connect_step1"
+    ],
+    "binaries": [
+      "curl-7.46.0-libcurl",
+      "curl-7.47.0-libcurl",
+      "curl-7.48.0-libcurl",
+      "curl-7.49.0-libcurl",
+      "curl-7.49.1-libcurl",
+      "curl-7.50.0-libcurl"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-9502",
+    "functions": [
+      "parseurlandfillconn"
+    ],
+    "binaries": [
+      "curl-7.53.1-libcurl",
+      "curl-7.54.0-libcurl",
+      "curl-7.54.1-libcurl",
+      "curl-7.55.0-libcurl",
+      "curl-7.53.0-libcurl",
+      "curl-7.55.1-libcurl"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-5481",
+    "functions": [
+      "read_data"
+    ],
+    "binaries": [
+      "curl-7.65.1-libcurl",
+      "curl-7.65.2-libcurl",
+      "curl-7.65.3-libcurl",
+      "curl-7.66.0-libcurl",
+      "curl-7.67.0-libcurl",
+      "curl-7.68.0-libcurl"
+    ]
+  }
+]

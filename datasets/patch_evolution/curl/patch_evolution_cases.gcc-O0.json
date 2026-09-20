@@ -1,0 +1,140 @@
+[
+  {
+    "CVE": "CVE-2018-0500",
+    "label": "patch",
+    "tag": "curl-7_62_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/extdisk/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.62.0-libcurl-gcc-O0",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "patch_evolution",
+      "confidence": 0.99,
+      "reason": "The fixed allocation invariant is preserved through the configurable-upload-buffer refactor.",
+      "evidence": [
+        "Exact fix ba1dbd78e5f1ed67c1b8d37ac89d90e5e330b628 is in the target history.",
+        "Follow-up 2825f46d950ca9b0e269ed8dc6a97c5238a17c30 refactored SMTP and transfer code to allocate and fill using the same configurable `upload_buffer_size`, with a matching nread assertion."
+      ],
+      "suggested_action": "Keep the patch label and record patch_evolution.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v1"
+    }
+  },
+  {
+    "CVE": "CVE-2018-1000121",
+    "label": "patch",
+    "tag": "curl-7_60_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/extdisk/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.60.0-libcurl-gcc-O0",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "patch_evolution",
+      "confidence": 0.99,
+      "reason": "The fixed behavior remains through an evolved OpenLDAP implementation.",
+      "evidence": [
+        "Exact fix 9889db043393092e9d4b5a42720bba0b3d58deba is in the target history.",
+        "Follow-up b6e484dc36a2681c0991a274398f917e74517053 safely handles `bvals == NULL` explicitly before any bvals indexing."
+      ],
+      "suggested_action": "Keep the patch label and record patch_evolution.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v1"
+    }
+  },
+  {
+    "CVE": "CVE-2021-22898",
+    "label": "patch",
+    "tag": "curl-7_79_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/extdisk/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.79.0-libcurl-gcc-O0",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "patch_evolution",
+      "confidence": 0.99,
+      "reason": "The patch label remains applicable through a later material redesign of the TELNET option parser.",
+      "evidence": [
+        "Fix commit 39ce47f219b09c380b81f89fe54ac586c8db6bde is in the target history.",
+        "Later commit 894f6ec730597eb243618d33cc84d71add8d6a8a replaces the selected sscanf == 2 hunk with an evolved safe parser.",
+        "The target parser initializes varval and distinguishes name-only and name/value forms, preventing use of uninitialized value data."
+      ],
+      "suggested_action": "Retain the patch label and record patch_evolution.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v1"
+    }
+  },
+  {
+    "CVE": "CVE-2022-42915",
+    "label": "patch",
+    "tag": "curl-7_87_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/extdisk/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.87.0-libcurl-gcc-O0",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "patch_evolution",
+      "confidence": 0.98,
+      "reason": "The fixed ownership behavior is preserved after migration into the connection-filter tunnel implementation.",
+      "evidence": [
+        "Fix commit 55e1875729f9d9fc7315cec611bffbd2c817ad89 is in the target history.",
+        "Later connection-filter refactoring replaces Curl_connect_done/connect_state with tunnel_go_state/tunnel_state.",
+        "The failed and established tunnel transitions restore data->req.p.http from ts->prot_save, and tunnel_free then releases only tunnel-local state."
+      ],
+      "suggested_action": "Retain the patch label and record patch_evolution.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v1"
+    }
+  },
+  {
+    "CVE": "CVE-2022-42915",
+    "label": "patch",
+    "tag": "curl-7_88_0",
+    "binary": "libcurl",
+    "target_path": "/home/zhangxb/extdisk/dataset4ppt/curl/binaries/target/curl_stripped/curl-7.88.0-libcurl-gcc-O0",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "patch_evolution",
+      "confidence": 0.99,
+      "reason": "A later redesign preserves the fix by removing the vulnerable pointer-swapping arrangement.",
+      "evidence": [
+        "Fix commit 55e1875729f9d9fc7315cec611bffbd2c817ad89 is in the target history.",
+        "Later commit 3f3ddee0665176040b3eaf89a912a922726ecb18 removes the data->req.p.http swap and prot_save entirely.",
+        "The target uses a dedicated ts->CONNECT object for proxy request state, eliminating the original competing ownership and double-free path."
+      ],
+      "suggested_action": "Retain the patch label and record patch_evolution.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v1"
+    }
+  }
+]

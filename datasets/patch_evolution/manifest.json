@@ -1,0 +1,27 @@
+{
+  "schema": "patch_evolution_dataset.v1",
+  "source": "/home/zhangxb/server/dataset4ppt/curl/exports",
+  "compiler": "gcc",
+  "opt": "-O0",
+  "projects": {
+    "curl": {
+      "cves": [
+        "CVE-2018-0500",
+        "CVE-2018-1000121",
+        "CVE-2021-22898",
+        "CVE-2022-42915"
+      ],
+      "cve_count": 4,
+      "case_count": 5,
+      "files": [
+        "affectedness_audit_summary.gcc-O0.json",
+        "curl_behavior.json",
+        "groundtruth.json",
+        "groundtruth_with_not_affected.json",
+        "patch_evolution_cases.gcc-O0.json",
+        "patch_evolution_groundtruth.gcc-O0.json",
+        "testset.json"
+      ]
+    }
+  }
+}

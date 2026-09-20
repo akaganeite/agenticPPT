@@ -1,0 +1,11 @@
+{
+  "project": "openssl",
+  "source": "/home/zhangxb/server/dataset4ppt/openssl/exports",
+  "cves": [
+    "CVE-2025-66199"
+  ],
+  "cve_count": 1,
+  "testset_cases": 1,
+  "not_affected_rows": 1,
+  "candidate_rows": 5
+}

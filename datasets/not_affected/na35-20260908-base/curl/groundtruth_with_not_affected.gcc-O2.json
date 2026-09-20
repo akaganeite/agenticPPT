@@ -1,0 +1,381 @@
+[
+  {
+    "CVE": "CVE-2013-6422",
+    "functions": [
+      "gtls_connect_step3"
+    ],
+    "vuln": [
+      "curl-7.31.0-libcurl-gnutls",
+      "curl-7.32.0-libcurl-gnutls",
+      "curl-7.33.0-libcurl-gnutls"
+    ],
+    "patch": [
+      "curl-7.34.0-libcurl-gnutls",
+      "curl-7.35.0-libcurl-gnutls",
+      "curl-7.36.0-libcurl-gnutls"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2017-2629",
+    "functions": [
+      "allocate_conn"
+    ],
+    "vuln": [],
+    "patch": [
+      "curl-7.53.0-libcurl",
+      "curl-7.53.1-libcurl",
+      "curl-7.54.0-libcurl"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2021-22890",
+    "functions": [
+      "Curl_ssl_addsessionid",
+      "Curl_ssl_getsessionid",
+      "ossl_connect_step1",
+      "ossl_get_proxy_index",
+      "ossl_init",
+      "ossl_new_session_cb"
+    ],
+    "vuln": [
+      "curl-7.73.0-libcurl",
+      "curl-7.74.0-libcurl",
+      "curl-7.75.0-libcurl"
+    ],
+    "patch": [
+      "curl-7.76.0-libcurl",
+      "curl-7.76.1-libcurl",
+      "curl-7.77.0-libcurl"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2021-22945",
+    "functions": [
+      "mqtt_send"
+    ],
+    "vuln": [
+      "curl-7.76.1-libcurl",
+      "curl-7.77.0-libcurl",
+      "curl-7.78.0-libcurl"
+    ],
+    "patch": [
+      "curl-7.79.0-libcurl",
+      "curl-7.79.1-libcurl",
+      "curl-7.80.0-libcurl"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2022-27775",
+    "functions": [
+      "hashkey"
+    ],
+    "vuln": [
+      "curl-7.80.0-libcurl",
+      "curl-7.81.0-libcurl",
+      "curl-7.82.0-libcurl"
+    ],
+    "patch": [
+      "curl-7.83.0-libcurl",
+      "curl-7.83.1-libcurl",
+      "curl-7.84.0-libcurl"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2022-27780",
+    "functions": [
+      "hostname_check"
+    ],
+    "vuln": [
+      "curl-7.81.0-libcurl",
+      "curl-7.82.0-libcurl",
+      "curl-7.83.0-libcurl"
+    ],
+    "patch": [
+      "curl-7.83.1-libcurl",
+      "curl-7.84.0-libcurl",
+      "curl-7.85.0-libcurl"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2022-30115",
+    "functions": [
+      "Curl_hsts",
+      "hsts_create",
+      "hsts_pull"
+    ],
+    "vuln": [
+      "curl-7.82.0-libcurl",
+      "curl-7.83.0-libcurl"
+    ],
+    "patch": [
+      "curl-7.83.1-libcurl",
+      "curl-7.84.0-libcurl",
+      "curl-7.85.0-libcurl"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2022-32205",
+    "functions": [
+      "Curl_cookie_add",
+      "Curl_cookie_getlist",
+      "Curl_http_cookies"
+    ],
+    "vuln": [
+      "curl-7.82.0-libcurl",
+      "curl-7.83.0-libcurl",
+      "curl-7.83.1-libcurl"
+    ],
+    "patch": [
+      "curl-7.84.0-libcurl",
+      "curl-7.85.0-libcurl",
+      "curl-7.86.0-libcurl"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2022-32206",
+    "functions": [
+      "Curl_build_unencoding_stack"
+    ],
+    "vuln": [
+      "curl-7.82.0-libcurl",
+      "curl-7.83.0-libcurl",
+      "curl-7.83.1-libcurl"
+    ],
+    "patch": [
+      "curl-7.84.0-libcurl",
+      "curl-7.85.0-libcurl",
+      "curl-7.86.0-libcurl"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2022-35260",
+    "functions": [
+      "parsenetrc"
+    ],
+    "vuln": [
+      "curl-7.84.0-libcurl",
+      "curl-7.85.0-libcurl"
+    ],
+    "patch": [
+      "curl-7.86.0-libcurl",
+      "curl-7.87.0-libcurl",
+      "curl-7.88.0-libcurl"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2022-42915",
+    "functions": [
+      "Curl_connect_done",
+      "conn_shutdown"
+    ],
+    "vuln": [
+      "curl-7.83.1-libcurl",
+      "curl-7.84.0-libcurl",
+      "curl-7.85.0-libcurl"
+    ],
+    "patch": [
+      "curl-7.86.0-libcurl",
+      "curl-7.87.0-libcurl",
+      "curl-7.88.0-libcurl"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2023-23914",
+    "functions": [
+      "Curl_close",
+      "Curl_hsts_loadfiles",
+      "Curl_pretransfer",
+      "Curl_vsetopt",
+      "curl_share_cleanup",
+      "curl_share_setopt"
+    ],
+    "vuln": [
+      "curl-7.85.0-libcurl",
+      "curl-7.86.0-libcurl",
+      "curl-7.87.0-libcurl"
+    ],
+    "patch": [
+      "curl-7.88.0-libcurl",
+      "curl-7.88.1-libcurl",
+      "curl-8.0.0-libcurl"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2023-23915",
+    "functions": [
+      "Curl_close",
+      "Curl_hsts_loadfiles",
+      "Curl_pretransfer",
+      "Curl_vsetopt",
+      "curl_share_cleanup",
+      "curl_share_setopt"
+    ],
+    "vuln": [
+      "curl-7.85.0-libcurl",
+      "curl-7.86.0-libcurl",
+      "curl-7.87.0-libcurl"
+    ],
+    "patch": [
+      "curl-7.88.0-libcurl",
+      "curl-7.88.1-libcurl",
+      "curl-8.0.0-libcurl"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2023-23916",
+    "functions": [
+      "Curl_build_unencoding_stack"
+    ],
+    "vuln": [
+      "curl-7.85.0-libcurl",
+      "curl-7.86.0-libcurl",
+      "curl-7.87.0-libcurl"
+    ],
+    "patch": [
+      "curl-7.88.0-libcurl",
+      "curl-7.88.1-libcurl",
+      "curl-8.0.0-libcurl"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2023-38545",
+    "functions": [
+      "do_SOCKS5"
+    ],
+    "vuln": [],
+    "patch": [
+      "curl-8.4.0-libcurl",
+      "curl-8.5.0-libcurl",
+      "curl-8.6.0-libcurl"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2024-0853",
+    "functions": [
+      "servercert"
+    ],
+    "vuln": [
+      "curl-8.5.0-libcurl"
+    ],
+    "patch": [
+      "curl-8.6.0-libcurl",
+      "curl-8.7.0-libcurl",
+      "curl-8.7.1-libcurl"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2024-2004",
+    "functions": [
+      "Curl_vsetopt",
+      "protocol2num"
+    ],
+    "vuln": [
+      "curl-8.4.0-libcurl",
+      "curl-8.5.0-libcurl",
+      "curl-8.6.0-libcurl"
+    ],
+    "patch": [
+      "curl-8.7.0-libcurl",
+      "curl-8.7.1-libcurl",
+      "curl-8.8.0-libcurl"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2024-8096",
+    "functions": [
+      "Curl_gtls_verifyserver",
+      "gtls_client_init"
+    ],
+    "vuln": [
+      "curl-8.8.0-libcurl-gnutls",
+      "curl-8.9.0-libcurl-gnutls",
+      "curl-8.9.1-libcurl-gnutls"
+    ],
+    "patch": [
+      "curl-8.10.0-libcurl-gnutls",
+      "curl-8.10.1-libcurl-gnutls",
+      "curl-8.11.0-libcurl-gnutls"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2024-9681",
+    "functions": [
+      "Curl_hsts",
+      "hsts_add"
+    ],
+    "vuln": [
+      "curl-8.10.0-libcurl",
+      "curl-8.10.1-libcurl",
+      "curl-8.9.1-libcurl"
+    ],
+    "patch": [
+      "curl-8.11.0-libcurl",
+      "curl-8.11.1-libcurl",
+      "curl-8.12.0-libcurl"
+    ],
+    "not_affected": []
+  },
+  {
+    "CVE": "CVE-2016-3739",
+    "functions": [
+      "mbed_connect_step1",
+      "polarssl_connect_step1"
+    ],
+    "vuln": [],
+    "patch": [],
+    "not_affected": [
+      "curl-7.46.0-libcurl",
+      "curl-7.47.0-libcurl",
+      "curl-7.48.0-libcurl",
+      "curl-7.49.0-libcurl",
+      "curl-7.49.1-libcurl",
+      "curl-7.50.0-libcurl"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-9502",
+    "functions": [
+      "parseurlandfillconn"
+    ],
+    "vuln": [],
+    "patch": [],
+    "not_affected": [
+      "curl-7.53.0-libcurl",
+      "curl-7.55.1-libcurl"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-5481",
+    "functions": [
+      "read_data"
+    ],
+    "vuln": [],
+    "patch": [],
+    "not_affected": [
+      "curl-7.65.1-libcurl",
+      "curl-7.65.2-libcurl",
+      "curl-7.65.3-libcurl",
+      "curl-7.66.0-libcurl",
+      "curl-7.67.0-libcurl",
+      "curl-7.68.0-libcurl"
+    ]
+  }
+]

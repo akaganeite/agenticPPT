@@ -1,0 +1,147 @@
+[
+  {
+    "CVE": "CVE-2025-66199",
+    "label": "patch",
+    "tag": "openssl-3.3.6",
+    "binary": "openssl",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.3.6-openssl-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-66199",
+    "label": "patch",
+    "tag": "openssl-3.3.7",
+    "binary": "openssl",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.3.7-openssl-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-66199",
+    "label": "vuln",
+    "tag": "openssl-3.4.3",
+    "binary": "openssl",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.4.3-openssl-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-66199",
+    "label": "vuln",
+    "tag": "openssl-3.5.4",
+    "binary": "openssl",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.5.4-openssl-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2025-66199",
+    "label": "vuln",
+    "tag": "openssl-3.6.0",
+    "binary": "openssl",
+    "target_path": "/dev_sdb/zhangxb/dataset4ppt/openssl/binaries/target/openssl_stripped/openssl-3.6.0-openssl-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 1.0,
+      "reason": "authoritative locked manifest label: not_affected",
+      "evidence": [
+        {
+          "source": "locked_manifest",
+          "label": "not_affected"
+        }
+      ],
+      "suggested_action": "preserve locked manifest label",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  }
+]

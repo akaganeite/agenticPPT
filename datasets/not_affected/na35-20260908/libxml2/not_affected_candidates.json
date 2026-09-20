@@ -1,0 +1,176 @@
+[
+  {
+    "CVE": "CVE-2015-8035",
+    "label": "patch",
+    "tag": "v2.9.3",
+    "binary": "libxml2",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.3-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The compiled, reachable LZMA decoder contains the selected fix's explicit LZMA_PROG_ERROR exit. The patch label is applicable.",
+      "evidence": [
+        "Target and debug companion are x86-64 ELFs with matching Build-ID 5fff4a87e15f75dc93e6bdbb72b1173720679416; target DT_NEEDED includes liblzma.so.5.",
+        "Artifact disassembly confirms xmlInitParser calls default callback registration, which installs xmlXzfileRead at 0x651e0. That callback calls __libxml2_xzread, whose call at 0x11c661 reaches debug-mapped xz_decomp at 0x11bed0.",
+        "After lzma_code at 0x11bf16, instructions at 0x11bf2f compare its result with 11 (LZMA_PROG_ERROR). The branch to 0x11c120 calls xz_error with 'compression error' and returns -1.",
+        "Local v2.9.3 history contains f0709e3ca8f8947f2d91ed34e92e38a4c23eae63; the supplied fix diff matches the observed error-handling branch."
+      ],
+      "suggested_action": "Retain the patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-8035",
+    "label": "vuln",
+    "tag": "v2.9.1",
+    "binary": "libxml2",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.1-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The vulnerable decoder loop is compiled and reachable through the default compressed-input callbacks; the required compression-error exit is absent.",
+      "evidence": [
+        "Target and debug companion are x86-64 ELFs with matching Build-ID 98db07feffff25e280eca7bdb7cfa9a6cda99560; target DT_NEEDED includes liblzma.so.5.",
+        "Default callback registration installs xmlXzfileRead at 0x648d0. It calls __libxml2_xzread, whose call at 0x11b6f1 reaches debug-mapped xz_decomp at 0x11afa0.",
+        "xz_decomp calls lzma_code at 0x11afe6, checks error values 5 and 9, then tests remaining output space and stream completion. Return value 11 has no error exit and can continue around the decoder loop.",
+        "The observed control flow matches v2.9.1:xzlib.c and lacks the LZMA_PROG_ERROR guard introduced by f0709e3ca8f8947f2d91ed34e92e38a4c23eae63, which is not in this tag's history."
+      ],
+      "suggested_action": "Retain the vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2015-8035",
+    "label": "vuln",
+    "tag": "v2.9.2",
+    "binary": "libxml2",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 0.99,
+      "reason": "This artifact omits the XZ decoder and its input callbacks because HAVE_LZMA_H was not defined. The CVE's compiled-XZ precondition is therefore false, despite the misleading advertised feature flag.",
+      "evidence": [
+        "Target and debug companion are x86-64 ELFs with matching Build-ID 063c6bc30a4b011a0b71b519fd878428732c4394. DT_NEEDED lists libdl, libz, libm and libc, but no liblzma.",
+        "The matching debug companion defines HAVE_LIBLZMA and LIBXML_LZMA_ENABLED but does not define HAVE_LZMA_H. In v2.9.2, xzlib.c:11 and xmlIO.c:1337,2331 guard the decoder and its callbacks with HAVE_LZMA_H.",
+        "The xzlib.c DWARF compilation unit identifies target commit 726f67e2f140f8d936dfe993bf9ded3180d750d2 and contains zero subprogram DIEs and no executable address range. Disassembly of xmlRegisterDefaultInputCallbacks at 0x65a20 registers file, gzip, HTTP and FTP callbacks only.",
+        "xmlHasFeature(33) would return 1 from the compiled feature table, but it tests LIBXML_LZMA_ENABLED rather than the actual code gate. Local commit 18b8988511b0954272cac4d6c3e6724f9dbf6e0a documents and repairs this mismatch."
+      ],
+      "suggested_action": "Classify this artifact/CVE as not_affected instead of vuln.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-18258",
+    "label": "patch",
+    "tag": "v2.9.7",
+    "binary": "libxml2",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.7-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable LZMA decoder initialization enforces the selected fix's 100000000-byte memory limit. The patch label is applicable.",
+      "evidence": [
+        "Target and debug companion are x86-64 ELFs with matching Build-ID 6f34c81273b98f26347d89bc983935533211168c; target DT_NEEDED includes liblzma.so.5.",
+        "Default callback registration installs xmlXzfileRead at 0x63ca0, which calls __libxml2_xzread. Its call at 0x11b333 reaches xz_make; xz_make calls debug-mapped xz_head at 0x11a050.",
+        "Within xz_head, instruction 0x11a0c1 loads ESI with 0x05f5e100 (100000000), zero-extending into the memory-limit argument RSI. The call to lzma_auto_decoder occurs at 0x11a17f with that limit and flags zero.",
+        "Local v2.9.7 history contains e2a9122b8dde53d320750451e9907a7dcb2ca8bb; its supplied diff changes UINT64_MAX to the same 100000000-byte limit."
+      ],
+      "suggested_action": "Retain the patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-18258",
+    "label": "vuln",
+    "tag": "v2.9.2",
+    "binary": "libxml2",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.2-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "not_affected",
+      "confidence": 0.99,
+      "reason": "The produced artifact has no compiled LZMA decoder path, so attacker-controlled LZMA input cannot reach the unlimited-memory decoder initialization implicated by this CVE.",
+      "evidence": [
+        "Target and debug companion are x86-64 ELFs with matching Build-ID 063c6bc30a4b011a0b71b519fd878428732c4394. DT_NEEDED lists libdl, libz, libm and libc, but no liblzma.",
+        "Matching DWARF macro records lack HAVE_LZMA_H, although HAVE_LIBLZMA and LIBXML_LZMA_ENABLED are defined. v2.9.2:xzlib.c:11 gates the entire decoder implementation, including xz_head, on HAVE_LZMA_H.",
+        "The xzlib.c compilation unit has zero subprogram DIEs and no executable address range. The compiled default callback registration at 0x65a20 contains file, gzip, HTTP and FTP handlers, without an XZ input path.",
+        "v2.9.2 source contains the unlimited lzma_auto_decoder call, but the combined macro, DWARF, dependency and callback evidence establishes that this source path was not compiled into the target."
+      ],
+      "suggested_action": "Classify this artifact/CVE as not_affected instead of vuln.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-18258",
+    "label": "vuln",
+    "tag": "v2.9.5",
+    "binary": "libxml2",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908/libxml2/binaries/target/libxml2_stripped/libxml2-2.9.5-libxml2-gcc-O2",
+    "compiler": "gcc",
+    "opt": "-O2",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The compiled and reachable LZMA input path initializes decoding without the CVE fix's memory limit. The vuln label is applicable.",
+      "evidence": [
+        "Target and debug companion are x86-64 ELFs with matching Build-ID 0aa4007b9c717c57c6180898f23ae682d9406c25; target DT_NEEDED includes liblzma.so.5.",
+        "Default callback registration installs xmlXzfileRead at 0x63da0, which calls __libxml2_xzread. Its call at 0x11b503 reaches xz_make; xz_make calls debug-mapped xz_head at 0x11a220.",
+        "Within xz_head, instruction 0x11a291 sets RSI to 0xffffffffffffffff (UINT64_MAX). The call at 0x11a351 passes this unlimited memory allowance to lzma_auto_decoder with flags zero.",
+        "The artifact matches v2.9.5:xzlib.c's unlimited decoder initialization. The selected limiting fix e2a9122b8dde53d320750451e9907a7dcb2ca8bb is not in this tag's history."
+      ],
+      "suggested_action": "Retain the vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  }
+]

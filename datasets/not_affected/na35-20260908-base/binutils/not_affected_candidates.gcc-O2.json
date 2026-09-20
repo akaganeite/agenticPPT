@@ -1,0 +1,1130 @@
+[
+  {
+    "CVE": "CVE-2017-12450",
+    "label": "patch",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable VMS image parser contains the selected truncated-record fix.",
+      "evidence": [
+        "Target -i lists vms-alpha; ELF relocations bind alpha_vms_vec+0xb8 to alpha_vms_object_p at 0x85aca0.",
+        "At 0x85ae6d, cmp $0xb,%r15d followed by jbe rejects record sizes below 12 before subtraction and reading.",
+        "Target history contains 8a2df5e2df37; target-tag source and embedded DWARF corroborate the retained check."
+      ],
+      "suggested_action": "Keep patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12450",
+    "label": "patch",
+    "tag": "binutils-2_31",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.31-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable VMS image parser contains the selected truncated-record fix.",
+      "evidence": [
+        "Target -i lists vms-alpha; ELF relocations bind alpha_vms_vec+0xb8 to alpha_vms_object_p at 0x809990.",
+        "At 0x809b5d, cmp $0xb,%r15d followed by jbe rejects record sizes below 12 before subtraction and reading.",
+        "Target history contains 8a2df5e2df37; target-tag source and embedded DWARF corroborate the retained check."
+      ],
+      "suggested_action": "Keep patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12450",
+    "label": "patch",
+    "tag": "binutils-2_31_1",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.31.1-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable VMS image parser contains the selected truncated-record fix.",
+      "evidence": [
+        "Target -i lists vms-alpha; ELF relocations bind alpha_vms_vec+0xb8 to alpha_vms_object_p at 0x809990.",
+        "This artifact's disassembly at 0x809b5d rejects record sizes below 12 before subtraction and reading.",
+        "Target history contains 8a2df5e2df37; embedded DWARF identifies the supplied 0860693812ff target-commit worktree."
+      ],
+      "suggested_action": "Keep patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12450",
+    "label": "vuln",
+    "tag": "binutils-2_27",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.27-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable VMS image parser retains the vulnerable header-length underflow.",
+      "evidence": [
+        "Target -i lists vms-alpha; alpha_vms_vec+0xb8 binds the input-format recognizer to alpha_vms_object_p at 0x807b20.",
+        "At 0x807ced, record size is reduced by 12 without the lower-bound rejection, before computing the remaining read into the header buffer.",
+        "Target source matches this vulnerable sequence; selected fix 8a2df5e2df37 is absent from target history."
+      ],
+      "suggested_action": "Keep vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12450",
+    "label": "vuln",
+    "tag": "binutils-2_28",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.28-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable VMS image parser retains the vulnerable header-length underflow.",
+      "evidence": [
+        "Target -i lists vms-alpha; alpha_vms_vec+0xb8 binds the input-format recognizer to alpha_vms_object_p at 0x82c600.",
+        "At 0x82c7cd, record size is reduced by 12 without the lower-bound rejection, before computing the remaining read into the header buffer.",
+        "Target source matches this vulnerable sequence; selected fix 8a2df5e2df37 is absent from target history."
+      ],
+      "suggested_action": "Keep vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12450",
+    "label": "vuln",
+    "tag": "binutils-2_29",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.29-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable VMS image parser retains the vulnerable header-length underflow.",
+      "evidence": [
+        "Target -i lists vms-alpha; alpha_vms_vec+0xb8 binds the input-format recognizer to alpha_vms_object_p at 0x847dc0.",
+        "At 0x847f8d, record size is reduced by 12 without the lower-bound rejection, before computing the remaining read into the header buffer.",
+        "Target source matches this vulnerable sequence; selected fix 8a2df5e2df37 is absent from target history."
+      ],
+      "suggested_action": "Keep vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12452",
+    "label": "patch",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable Mach-O i386 relocation parser contains the selected first-PAIR bounds fix.",
+      "evidence": [
+        "Target -i lists mach-o-i386; relocation dumping reaches the registered backend callback bfd_mach_o_i386_canonicalize_one_reloc at 0xa33870.",
+        "At 0xa33928, the result pointer is compared with the relocation-array base; equality returns failure before either res[-1].address load.",
+        "Target history contains ca4cf9b9c622, and target source retains the res_base argument and first-PAIR rejection."
+      ],
+      "suggested_action": "Keep patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12452",
+    "label": "patch",
+    "tag": "binutils-2_31",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.31-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable Mach-O i386 relocation parser contains the selected first-PAIR bounds fix.",
+      "evidence": [
+        "Target -i lists mach-o-i386; relocation dumping reaches the registered backend callback bfd_mach_o_i386_canonicalize_one_reloc at 0x961af0.",
+        "At 0x961ba8, the result pointer is compared with the relocation-array base; equality returns failure before either res[-1].address load.",
+        "Target history contains ca4cf9b9c622, and target source retains the res_base argument and first-PAIR rejection."
+      ],
+      "suggested_action": "Keep patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12452",
+    "label": "patch",
+    "tag": "binutils-2_31_1",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.31.1-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable Mach-O i386 relocation parser contains the selected first-PAIR bounds fix.",
+      "evidence": [
+        "Target -i lists mach-o-i386; relocation dumping reaches the registered backend callback bfd_mach_o_i386_canonicalize_one_reloc at 0x961af0.",
+        "This artifact's comparison at 0x961ba8 rejects res == res_base before either res[-1].address load.",
+        "Target history contains ca4cf9b9c622; target source retains the res_base argument and first-PAIR rejection."
+      ],
+      "suggested_action": "Keep patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12452",
+    "label": "vuln",
+    "tag": "binutils-2_27",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.27-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable Mach-O i386 parser retains the first-PAIR out-of-bounds read.",
+      "evidence": [
+        "Target -i lists mach-o-i386; relocation dumping dispatches through the registered backend to bfd_mach_o_i386_canonicalize_one_reloc at 0x9de310.",
+        "PAIR handling reads res[-1].address at 0x9de3e4 and 0x9de4eb without checking whether the relocation is first.",
+        "Target source has no res_base guard, and ca4cf9b9c622 is absent from target history."
+      ],
+      "suggested_action": "Keep vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12452",
+    "label": "vuln",
+    "tag": "binutils-2_28",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.28-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable Mach-O i386 parser retains the first-PAIR out-of-bounds read.",
+      "evidence": [
+        "Target -i lists mach-o-i386; relocation dumping dispatches through the registered backend to bfd_mach_o_i386_canonicalize_one_reloc at 0xa01a30.",
+        "PAIR handling reads res[-1].address at 0xa01b04 and 0xa01c0b without checking whether the relocation is first.",
+        "Target source has no res_base guard, and ca4cf9b9c622 is absent from target history."
+      ],
+      "suggested_action": "Keep vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12452",
+    "label": "vuln",
+    "tag": "binutils-2_29",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.29-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable Mach-O i386 parser retains the first-PAIR out-of-bounds read.",
+      "evidence": [
+        "Target -i lists mach-o-i386; relocation dumping dispatches through the registered backend to bfd_mach_o_i386_canonicalize_one_reloc at 0xa1fe20.",
+        "PAIR handling reads res[-1].address at 0xa1fef4 and 0xa1fffb without checking whether the relocation is first.",
+        "Target source has no res_base guard, and ca4cf9b9c622 is absent from target history."
+      ],
+      "suggested_action": "Keep vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12453",
+    "label": "patch",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The selected EEOM minimum-buffer-size fix is present in the reachable VMS parser.",
+      "evidence": [
+        "Target -i lists vms-alpha; the object-record dispatcher calls _bfd_vms_slurp_eeom at 0x85a9f3.",
+        "At 0x84ca3c, the function checks buffer size against 23 and rejects sizes below 24 before reading EEOM fields.",
+        "Target history contains ca4cf9b9c622; target source retains the sizeof(*eeom) buffer-size check."
+      ],
+      "suggested_action": "Keep patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12453",
+    "label": "patch",
+    "tag": "binutils-2_31",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.31-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The selected EEOM minimum-buffer-size fix is present in the reachable VMS parser.",
+      "evidence": [
+        "Target -i lists vms-alpha; the object-record dispatcher calls _bfd_vms_slurp_eeom at 0x8096e3.",
+        "At 0x7fb72c, the function checks buffer size against 23 and rejects sizes below 24 before reading EEOM fields.",
+        "Target history contains ca4cf9b9c622; target source retains the sizeof(*eeom) buffer-size check."
+      ],
+      "suggested_action": "Keep patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12453",
+    "label": "patch",
+    "tag": "binutils-2_31_1",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.31.1-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The selected EEOM minimum-buffer-size fix is present in the reachable VMS parser.",
+      "evidence": [
+        "Target -i lists vms-alpha; the object-record dispatcher calls _bfd_vms_slurp_eeom at 0x8096e3.",
+        "This artifact's check at 0x7fb72c rejects buffer sizes below 24 before reading EEOM fields.",
+        "Target history contains ca4cf9b9c622; target source retains the sizeof(*eeom) buffer-size check."
+      ],
+      "suggested_action": "Keep patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12453",
+    "label": "vuln",
+    "tag": "binutils-2_27",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.27-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable EEOM parser retains the unguarded field reads addressed by this CVE.",
+      "evidence": [
+        "Target -i lists vms-alpha; the reachable object-record dispatcher calls _bfd_vms_slurp_eeom at 0x8078c3.",
+        "The function begins reading EEOM fields at 0x7f9b03 without the minimum-buffer-size check.",
+        "Target source lacks the sizeof(*eeom) guard; ca4cf9b9c622 is absent from target history."
+      ],
+      "suggested_action": "Keep vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12453",
+    "label": "vuln",
+    "tag": "binutils-2_28",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.28-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable EEOM parser retains the unguarded field reads addressed by this CVE.",
+      "evidence": [
+        "Target -i lists vms-alpha; the reachable object-record dispatcher calls _bfd_vms_slurp_eeom at 0x82c3a3.",
+        "The function begins reading EEOM fields at 0x81e603 without the minimum-buffer-size check.",
+        "Target source lacks the sizeof(*eeom) guard; ca4cf9b9c622 is absent from target history."
+      ],
+      "suggested_action": "Keep vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12453",
+    "label": "vuln",
+    "tag": "binutils-2_29",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.29-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable EEOM parser retains the unguarded field reads addressed by this CVE.",
+      "evidence": [
+        "Target -i lists vms-alpha; the reachable object-record dispatcher calls _bfd_vms_slurp_eeom at 0x847b13.",
+        "The function begins reading EEOM fields at 0x839cc3 without the minimum-buffer-size check.",
+        "Target source lacks the sizeof(*eeom) guard; ca4cf9b9c622 is absent from target history."
+      ],
+      "suggested_action": "Keep vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12454",
+    "label": "patch",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable EGSD parser contains the selected section-index bounds checks.",
+      "evidence": [
+        "Target -i lists vms-alpha; the object-record dispatcher calls _bfd_vms_slurp_egsd at 0x85a9e3.",
+        "Index comparisons at 0x856067, 0x8560c8 and 0x8561bd reject indexes at or beyond section_count before section-array reads; negative-index checks are also present.",
+        "Target history contains ca4cf9b9c622; target source retains the psindx and ca_psindx validation."
+      ],
+      "suggested_action": "Keep patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12454",
+    "label": "patch",
+    "tag": "binutils-2_31",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.31-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable EGSD parser contains the selected section-index bounds checks.",
+      "evidence": [
+        "Target -i lists vms-alpha; the object-record dispatcher calls _bfd_vms_slurp_egsd at 0x8096d3.",
+        "Index comparisons at 0x804d57, 0x804db8 and 0x804ead reject indexes at or beyond section_count before section-array reads; negative-index checks are also present.",
+        "Target history contains ca4cf9b9c622; target source retains the psindx and ca_psindx validation."
+      ],
+      "suggested_action": "Keep patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12454",
+    "label": "patch",
+    "tag": "binutils-2_31_1",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.31.1-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable EGSD parser contains the selected section-index bounds checks.",
+      "evidence": [
+        "Target -i lists vms-alpha; the object-record dispatcher calls _bfd_vms_slurp_egsd at 0x8096d3.",
+        "This artifact has section_count comparisons at 0x804d57, 0x804db8 and 0x804ead, with rejection branches before indexed reads.",
+        "Target history contains ca4cf9b9c622; source and disassembly retain the psindx and ca_psindx bounds checks."
+      ],
+      "suggested_action": "Keep patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12454",
+    "label": "vuln",
+    "tag": "binutils-2_27",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.27-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable EGSD parser retains attacker-controlled out-of-bounds section indexing.",
+      "evidence": [
+        "Target -i lists vms-alpha; the object-record dispatcher calls _bfd_vms_slurp_egsd at 0x8078b3.",
+        "Decoded section indexes directly drive array reads at 0x802fca, 0x803015 and 0x803137 without section_count bounds checks.",
+        "Target source retains the unchecked psindx/ca_psindx indexing; ca4cf9b9c622 is absent from history."
+      ],
+      "suggested_action": "Keep vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12454",
+    "label": "vuln",
+    "tag": "binutils-2_28",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.28-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable EGSD parser retains attacker-controlled out-of-bounds section indexing.",
+      "evidence": [
+        "Target -i lists vms-alpha; the object-record dispatcher calls _bfd_vms_slurp_egsd at 0x82c393.",
+        "Decoded section indexes directly drive array reads at 0x827aca, 0x827b15 and 0x827c37 without section_count bounds checks.",
+        "Target source retains the unchecked psindx/ca_psindx indexing; ca4cf9b9c622 is absent from history."
+      ],
+      "suggested_action": "Keep vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12454",
+    "label": "vuln",
+    "tag": "binutils-2_29",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.29-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable EGSD parser retains attacker-controlled out-of-bounds section indexing.",
+      "evidence": [
+        "Target -i lists vms-alpha; the object-record dispatcher calls _bfd_vms_slurp_egsd at 0x847b03.",
+        "Decoded section indexes directly drive array reads at 0x843280, 0x8433ec and 0x843437 without section_count bounds checks.",
+        "Existing NULL checks do not bound psindx/ca_psindx. The selected fix ca4cf9b9c622 is absent from target history."
+      ],
+      "suggested_action": "Keep vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12455",
+    "label": "patch",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable VMS private-header printer contains the selected EMH length validation.",
+      "evidence": [
+        "Target -i lists vms-alpha; its private-header callback reaches evax_bfd_print_eobj, which calls evax_bfd_print_emh at 0x8532fa.",
+        "At 0x84ef53, EMH_MHD records below 20 bytes are rejected; checks at 0x84efd1 and 0x84f009 bound the module-name and version endpoints.",
+        "Target history contains 8bdf0be19d27; source and disassembly retain its header/string-length checks."
+      ],
+      "suggested_action": "Keep patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12455",
+    "label": "patch",
+    "tag": "binutils-2_31",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.31-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable VMS private-header printer contains the selected EMH length validation.",
+      "evidence": [
+        "Target -i lists vms-alpha; its private-header callback reaches evax_bfd_print_eobj, which calls evax_bfd_print_emh at 0x801fea.",
+        "At 0x7fdc43, EMH_MHD records below 20 bytes are rejected; checks at 0x7fdcc1 and 0x7fdcf9 bound the module-name and version endpoints.",
+        "Target history contains 8bdf0be19d27; source and disassembly retain its header/string-length checks."
+      ],
+      "suggested_action": "Keep patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12455",
+    "label": "patch",
+    "tag": "binutils-2_31_1",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.31.1-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable VMS private-header printer contains the selected EMH length validation.",
+      "evidence": [
+        "Target -i lists vms-alpha; its private-header callback reaches evax_bfd_print_eobj, which calls evax_bfd_print_emh at 0x801fea.",
+        "This artifact rejects EMH_MHD lengths below 20 at 0x7fdc43 and bounds module-name/version endpoints at 0x7fdcc1 and 0x7fdcf9.",
+        "Target history contains 8bdf0be19d27; source and disassembly retain its header/string-length checks."
+      ],
+      "suggested_action": "Keep patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12455",
+    "label": "vuln",
+    "tag": "binutils-2_27",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.27-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable VMS private-header printer retains the vulnerable EMH string reads.",
+      "evidence": [
+        "Target -i lists vms-alpha; the registered private-header callback reaches evax_bfd_print_eobj and its EMH call at 0x8001ca.",
+        "evax_bfd_print_emh reads the module-name length at 0x7fc042 and the derived version length at 0x7fc07c without record-end checks.",
+        "Target source lacks the selected EMH_MHD/string-length validation; 8bdf0be19d27 is absent from history."
+      ],
+      "suggested_action": "Keep vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12455",
+    "label": "vuln",
+    "tag": "binutils-2_28",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.28-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable VMS private-header printer retains the vulnerable EMH string reads.",
+      "evidence": [
+        "Target -i lists vms-alpha; the registered private-header callback reaches evax_bfd_print_eobj and its EMH call at 0x824cca.",
+        "evax_bfd_print_emh reads the module-name length at 0x820b42 and the derived version length at 0x820b7c without record-end checks.",
+        "Target source lacks the selected EMH_MHD/string-length validation; 8bdf0be19d27 is absent from history."
+      ],
+      "suggested_action": "Keep vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12455",
+    "label": "vuln",
+    "tag": "binutils-2_29",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.29-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "Earlier header hardening does not fix the reachable EMH counted-string vulnerability.",
+      "evidence": [
+        "Target -i lists vms-alpha; the registered private-header callback reaches evax_bfd_print_eobj and its EMH call at 0x84048a.",
+        "evax_bfd_print_emh reads the module-name length at 0x83c242 and the derived version length at 0x83c27c without record-end checks.",
+        "The existing common-EMH-header check does not provide the EMH_MHD/string checks added by 8bdf0be19d27, which is absent from target history."
+      ],
+      "suggested_action": "Keep vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12459",
+    "label": "patch",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable Mach-O string-table reader contains the selected allocation-overflow fix.",
+      "evidence": [
+        "Target -i lists Mach-O backends; registered symbol-table dispatch reaches bfd_mach_o_read_symtab_strtab through bfd_mach_o_read_symtab_symbols.",
+        "At 0xa32390, strsize is compared with 0xffffffff and rejected before the allocation at 0xa32398.",
+        "Target history contains 8bdf0be19d27. The source field is unsigned int, so this 32-bit overflow check remains relevant on x86-64."
+      ],
+      "suggested_action": "Keep patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12459",
+    "label": "patch",
+    "tag": "binutils-2_31",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.31-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable Mach-O string-table reader contains the selected allocation-overflow fix.",
+      "evidence": [
+        "Target -i lists Mach-O backends; registered symbol-table dispatch reaches bfd_mach_o_read_symtab_strtab through bfd_mach_o_read_symtab_symbols.",
+        "At 0x960610, strsize is compared with 0xffffffff and rejected before the allocation at 0x960618.",
+        "Target history contains 8bdf0be19d27. The source field is unsigned int, so this 32-bit overflow check remains relevant on x86-64."
+      ],
+      "suggested_action": "Keep patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12459",
+    "label": "patch",
+    "tag": "binutils-2_31_1",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.31.1-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable Mach-O string-table reader contains the selected allocation-overflow fix.",
+      "evidence": [
+        "Target -i lists Mach-O backends; registered symbol-table dispatch reaches bfd_mach_o_read_symtab_strtab through bfd_mach_o_read_symtab_symbols.",
+        "This artifact rejects strsize == 0xffffffff at 0x960610 before the allocation at 0x960618.",
+        "Target history contains 8bdf0be19d27. The unsigned-int strsize arithmetic remains 32-bit on this x86-64 artifact."
+      ],
+      "suggested_action": "Keep patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12459",
+    "label": "vuln",
+    "tag": "binutils-2_27",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.27-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable Mach-O reader retains the allocation-size overflow; x86-64 does not eliminate the 32-bit arithmetic.",
+      "evidence": [
+        "Target -i lists Mach-O backends; registered symbol-table dispatch reaches bfd_mach_o_read_symtab_strtab via the call at 0x9dcf84.",
+        "At 0x9dceb8, lea 0x1(%rdx),%esi computes the allocation size with 32-bit wraparound and passes it to bfd_alloc without rejecting UINT_MAX.",
+        "Target source retains the unchecked unsigned-int strsize+1 expression; 8bdf0be19d27 is absent from history."
+      ],
+      "suggested_action": "Keep vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12459",
+    "label": "vuln",
+    "tag": "binutils-2_28",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.28-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable Mach-O reader retains the allocation-size overflow; x86-64 does not eliminate the 32-bit arithmetic.",
+      "evidence": [
+        "Target -i lists Mach-O backends; registered symbol-table dispatch reaches bfd_mach_o_read_symtab_strtab via the call at 0xa006a4.",
+        "At 0xa005d8, lea 0x1(%rdx),%esi computes the allocation size with 32-bit wraparound and passes it to bfd_alloc without rejecting UINT_MAX.",
+        "Target source retains the unchecked unsigned-int strsize+1 expression; 8bdf0be19d27 is absent from history."
+      ],
+      "suggested_action": "Keep vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-12459",
+    "label": "vuln",
+    "tag": "binutils-2_29",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.29-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The reachable Mach-O reader retains the allocation-size overflow; x86-64 does not eliminate the 32-bit arithmetic.",
+      "evidence": [
+        "Target -i lists Mach-O backends; registered symbol-table dispatch reaches bfd_mach_o_read_symtab_strtab via the call at 0xa1ea84.",
+        "At 0xa1e9b8, lea 0x1(%rdx),%esi computes the allocation size with 32-bit wraparound and passes it to bfd_alloc without rejecting UINT_MAX.",
+        "Target source retains the unchecked unsigned-int strsize+1 expression; 8bdf0be19d27 is absent from history."
+      ],
+      "suggested_action": "Keep vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-9756",
+    "label": "patch",
+    "tag": "binutils-2_29",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.29-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The relevant AArch64 decoder is reachable in this x86-64 executable, and its machine code contains the exact fix behavior. The patch label is applicable.",
+      "evidence": [
+        "The x86-64 target and debug companion share Build-ID cbf0b20289557094f5212e35df31490b484992a3.",
+        "The ordinary adapter enables --enable-targets=all. This artifact's -i output lists AArch64 formats; bounded -D -b binary -m aarch64 decoding of existing file bytes succeeded.",
+        "Compiled dispatch selects print_insn_aarch64 at 0x624b20. The decoder calls aarch64_extract_operand, whose instruction at 0x62d2c0 jumps to aarch64_ext_ldst_reglist at 0x622d60.",
+        "At 0x622e87, cmp $0xa,%edx followed by ja rejects indexes above 10, returning zero before accessing the 11-entry table. This implements the selected diff's bounds check.",
+        "Local git confirms binutils-2_29 resolves to dd9a28c0966d13924fbd1096a724ae334954d830 and contains fix cd3ea7c69acc5045eb28f9bf80d923116e15e4f5."
+      ],
+      "suggested_action": "Retain the patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-9756",
+    "label": "patch",
+    "tag": "binutils-2_29_1",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.29.1-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The relevant AArch64 decoder is reachable in this x86-64 executable, and its machine code contains the exact fix behavior. The patch label is applicable.",
+      "evidence": [
+        "The target is an x86-64 executable with embedded debug information and Build-ID 4a569a5cd1c2cbd6112a317f13fd1ebcf866895f.",
+        "The ordinary adapter enables --enable-targets=all. This artifact's -i output lists AArch64 formats; bounded -D -b binary -m aarch64 decoding of existing file bytes succeeded.",
+        "Compiled dispatch selects print_insn_aarch64 at 0x624b40. The decoder calls aarch64_extract_operand, whose instruction at 0x62d2e0 jumps to aarch64_ext_ldst_reglist at 0x622d80.",
+        "At 0x622ea7, cmp $0xa,%edx followed by ja rejects indexes above 10, returning zero before accessing the 11-entry table. This implements the selected diff's bounds check.",
+        "Local git confirms binutils-2_29_1 resolves to 90276f15379d380761fc499da2ba24cfb3c12a94 and contains fix cd3ea7c69acc5045eb28f9bf80d923116e15e4f5."
+      ],
+      "suggested_action": "Retain the patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-9756",
+    "label": "patch",
+    "tag": "binutils-2_30",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.30-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The relevant AArch64 decoder is reachable in this x86-64 executable, and its machine code retains the exact fix behavior. No patch-evolution classification is needed.",
+      "evidence": [
+        "The x86-64 target and debug companion share Build-ID 673dc41fb31c2dd523496cc404a01a18a25120dd.",
+        "The ordinary adapter enables --enable-targets=all. This artifact's -i output lists AArch64 formats; bounded -D -b binary -m aarch64 decoding of existing file bytes succeeded.",
+        "Compiled dispatch selects print_insn_aarch64 at 0x635df0. The decoder calls aarch64_extract_operand, whose instruction at 0x63e983 jumps to aarch64_ext_ldst_reglist at 0x633fa0.",
+        "At 0x6340c7, cmp $0xa,%edx followed by ja rejects indexes above 10, returning zero before accessing the 11-entry table. This implements the selected diff's bounds check.",
+        "Local git confirms binutils-2_30 resolves to 8db5daf9efe8a6174d3b10ac7bba8c178836e9ce and contains fix cd3ea7c69acc5045eb28f9bf80d923116e15e4f5."
+      ],
+      "suggested_action": "Retain the patch label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  },
+  {
+    "CVE": "CVE-2017-9756",
+    "label": "vuln",
+    "tag": "binutils-2_28",
+    "binary": "objdump",
+    "target_path": "/home/zhangxb/server/dataset4ppt_na35_20260908_base/binutils/binaries/target/binutils_stripped/binutils-2.28-objdump-gcc-O2",
+    "compiler": "",
+    "opt": "",
+    "build_profile": "",
+    "candidate_type": "affectedness_audit",
+    "missing_functions": [],
+    "reason": "selected target affectedness audit",
+    "review": {
+      "status": "affected",
+      "confidence": 0.99,
+      "reason": "The artifact exposes the AArch64 decoder and retains the unchecked, input-derived table indexing addressed by this CVE. The vuln label is applicable.",
+      "evidence": [
+        "The x86-64 target and debug companion share Build-ID 9ca8ee7ff14db1079db1fa121bed147644702cde.",
+        "The ordinary adapter enables --enable-targets=all. This artifact's -i output lists AArch64 formats; bounded -D -b binary -m aarch64 decoding of existing file bytes succeeded.",
+        "Compiled dispatch selects print_insn_aarch64 at 0x60fdc0. The decoder calls aarch64_extract_operand, whose instruction at 0x618520 jumps to aarch64_ext_ldst_reglist at 0x60e010.",
+        "After opcode extraction at 0x60e138, instructions at 0x60e142 and 0x60e146 scale the index and access the stack table without a bounds check.",
+        "Local source defines FLD_opcode as four bits, permitting values 0–15, but data has only 11 entries; load/store opcode masks leave those bits variable. Tag binutils-2_28 resolves to 7fa393306ed8b93019d225548474c0540b8928f7 and lacks both the selected fix commit and its bounds-check behavior."
+      ],
+      "suggested_action": "Retain the vuln label.",
+      "compiler": "gcc",
+      "opt": "-O2",
+      "build_profile": "",
+      "policy": "affectedness-audit-v2"
+    }
+  }
+]

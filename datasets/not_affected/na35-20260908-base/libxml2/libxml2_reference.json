@@ -1,0 +1,24 @@
+[
+  {
+    "CVE": "CVE-2015-8035",
+    "vuln": "CVE-2015-8035-vuln-e724879d964d-libxml2",
+    "patch": "CVE-2015-8035-patch-f0709e3ca8f8-libxml2",
+    "functions": [
+      "xz_decomp"
+    ],
+    "compiler": "gcc",
+    "opt": "-O0",
+    "build_profile": ""
+  },
+  {
+    "CVE": "CVE-2017-18258",
+    "vuln": "CVE-2017-18258-vuln-0fcab658a27c-libxml2",
+    "patch": "CVE-2017-18258-patch-e2a9122b8dde-libxml2",
+    "functions": [
+      "xz_head"
+    ],
+    "compiler": "gcc",
+    "opt": "-O0",
+    "build_profile": ""
+  }
+]

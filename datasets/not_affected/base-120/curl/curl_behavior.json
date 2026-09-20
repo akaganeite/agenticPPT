@@ -1,0 +1,491 @@
+{
+  "CVE-2016-3739": {
+    "cve_id": "CVE-2016-3739",
+    "cwe": "CWE-20",
+    "function_anchors": {
+      "mbed_connect_step1": [
+        {
+          "anchor": "\"couldn't set hostname in mbedTLS\"",
+          "anchor_type": "constant",
+          "binary_locator_hint": "Search for this exact string constant in the binary; it is passed to failf and appears in the function's error path after the patched unconditional hostname call.",
+          "rank": 1,
+          "source_evidence": "New lines in patch hunk for mbed_connect_step1 show: failf(data, \"couldn't set hostname in mbedTLS\");",
+          "why_unique": "This string was introduced specifically by the patch and is unlikely to appear anywhere else in curl or the library, making it a highly reliable fingerprint for the patched function."
+        },
+        {
+          "anchor": "\"mbedTLS does not support SSLv2\"",
+          "anchor_type": "constant",
+          "binary_locator_hint": "Locate this string reference; it is used in an early version check and passed to failf. The surrounding code checks for CURL_SSLVERSION_SSLv2.",
+          "rank": 2,
+          "source_evidence": "Reduced function code: if(data->set.ssl.version == CURL_SSLVERSION_SSLv2) { failf(data, \"mbedTLS does not support SSLv2\"); ... }",
+          "why_unique": "This string is specific to the mbedTLS backend and appears only in this connection initialization function."
+        },
+        {
+          "anchor": "Call sequence mbedtls_ssl_set_hostname(?, ?) followed by a conditional jump to a block calling failf(?, \"couldn't set hostname in mbedTLS\")",
+          "anchor_type": "call_sequence",
+          "binary_locator_hint": "Identify the external call to mbedtls_ssl_set_hostname; the surrounding logic checks the return value and branches to the error path containing the distinctive string.",
+          "rank": 3,
+          "source_evidence": "Patch hunk new lines and reduced code: if(mbedtls_ssl_set_hostname(&connssl->ssl, conn->host.name)) { failf(data, \"couldn't set hostname in mbedTLS\"); ... }",
+          "why_unique": "The combination of this specific library call and the error message uniquely marks the patched code flow, especially since the hostname call is now unconditional and directly precedes an error check."
+        },
+        {
+          "anchor": "Constants MBEDTLS_SSL_MAJOR_VERSION_3 and MBEDTLS_SSL_MINOR_VERSION_0/1/2/3 in a switch statement assigning min/max version via mbedtls_ssl_conf_min_version/max_version",
+          "anchor_type": "constant",
+          "binary_locator_hint": "Look for a series of comparisons against CURL_SSLVERSION_* constants followed by calls to mbedtls_ssl_conf_min_version and mbedtls_ssl_conf_max_version with these version constants.",
+          "rank": 4,
+          "source_evidence": "Reduced function code switch cases: case CURL_SSLVERSION_SSLv3: mbedtls_ssl_conf_min_version(... MBEDTLS_SSL_MAJOR_VERSION_3, MBEDTLS_SSL_MINOR_VERSION_0); ...",
+          "why_unique": "This switch-driven version configuration block is a distinctive pattern of the mbedTLS backend’s step1 function, not duplicated in other TLS backends."
+        },
+        {
+          "anchor": "Error format string \"Error reading ca cert file %s - mbedTLS: (-0x%04X) %s\"",
+          "anchor_type": "string",
+          "binary_locator_hint": "Search for this format string; it appears in the branch handling CA file parsing failure with mbedtls_x509_crt_parse_file and a call to failf.",
+          "rank": 5,
+          "source_evidence": "Reduced function code: failf(data, \"Error reading ca cert file %s - mbedTLS: (-0x%04X) %s\", data->set.str[STRING_SSL_CAFILE], -ret, errorbuf);",
+          "why_unique": "The combination of the library name ‘mbedTLS’ and the hex error code format makes this string highly specific to the mbedTLS certificate loading routines in this function."
+        }
+      ],
+      "polarssl_connect_step1": [
+        {
+          "anchor": "\"couldn't set hostname in PolarSSL\"",
+          "anchor_type": "constant",
+          "binary_locator_hint": "Search for this exact string constant; it is passed to failf after the patched unconditional ssl_set_hostname call.",
+          "rank": 1,
+          "source_evidence": "New lines in patch hunk for polarssl_connect_step1: failf(data, \"couldn't set hostname in PolarSSL\");",
+          "why_unique": "This string was introduced by the patch specifically for the PolarSSL backend and does not appear elsewhere, providing a strong signature for the patched function."
+        },
+        {
+          "anchor": "\"PolarSSL does not support SSLv2\"",
+          "anchor_type": "constant",
+          "binary_locator_hint": "Locate this string reference; it is used in an early SSLv2 version check with failf.",
+          "rank": 2,
+          "source_evidence": "Reduced function code: if(data->set.ssl.version == CURL_SSLVERSION_SSLv2) { failf(data, \"PolarSSL does not support SSLv2\"); ... }",
+          "why_unique": "This string is exclusive to the PolarSSL backend’s initialization function, making it a reliable anchor."
+        },
+        {
+          "anchor": "Call sequence ssl_set_hostname(?, ?) followed by a conditional jump to a block calling failf(?, \"couldn't set hostname in PolarSSL\")",
+          "anchor_type": "call_sequence",
+          "binary_locator_hint": "Locate the external call to ssl_set_hostname; the immediately following error check and distinctive error message mark the patched code.",
+          "rank": 3,
+          "source_evidence": "Patch hunk new lines and reduced code: if(ssl_set_hostname(&connssl->ssl, conn->host.name)) { failf(data, \"couldn't set hostname in PolarSSL\"); ... }",
+          "why_unique": "The combination of this PolarSSL API call and the unique error string creates a discriminant pattern only present in the patched step1 function."
+        },
+        {
+          "anchor": "Constants SSL_MAJOR_VERSION_3 and SSL_MINOR_VERSION_0/1/2/3 in multiple calls to ssl_set_min_version / ssl_set_max_version",
+          "anchor_type": "constant",
+          "binary_locator_hint": "Search for a series of ssl_set_min_version and ssl_set_max_version calls with these version constants, likely inside a switch or if-else chain based on CURL_SSLVERSION_*.",
+          "rank": 4,
+          "source_evidence": "Reduced function code: case CURL_SSLVERSION_SSLv3: ssl_set_min_version(&connssl->ssl, SSL_MAJOR_VERSION_3, SSL_MINOR_VERSION_0); ssl_set_max_version(...);",
+          "why_unique": "This version‑setting pattern with PolarSSL-specific constants is a telltale mark of the PolarSSL backend initialization and unlikely to be found elsewhere."
+        },
+        {
+          "anchor": "Error format string \"Error reading ca cert file %s - PolarSSL: (-0x%04X) %s\"",
+          "anchor_type": "string",
+          "binary_locator_hint": "Look for this format string used in failf after a call to x509_crt_parse_file.",
+          "rank": 5,
+          "source_evidence": "Reduced function code: failf(data, \"Error reading ca cert file %s - PolarSSL: (-0x%04X) %s\", data->set.str[STRING_SSL_CAFILE], -ret, errorbuf);",
+          "why_unique": "This format string explicitly names ‘PolarSSL’ and includes a hex error code format, making it a strong indicator of the PolarSSL certificate‑loading code within this function."
+        }
+      ]
+    },
+    "functions": [
+      "mbed_connect_step1",
+      "polarssl_connect_step1"
+    ],
+    "patch_commit_message": "mbedtls/polarssl: set \"hostname\" unconditionally\n\n...as otherwise the TLS libs will skip the CN/SAN check and just allow\nconnection to any server. curl previously skipped this function when SNI\nwasn't used or when connecting to an IP address specified host.\n\nCVE-2016-3739\n\nBug: https://curl.haxx.se/docs/adv_20160518A.html\nReported-by: Moti Avrahami",
+    "patch_hunk": [
+      {
+        "header": "@@ -391,13 +391,12 @@ mbed_connect_step1(struct connectdata *conn,",
+        "new_lines": [
+          "  if(mbedtls_ssl_set_hostname(&connssl->ssl, conn->host.name)) {",
+          "    /* mbedtls_ssl_set_hostname() sets the name to use in CN/SAN checks *and*",
+          "       the name to set in the SNI extension. So even if curl connects to a",
+          "       host specified as an IP address, this function must be used. */",
+          "    failf(data, \"couldn't set hostname in mbedTLS\");",
+          "    return CURLE_SSL_CONNECT_ERROR;"
+        ],
+        "old_lines": [
+          "  if(!Curl_inet_pton(AF_INET, conn->host.name, &addr) &&",
+          "#ifdef ENABLE_IPV6",
+          "     !Curl_inet_pton(AF_INET6, conn->host.name, &addr) &&",
+          "#endif",
+          "     sni && mbedtls_ssl_set_hostname(&connssl->ssl, conn->host.name)) {",
+          "    infof(data, \"WARNING: failed to configure \"",
+          "          \"server name indication (SNI) TLS extension\\n\");"
+        ]
+      },
+      {
+        "header": "@@ -354,13 +354,12 @@ polarssl_connect_step1(struct connectdata *conn,",
+        "new_lines": [
+          "  if(ssl_set_hostname(&connssl->ssl, conn->host.name)) {",
+          "    /* ssl_set_hostname() sets the name to use in CN/SAN checks *and* the name",
+          "       to set in the SNI extension. So even if curl connects to a host",
+          "       specified as an IP address, this function must be used. */",
+          "    failf(data, \"couldn't set hostname in PolarSSL\");",
+          "    return CURLE_SSL_CONNECT_ERROR;"
+        ],
+        "old_lines": [
+          "  if(!Curl_inet_pton(AF_INET, conn->host.name, &addr) &&",
+          "#ifdef ENABLE_IPV6",
+          "     !Curl_inet_pton(AF_INET6, conn->host.name, &addr) &&",
+          "#endif",
+          "     sni && ssl_set_hostname(&connssl->ssl, conn->host.name)) {",
+          "     infof(data, \"WARNING: failed to configure \"",
+          "                 \"server name indication (SNI) TLS extension\\n\");"
+        ]
+      }
+    ],
+    "patch_intent_analysis": {
+      "behavior_changes": [
+        "Previously, mbedtls_ssl_set_hostname (or ssl_set_hostname) was only called if the host was not an IP address and SNI was enabled; on failure, a warning was logged but the connection continued.",
+        "After patch, the hostname-setting function is called unconditionally; if it fails, the function immediately returns CURLE_SSL_CONNECT_ERROR.",
+        "The removal of the pre‑conditions (IP check, SNI flag) ensures hostname verification is always performed by the TLS library."
+      ],
+      "intended_security_property": "Mandatory server identity verification through TLS hostname (CN/SAN) checks for all connections.",
+      "summary": "The patch ensures the hostname is unconditionally passed to the TLS library via mbedtls_ssl_set_hostname / ssl_set_hostname, enabling certificate CN/SAN checks even for IP addresses and SSLv3 connections. It also hardens error handling by converting a warning into a fatal error if the hostname cannot be set."
+    },
+    "patch_source": {
+      "commit": "6efd2fa529a189bf41736a610f6184cd8ad94b4d",
+      "locations": [
+        {
+          "changed_new_lines": [
+            394,
+            395,
+            396,
+            397,
+            398,
+            399
+          ],
+          "changed_old_lines": [
+            394,
+            395,
+            396,
+            397,
+            398,
+            399,
+            400
+          ],
+          "file": "lib/vtls/mbedtls.c",
+          "function": "mbed_connect_step1",
+          "function_line_range": [
+            158,
+            430
+          ]
+        },
+        {
+          "changed_new_lines": [
+            357,
+            358,
+            359,
+            360,
+            361,
+            362
+          ],
+          "changed_old_lines": [
+            357,
+            358,
+            359,
+            360,
+            361,
+            362,
+            363
+          ],
+          "file": "lib/vtls/polarssl.c",
+          "function": "polarssl_connect_step1",
+          "function_line_range": [
+            139,
+            393
+          ]
+        }
+      ]
+    },
+    "project": "curl",
+    "reduced_function_code": [
+      {
+        "mbed_connect_step1": "static CURLcode\nmbed_connect_step1(struct connectdata *conn,\n                   int sockindex)\n{\nstruct SessionHandle *data = conn->data;\nstruct ssl_connect_data* connssl = &conn->ssl[sockindex];\nbool sni = TRUE;\nint ret = -1;\nvoid *old_session = NULL;\nchar errorbuf[128];\n\nstruct connectdata *conn\nif(data->set.ssl.version == CURL_SSLVERSION_SSLv2) {\n    failf(data, \"mbedTLS does not support SSLv2\");\n    return CURLE_SSL_CONNECT_ERROR;\n  }\n  else if(data->set.ssl.version == CURL_SSLVERSION_SSLv3)\n    sni = FALSE;\nmbedtls_ctr_drbg_init(&connssl->ctr_drbg);\nret = mbedtls_ctr_drbg_seed(&connssl->ctr_drbg, entropy_func_mutex,\n                              &entropy, NULL, 0);\nfailf(data, \"Failed - mbedTLS: ctr_drbg_init returned (-0x%04X) %s\\n\",\n          -ret, errorbuf);\nmbedtls_entropy_init(&connssl->entropy);\nmbedtls_ctr_drbg_init(&connssl->ctr_drbg);\nret = mbedtls_ctr_drbg_seed(&connssl->ctr_drbg, mbedtls_entropy_func,\n                              &connssl->entropy, NULL, 0);\nfailf(data, \"Failed - mbedTLS: ctr_drbg_init returned (-0x%04X) %s\\n\",\n          -ret, errorbuf);\nmbedtls_x509_crt_init(&connssl->cacert);\nif(data->set.str[STRING_SSL_CAFILE]) {\n    ret = mbedtls_x509_crt_parse_file(&connssl->cacert,\n                                      data->set.str[STRING_SSL_CAFILE]);\n\n    if(ret<0) {\n#ifdef MBEDTLS_ERROR_C\n      mbedtls_strerror(ret, errorbuf, sizeof(errorbuf));\n#endif /* MBEDTLS_ERROR_C */\n      failf(data, \"Error reading ca cert file %s - mbedTLS: (-0x%04X) %s\",\n            data->set.str[STRING_SSL_CAFILE], -ret, errorbuf);\n\n      if(data->set.ssl.verifypeer)\n        return CURLE_SSL_CACERT_BADFILE;\n    }\n  }\nif(data->set.str[STRING_SSL_CAPATH]) {\n    ret = mbedtls_x509_crt_parse_path(&connssl->cacert,\n                                      data->set.str[STRING_SSL_CAPATH]);\n\n    if(ret<0) {\n#ifdef MBEDTLS_ERROR_C\n      mbedtls_strerror(ret, errorbuf, sizeof(errorbuf));\n#endif /* MBEDTLS_ERROR_C */\n      failf(data, \"Error reading ca cert path %s - mbedTLS: (-0x%04X) %s\",\n            data->set.str[STRING_SSL_CAPATH], -ret, errorbuf);\n\n      if(data->set.ssl.verifypeer)\n        return CURLE_SSL_CACERT_BADFILE;\n    }\n  }\nmbedtls_x509_crt_init(&connssl->clicert);\nif(data->set.str[STRING_CERT]) {\n    ret = mbedtls_x509_crt_parse_file(&connssl->clicert,\n                                      data->set.str[STRING_CERT]);\n\n    if(ret) {\n#ifdef MBEDTLS_ERROR_C\n      mbedtls_strerror(ret, errorbuf, sizeof(errorbuf));\n#endif /* MBEDTLS_ERROR_C */\n      failf(data, \"Error reading client cert file %s - mbedTLS: (-0x%04X) %s\",\n            data->set.str[STRING_CERT], -ret, errorbuf);\n\n      return CURLE_SSL_CERTPROBLEM;\n    }\n  }\nmbedtls_pk_init(&connssl->pk);\nif(data->set.str[STRING_KEY]) {\n    ret = mbedtls_pk_parse_keyfile(&connssl->pk, data->set.str[STRING_KEY],\n                                   data->set.str[STRING_KEY_PASSWD]);\n    if(ret == 0 && !mbedtls_pk_can_do(&connssl->pk, MBEDTLS_PK_RSA))\n      ret = MBEDTLS_ERR_PK_TYPE_MISMATCH;\n\n    if(ret) {\n#ifdef MBEDTLS_ERROR_C\n      mbedtls_strerror(ret, errorbuf, sizeof(errorbuf));\n#endif /* MBEDTLS_ERROR_C */\n      failf(data, \"Error reading private key %s - mbedTLS: (-0x%04X) %s\",\n            data->set.str[STRING_KEY], -ret, errorbuf);\n\n      return CURLE_SSL_CERTPROBLEM;\n    }\n  }\nmbedtls_x509_crl_init(&connssl->crl);\nif(data->set.str[STRING_SSL_CRLFILE]) {\n    ret = mbedtls_x509_crl_parse_file(&connssl->crl,\n                                      data->set.str[STRING_SSL_CRLFILE]);\n\n    if(ret) {\n#ifdef MBEDTLS_ERROR_C\n      mbedtls_strerror(ret, errorbuf, sizeof(errorbuf));\n#endif /* MBEDTLS_ERROR_C */\n      failf(data, \"Error reading CRL file %s - mbedTLS: (-0x%04X) %s\",\n            data->set.str[STRING_SSL_CRLFILE], -ret, errorbuf);\n\n      return CURLE_SSL_CRL_BADFILE;\n    }\n  }\ninfof(data, \"mbedTLS: Connecting to %s:%d\\n\",\n        conn->host.name, conn->remote_port);\nmbedtls_ssl_config_init(&connssl->config);\nmbedtls_ssl_init(&connssl->ssl);\nif(mbedtls_ssl_setup(&connssl->ssl, &connssl->config)) {\n    failf(data, \"mbedTLS: ssl_init failed\");\n    return CURLE_SSL_CONNECT_ERROR;\n  }\nret = mbedtls_ssl_config_defaults(&connssl->config,\n                                    MBEDTLS_SSL_IS_CLIENT,\n                                    MBEDTLS_SSL_TRANSPORT_STREAM,\n                                    MBEDTLS_SSL_PRESET_DEFAULT);\nfailf(data, \"mbedTLS: ssl_config failed\");\nreturn CURLE_SSL_CONNECT_ERROR;\nmbedtls_ssl_conf_cert_profile(&connssl->config,\n                                &mbedtls_x509_crt_profile_fr);\nswitch(data->set.ssl.version) {\n  case CURL_SSLVERSION_DEFAULT:\n  case CURL_SSLVERSION_TLSv1:\n    mbedtls_ssl_conf_min_version(&connssl->config, MBEDTLS_SSL_MAJOR_VERSION_3,\n                                 MBEDTLS_SSL_MINOR_VERSION_1);\n    infof(data, \"mbedTLS: Set min SSL version to TLS 1.0\\n\");\n    break;\n  case CURL_SSLVERSION_SSLv3:\n    mbedtls_ssl_conf_min_version(&connssl->config, MBEDTLS_SSL_MAJOR_VERSION_3,\n                                 MBEDTLS_SSL_MINOR_VERSION_0);\n    mbedtls_ssl_conf_max_version(&connssl->config, MBEDTLS_SSL_MAJOR_VERSION_3,\n                                 MBEDTLS_SSL_MINOR_VERSION_0);\n    infof(data, \"mbedTLS: Set SSL version to SSLv3\\n\");\n    break;\n  case CURL_SSLVERSION_TLSv1_0:\n    mbedtls_ssl_conf_min_version(&connssl->config, MBEDTLS_SSL_MAJOR_VERSION_3,\n                                 MBEDTLS_SSL_MINOR_VERSION_1);\n    mbedtls_ssl_conf_max_version(&connssl->config, MBEDTLS_SSL_MAJOR_VERSION_3,\n                                 MBEDTLS_SSL_MINOR_VERSION_1);\n    infof(data, \"mbedTLS: Set SSL version to TLS 1.0\\n\");\n    break;\n  case CURL_SSLVERSION_TLSv1_1:\n    mbedtls_ssl_conf_min_version(&connssl->config, MBEDTLS_SSL_MAJOR_VERSION_3,\n                                 MBEDTLS_SSL_MINOR_VERSION_2);\n    mbedtls_ssl_conf_max_version(&connssl->config, MBEDTLS_SSL_MAJOR_VERSION_3,\n                                 MBEDTLS_SSL_MINOR_VERSION_2);\n    infof(data, \"mbedTLS: Set SSL version to TLS 1.1\\n\");\n    break;\n  case CURL_SSLVERSION_TLSv1_2:\n    mbedtls_ssl_conf_min_version(&connssl->config, MBEDTLS_SSL_MAJOR_VERSION_3,\n                                 MBEDTLS_SSL_MINOR_VERSION_3);\n    mbedtls_ssl_conf_max_version(&connssl->config, MBEDTLS_SSL_MAJOR_VERSION_3,\n                                 MBEDTLS_SSL_MINOR_VERSION_3);\n    infof(data, \"mbedTLS: Set SSL version to TLS 1.2\\n\");\n    break;\n  default:\n    failf(data, \"mbedTLS: Unsupported SSL protocol version\");\n    return CURLE_SSL_CONNECT_ERROR;\n  }\nmbedtls_ssl_conf_authmode(&connssl->config, MBEDTLS_SSL_VERIFY_OPTIONAL);\nmbedtls_ssl_conf_rng(&connssl->config, mbedtls_ctr_drbg_random,\n                       &connssl->ctr_drbg);\nmbedtls_ssl_set_bio(&connssl->ssl, &conn->sock[sockindex],\n                      mbedtls_net_send,\n                      mbedtls_net_recv,\n                      NULL /*  rev_timeout() */);\nmbedtls_ssl_conf_ciphersuites(&connssl->config,\n                                mbedtls_ssl_list_ciphersuites());\nif(!Curl_ssl_getsessionid(conn, &old_session, NULL)) {\n    ret = mbedtls_ssl_set_session(&connssl->ssl, old_session);\n    if(ret) {\n      failf(data, \"mbedtls_ssl_set_session returned -0x%x\", -ret);\n      return CURLE_SSL_CONNECT_ERROR;\n    }\n    infof(data, \"mbedTLS re-using session\\n\");\n  }\nmbedtls_ssl_conf_ca_chain(&connssl->config,\n                            &connssl->cacert,\n                            &connssl->crl);\nif(data->set.str[STRING_KEY]) {\n    mbedtls_ssl_conf_own_cert(&connssl->config,\n                              &connssl->clicert, &connssl->pk);\n  }\nif(mbedtls_ssl_set_hostname(&connssl->ssl, conn->host.name)) {\n    /* mbedtls_ssl_set_hostname() sets the name to use in CN/SAN checks *and*\n       the name to set in the SNI extension. So even if curl connects to a\n       host specified as an IP address, this function must be used. */\n    failf(data, \"couldn't set hostname in mbedTLS\");\n    return CURLE_SSL_CONNECT_ERROR;\n  }\nif(conn->bits.tls_enable_alpn) {\n    const char **p = &connssl->protocols[0];\n#ifdef USE_NGHTTP2\n    if(data->set.httpversion >= CURL_HTTP_VERSION_2)\n      *p++ = NGHTTP2_PROTO_VERSION_ID;\n#endif\n    *p++ = ALPN_HTTP_1_1;\n    *p = NULL;\n    /* this function doesn't clone the protocols array, which is why we need\n       to keep it around */\n    if(mbedtls_ssl_conf_alpn_protocols(&connssl->config,\n                                       &connssl->protocols[0])) {\n      failf(data, \"Failed setting ALPN protocols\");\n      return CURLE_SSL_CONNECT_ERROR;\n    }\n    for(p = &connssl->protocols[0]; *p; ++p)\n      infof(data, \"ALPN, offering %s\\n\", *p);\n  }\nmbedtls_ssl_conf_dbg(&connssl->config, mbedtls_debug, data);\nconnssl->connecting_state = ssl_connect_2;\n}"
+      },
+      {
+        "polarssl_connect_step1": "static CURLcode\npolarssl_connect_step1(struct connectdata *conn,\n                     int sockindex)\n{\nstruct SessionHandle *data = conn->data;\nstruct ssl_connect_data* connssl = &conn->ssl[sockindex];\nbool sni = TRUE;\nint ret = -1;\nvoid *old_session = NULL;\nchar errorbuf[128];\n\nstruct connectdata *conn\nif(data->set.ssl.version == CURL_SSLVERSION_SSLv2) {\n    failf(data, \"PolarSSL does not support SSLv2\");\n    return CURLE_SSL_CONNECT_ERROR;\n  }\n  else if(data->set.ssl.version == CURL_SSLVERSION_SSLv3)\n    sni = FALSE;\nif((ret = ctr_drbg_init(&connssl->ctr_drbg, entropy_func_mutex, &entropy,\n                          NULL, 0)) != 0) {\n#ifdef POLARSSL_ERROR_C\n     error_strerror(ret, errorbuf, sizeof(errorbuf));\n#endif /* POLARSSL_ERROR_C */\n     failf(data, \"Failed - PolarSSL: ctr_drbg_init returned (-0x%04X) %s\\n\",\n                                                            -ret, errorbuf);\n  }\nentropy_init(&connssl->entropy);\nif((ret = ctr_drbg_init(&connssl->ctr_drbg, entropy_func, &connssl->entropy,\n                          NULL, 0)) != 0) {\n#ifdef POLARSSL_ERROR_C\n     error_strerror(ret, errorbuf, sizeof(errorbuf));\n#endif /* POLARSSL_ERROR_C */\n     failf(data, \"Failed - PolarSSL: ctr_drbg_init returned (-0x%04X) %s\\n\",\n                                                            -ret, errorbuf);\n  }\nmemset(&connssl->cacert, 0, sizeof(x509_crt));\nif(data->set.str[STRING_SSL_CAFILE]) {\n    ret = x509_crt_parse_file(&connssl->cacert,\n                              data->set.str[STRING_SSL_CAFILE]);\n\n    if(ret<0) {\n#ifdef POLARSSL_ERROR_C\n      error_strerror(ret, errorbuf, sizeof(errorbuf));\n#endif /* POLARSSL_ERROR_C */\n      failf(data, \"Error reading ca cert file %s - PolarSSL: (-0x%04X) %s\",\n            data->set.str[STRING_SSL_CAFILE], -ret, errorbuf);\n\n      if(data->set.ssl.verifypeer)\n        return CURLE_SSL_CACERT_BADFILE;\n    }\n  }\nif(data->set.str[STRING_SSL_CAPATH]) {\n    ret = x509_crt_parse_path(&connssl->cacert,\n                              data->set.str[STRING_SSL_CAPATH]);\n\n    if(ret<0) {\n#ifdef POLARSSL_ERROR_C\n      error_strerror(ret, errorbuf, sizeof(errorbuf));\n#endif /* POLARSSL_ERROR_C */\n      failf(data, \"Error reading ca cert path %s - PolarSSL: (-0x%04X) %s\",\n            data->set.str[STRING_SSL_CAPATH], -ret, errorbuf);\n\n      if(data->set.ssl.verifypeer)\n        return CURLE_SSL_CACERT_BADFILE;\n    }\n  }\nmemset(&connssl->clicert, 0, sizeof(x509_crt));\nif(data->set.str[STRING_CERT]) {\n    ret = x509_crt_parse_file(&connssl->clicert,\n                              data->set.str[STRING_CERT]);\n\n    if(ret) {\n#ifdef POLARSSL_ERROR_C\n      error_strerror(ret, errorbuf, sizeof(errorbuf));\n#endif /* POLARSSL_ERROR_C */\n      failf(data, \"Error reading client cert file %s - PolarSSL: (-0x%04X) %s\",\n            data->set.str[STRING_CERT], -ret, errorbuf);\n\n      return CURLE_SSL_CERTPROBLEM;\n    }\n  }\nif(data->set.str[STRING_KEY]) {\n    pk_context pk;\n    pk_init(&pk);\n    ret = pk_parse_keyfile(&pk, data->set.str[STRING_KEY],\n                           data->set.str[STRING_KEY_PASSWD]);\n    if(ret == 0 && !pk_can_do(&pk, POLARSSL_PK_RSA))\n      ret = POLARSSL_ERR_PK_TYPE_MISMATCH;\n    if(ret == 0)\n      rsa_copy(&connssl->rsa, pk_rsa(pk));\n    else\n      rsa_free(&connssl->rsa);\n    pk_free(&pk);\n\n    if(ret) {\n#ifdef POLARSSL_ERROR_C\n      error_strerror(ret, errorbuf, sizeof(errorbuf));\n#endif /* POLARSSL_ERROR_C */\n      failf(data, \"Error reading private key %s - PolarSSL: (-0x%04X) %s\",\n            data->set.str[STRING_KEY], -ret, errorbuf);\n\n      return CURLE_SSL_CERTPROBLEM;\n    }\n  }\nmemset(&connssl->crl, 0, sizeof(x509_crl));\nif(data->set.str[STRING_SSL_CRLFILE]) {\n    ret = x509_crl_parse_file(&connssl->crl,\n                              data->set.str[STRING_SSL_CRLFILE]);\n\n    if(ret) {\n#ifdef POLARSSL_ERROR_C\n      error_strerror(ret, errorbuf, sizeof(errorbuf));\n#endif /* POLARSSL_ERROR_C */\n      failf(data, \"Error reading CRL file %s - PolarSSL: (-0x%04X) %s\",\n            data->set.str[STRING_SSL_CRLFILE], -ret, errorbuf);\n\n      return CURLE_SSL_CRL_BADFILE;\n    }\n  }\ninfof(data, \"PolarSSL: Connecting to %s:%d\\n\",\n        conn->host.name, conn->remote_port);\nif(ssl_init(&connssl->ssl)) {\n    failf(data, \"PolarSSL: ssl_init failed\");\n    return CURLE_SSL_CONNECT_ERROR;\n  }\nswitch(data->set.ssl.version) {\n  default:\n  case CURL_SSLVERSION_DEFAULT:\n  case CURL_SSLVERSION_TLSv1:\n    ssl_set_min_version(&connssl->ssl, SSL_MAJOR_VERSION_3,\n                        SSL_MINOR_VERSION_1);\n    break;\n  case CURL_SSLVERSION_SSLv3:\n    ssl_set_min_version(&connssl->ssl, SSL_MAJOR_VERSION_3,\n                        SSL_MINOR_VERSION_0);\n    ssl_set_max_version(&connssl->ssl, SSL_MAJOR_VERSION_3,\n                        SSL_MINOR_VERSION_0);\n    infof(data, \"PolarSSL: Forced min. SSL Version to be SSLv3\\n\");\n    break;\n  case CURL_SSLVERSION_TLSv1_0:\n    ssl_set_min_version(&connssl->ssl, SSL_MAJOR_VERSION_3,\n                        SSL_MINOR_VERSION_1);\n    ssl_set_max_version(&connssl->ssl, SSL_MAJOR_VERSION_3,\n                        SSL_MINOR_VERSION_1);\n    infof(data, \"PolarSSL: Forced min. SSL Version to be TLS 1.0\\n\");\n    break;\n  case CURL_SSLVERSION_TLSv1_1:\n    ssl_set_min_version(&connssl->ssl, SSL_MAJOR_VERSION_3,\n                        SSL_MINOR_VERSION_2);\n    ssl_set_max_version(&connssl->ssl, SSL_MAJOR_VERSION_3,\n                        SSL_MINOR_VERSION_2);\n    infof(data, \"PolarSSL: Forced min. SSL Version to be TLS 1.1\\n\");\n    break;\n  case CURL_SSLVERSION_TLSv1_2:\n    ssl_set_min_version(&connssl->ssl, SSL_MAJOR_VERSION_3,\n                        SSL_MINOR_VERSION_3);\n    ssl_set_max_version(&connssl->ssl, SSL_MAJOR_VERSION_3,\n                        SSL_MINOR_VERSION_3);\n    infof(data, \"PolarSSL: Forced min. SSL Version to be TLS 1.2\\n\");\n    break;\n  }\nssl_set_endpoint(&connssl->ssl, SSL_IS_CLIENT);\nssl_set_authmode(&connssl->ssl, SSL_VERIFY_OPTIONAL);\nssl_set_rng(&connssl->ssl, ctr_drbg_random,\n              &connssl->ctr_drbg);\nssl_set_bio(&connssl->ssl,\n              net_recv, &conn->sock[sockindex],\n              net_send, &conn->sock[sockindex]);\nssl_set_ciphersuites(&connssl->ssl, ssl_list_ciphersuites());\nif(!Curl_ssl_getsessionid(conn, &old_session, NULL)) {\n    ret = ssl_set_session(&connssl->ssl, old_session);\n    if(ret) {\n      failf(data, \"ssl_set_session returned -0x%x\", -ret);\n      return CURLE_SSL_CONNECT_ERROR;\n    }\n    infof(data, \"PolarSSL re-using session\\n\");\n  }\nssl_set_ca_chain(&connssl->ssl,\n                   &connssl->cacert,\n                   &connssl->crl,\n                   conn->host.name);\nssl_set_own_cert_rsa(&connssl->ssl,\n                       &connssl->clicert, &connssl->rsa);\nif(ssl_set_hostname(&connssl->ssl, conn->host.name)) {\n    /* ssl_set_hostname() sets the name to use in CN/SAN checks *and* the name\n       to set in the SNI extension. So even if curl connects to a host\n       specified as an IP address, this function must be used. */\n    failf(data, \"couldn't set hostname in PolarSSL\");\n    return CURLE_SSL_CONNECT_ERROR;\n  }\nif(conn->bits.tls_enable_alpn) {\n    static const char* protocols[3];\n    int cur = 0;\n\n#ifdef USE_NGHTTP2\n    if(data->set.httpversion >= CURL_HTTP_VERSION_2) {\n      protocols[cur++] = NGHTTP2_PROTO_VERSION_ID;\n      infof(data, \"ALPN, offering %s\\n\", NGHTTP2_PROTO_VERSION_ID);\n    }\n#endif\n\n    protocols[cur++] = ALPN_HTTP_1_1;\n    infof(data, \"ALPN, offering %s\\n\", ALPN_HTTP_1_1);\n\n    protocols[cur] = NULL;\n\n    ssl_set_alpn_protocols(&connssl->ssl, protocols);\n  }\nssl_set_dbg(&connssl->ssl, polarssl_debug, data);\nconnssl->connecting_state = ssl_connect_2;\n}"
+      }
+    ],
+    "root_cause_analysis": {
+      "summary": "The pre-patch code conditionally called the TLS hostname-setting function (mbedtls_ssl_set_hostname / ssl_set_hostname) only when SNI was enabled and the host was not a numerical IP address. Because this function also enables certificate hostname verification (CN/SAN checks), skipping it allowed connections to proceed without verifying the server's certificate against the expected hostname, enabling MITM attacks with any valid certificate.",
+      "unsafe_mechanism": "Conditional invocation of the hostname-setting API based on SNI usage and IP address detection, leading to omission of mandatory certificate hostname verification."
+    },
+    "vulnerability_description": "The (1) mbed_connect_step1 function in lib/vtls/mbedtls.c and (2) polarssl_connect_step1 function in lib/vtls/polarssl.c in cURL and libcurl before 7.49.0, when using SSLv3 or making a TLS connection to a URL that uses a numerical IP address, allow remote attackers to spoof servers via an arbitrary valid certificate."
+  },
+  "CVE-2017-9502": {
+    "cve_id": "CVE-2017-9502",
+    "cwe": "CWE-119",
+    "function_anchors": {
+      "parseurlandfillconn": [
+        {
+          "anchor": "\"<url> malformed\"",
+          "anchor_type": "string",
+          "binary_locator_hint": "Search for the fixed string in .rodata; it appears inside the function in an infof/failf call after URL scheme validation.",
+          "rank": 1,
+          "source_evidence": "Patch new_lines: failf(data, \"<url> malformed\");",
+          "why_unique": "This specific error string is used exclusively in the URL parsing function and rarely elsewhere in libcurl; the surrounding code (e.g., calls to curl_strnequal) confirms the context."
+        },
+        {
+          "anchor": "curl_strnequal(protop, data->change.url, protolen) then curl_strnequal(\"://\", &data->change.url[protolen], 3)",
+          "anchor_type": "call_sequence",
+          "binary_locator_hint": "Look for back-to-back calls to curl_strnequal with arguments involving 'protop' and the literal '://'; the second call uses an offset from the first comparison length.",
+          "rank": 2,
+          "source_evidence": "Patch new_lines: if(curl_strnequal(protop, data->change.url, protolen)) ... if(curl_strnequal(\"://\", &data->change.url[protolen], 3))",
+          "why_unique": "This precise sequence of protocol and slash validation with a dynamically determined protolen is unique to the prefix reconstruction logic."
+        },
+        {
+          "anchor": "curl_strnequal(\"file:\", data->change.url, 5)",
+          "anchor_type": "constant",
+          "binary_locator_hint": "Find a comparison of a constant 5 with the string 'file:' against a URL buffer; the length 5 is hardcoded and unusual for protocol checks.",
+          "rank": 3,
+          "source_evidence": "Patch new_lines: else if(curl_strnequal(\"file:\", data->change.url, 5))",
+          "why_unique": "The combination of the string 'file:', the exact length 5, and the context of a URL scheme validation is a strong indicator of the file‑specific omission‑of‑slashes path."
+        },
+        {
+          "anchor": "reurl = malloc(prefixlen + plen + 1)",
+          "anchor_type": "dataflow",
+          "binary_locator_hint": "Locate a malloc whose size is computed as the sum of two variables (prefixlen and plen) plus 1; the variables are derived from strlen of host/URL and path respectively.",
+          "rank": 4,
+          "source_evidence": "Patch new_lines: reurl = malloc(prefixlen + plen + 1);",
+          "why_unique": "This allocation pattern directly reflects the rebuilt URL size computation and is specific to the URL reconstruction logic; the names may be stripped but the arithmetic survives."
+        },
+        {
+          "anchor": "if(!*prot_missing) { ... }",
+          "anchor_type": "branch",
+          "binary_locator_hint": "Find a branch that dereferences a pointer to a boolean (e.g., loading a byte, testing zero) and enters a block containing the string '<url> malformed' and multiple curl_strnequal calls.",
+          "rank": 5,
+          "source_evidence": "Patch new_lines: if(!*prot_missing) { ... failf(data, \"<url> malformed\"); ... }",
+          "why_unique": "The conditional entry to the scheme‑validation block using a pointer to a flag is a key structural signal; the block's content (error string and slashes check) distinguishes it from other *prot_missing uses."
+        }
+      ]
+    },
+    "functions": [
+      "parseurlandfillconn"
+    ],
+    "patch_commit_message": "url: fix buffer overwrite with file protocol (CVE-2017-9502)\n\nBug: https://github.com/curl/curl/issues/1540\nAdvisory: https://curl.haxx.se/docs/adv_20170614.html\n\nAssisted-by: Ray Satiro\nReported-by: Marcel Raad",
+    "patch_hunk": [
+      {
+        "header": "@@ -4466,6 +4466,7 @@ static CURLcode parseurlandfillconn(struct Curl_easy *data,",
+        "new_lines": [
+          "    *prot_missing = !url_has_scheme;"
+        ],
+        "old_lines": []
+      },
+      {
+        "header": "@@ -4629,14 +4630,30 @@ static CURLcode parseurlandfillconn(struct Curl_easy *data,",
+        "new_lines": [
+          "    if(!*prot_missing) {",
+          "      size_t protolen = strlen(protop);",
+          "",
+          "      if(curl_strnequal(protop, data->change.url, protolen))",
+          "        prefixlen += protolen;",
+          "      else {",
+          "        failf(data, \"<url> malformed\");",
+          "        return CURLE_URL_MALFORMAT;",
+          "      }",
+          "",
+          "      if(curl_strnequal(\"://\", &data->change.url[protolen], 3))",
+          "        prefixlen += 3;",
+          "      /* only file: is allowed to omit one or both slashes */",
+          "      else if(curl_strnequal(\"file:\", data->change.url, 5))",
+          "        prefixlen += 1 + (data->change.url[5] == '/');",
+          "      else {",
+          "        failf(data, \"<url> malformed\");",
+          "        return CURLE_URL_MALFORMAT;",
+          "      }",
+          "    }",
+          "    reurl = malloc(prefixlen + plen + 1);"
+        ],
+        "old_lines": [
+          "    size_t urllen = strlen(data->change.url); /* original URL length */",
+          "",
+          "    if(!*prot_missing)",
+          "      prefixlen += strlen(protop) + strlen(\"://\");",
+          "    reurl = malloc(urllen + 2); /* 2 for zerobyte + slash */"
+        ]
+      }
+    ],
+    "patch_intent_analysis": {
+      "behavior_changes": [
+        "Prefixlen is now validated against the original URL before incrementing; if the URL does not start with the expected protocol, parsing fails with CURLE_URL_MALFORMAT.",
+        "The addition for the '://' sequence is conditional on its actual presence; for file: URLs, prefixlen is increased by 1 or 2 based on whether a single slash follows 'file:'.",
+        "The reurl allocation size is changed from 'urllen + 2' to 'prefixlen + plen + 1', eliminating the mismatch between allocation and written data.",
+        "In the file URL handling block, *prot_missing is explicitly set to !url_has_scheme, ensuring correct state for subsequent prefix calculations."
+      ],
+      "intended_security_property": "Bounds-safe heap allocation for URL reconstruction that matches the exact byte counts derived from the actual URL contents.",
+      "summary": "The patch validates that the actual URL prefix matches the expected protocol and slashes before adjusting prefixlen, adds a special case for file: where slashes may be partially omitted, and replaces the allocation expression with the exact required size (prefixlen+plen+1) to prevent buffer overflow."
+    },
+    "patch_source": {
+      "commit": "5d7952f52e410e1d4a8ff1965e5cc6fc1bde86aa",
+      "locations": [
+        {
+          "changed_new_lines": [
+            4469,
+            4635,
+            4636,
+            4637,
+            4638,
+            4639,
+            4640,
+            4641,
+            4642,
+            4643,
+            4644,
+            4645,
+            4646,
+            4647,
+            4648,
+            4649,
+            4650,
+            4651,
+            4652,
+            4653,
+            4654,
+            4656
+          ],
+          "changed_old_lines": [
+            4632,
+            4633,
+            4636,
+            4637,
+            4639
+          ],
+          "file": "lib/url.c",
+          "function": "parseurlandfillconn",
+          "function_line_range": [
+            4326,
+            4769
+          ]
+        }
+      ]
+    },
+    "project": "curl",
+    "reduced_function_code": [
+      {
+        "parseurlandfillconn": "static CURLcode parseurlandfillconn(struct Curl_easy *data,\n                                    struct connectdata *conn,\n                                    bool *prot_missing,\n                                    char **userp, char **passwdp,\n                                    char **optionsp)\n{\nchar *fragment;\nchar *path = data->state.path;\nint i;\nint rc;\nconst char *protop = \"\";\nCURLcode result;\nbool rebuild_url = FALSE;\nbool url_has_scheme = FALSE;\nchar protobuf[16];\nchar *reurl;\nsize_t plen = strlen(path);\nsize_t prefixlen = strlen(conn->host.name);\n\nstruct Curl_easy *data\nbool *prot_missing\n*prot_missing = FALSE;\nif(strpbrk(data->change.url, \"\\r\\n\")) {\n    failf(data, \"Illegal characters found in URL\");\n    return CURLE_URL_MALFORMAT;\n  }\nif(data->change.url[0] == ':') {\n    failf(data, \"Bad URL, colon is first character\");\n    return CURLE_URL_MALFORMAT;\n  }\nif((('a' <= data->change.url[0] && data->change.url[0] <= 'z') ||\n      ('A' <= data->change.url[0] && data->change.url[0] <= 'Z')) &&\n     data->change.url[1] == ':' && data->set.str[STRING_DEFAULT_PROTOCOL] &&\n     strcasecompare(data->set.str[STRING_DEFAULT_PROTOCOL], \"file\")) {\n    ; /* do nothing */\n  }\n  else { /* check for a scheme */\n    for(i = 0; i < 16 && data->change.url[i]; ++i) {\n      if(data->change.url[i] == '/')\n        break;\n      if(data->change.url[i] == ':') {\n        url_has_scheme = TRUE;\n        break;\n      }\n    }\n  }\nif((url_has_scheme && strncasecompare(data->change.url, \"file:\", 5)) ||\n     (!url_has_scheme && data->set.str[STRING_DEFAULT_PROTOCOL] &&\n      strcasecompare(data->set.str[STRING_DEFAULT_PROTOCOL], \"file\"))) {\n    bool path_has_drive = FALSE;\n\n    if(url_has_scheme)\n      rc = sscanf(data->change.url, \"%*15[^\\n/:]:%[^\\n]\", path);\n    else\n      rc = sscanf(data->change.url, \"%[^\\n]\", path);\n\n    if(rc != 1) {\n      failf(data, \"Bad URL\");\n      return CURLE_URL_MALFORMAT;\n    }\n\n    if(url_has_scheme && path[0] == '/' && path[1] == '/') {\n      /* Allow omitted hostname (e.g. file:/<path>).  This is not strictly\n       * speaking a valid file: URL by RFC 1738, but treating file:/<path> as\n       * file://localhost/<path> is similar to how other schemes treat missing\n       * hostnames.  See RFC 1808. */\n\n      /* This cannot be done with strcpy() in a portable manner, since the\n         memory areas overlap! */\n      memmove(path, path + 2, strlen(path + 2)+1);\n    }\n\n    /* the path may start with a drive letter. for backwards compatibility\n       we skip some processing on those paths. */\n    path_has_drive = (('a' <= path[0] && path[0] <= 'z') ||\n                      ('A' <= path[0] && path[0] <= 'Z')) && path[1] == ':';\n\n    /*\n     * we deal with file://<host>/<path> differently since it supports no\n     * hostname other than \"localhost\" and \"127.0.0.1\", which is unique among\n     * the URL protocols specified in RFC 1738\n     */\n    if(path[0] != '/' && !path_has_drive) {\n      /* the URL includes a host name, it must match \"localhost\" or\n         \"127.0.0.1\" to be valid */\n      char *ptr;\n      if(!checkprefix(\"localhost/\", path) &&\n         !checkprefix(\"127.0.0.1/\", path)) {\n        failf(data, \"Invalid file://hostname/, \"\n                    \"expected localhost or 127.0.0.1 or none\");\n        return CURLE_URL_MALFORMAT;\n      }\n      ptr = &path[9]; /* now points to the slash after the host */\n\n      /* there was a host name and slash present\n\n         RFC1738 (section 3.1, page 5) says:\n\n         The rest of the locator consists of data specific to the scheme,\n         and is known as the \"url-path\". It supplies the details of how the\n         specified resource can be accessed. Note that the \"/\" between the\n         host (or port) and the url-path is NOT part of the url-path.\n\n         As most agents use file://localhost/foo to get '/foo' although the\n         slash preceding foo is a separator and not a slash for the path,\n         a URL as file://localhost//foo must be valid as well, to refer to\n         the same file with an absolute path.\n      */\n\n      if('/' == ptr[1])\n        /* if there was two slashes, we skip the first one as that is then\n           used truly as a separator */\n        ptr++;\n\n      /* This cannot be made with strcpy, as the memory chunks overlap! */\n      memmove(path, ptr, strlen(ptr)+1);\n\n      path_has_drive = (('a' <= path[0] && path[0] <= 'z') ||\n                        ('A' <= path[0] && path[0] <= 'Z')) && path[1] == ':';\n    }\n\n#if !defined(MSDOS) && !defined(WIN32) && !defined(__CYGWIN__)\n    if(path_has_drive) {\n      failf(data, \"File drive letters are only accepted in MSDOS/Windows.\");\n      return CURLE_URL_MALFORMAT;\n    }\n#endif\n\n    protop = \"file\"; /* protocol string */\n    *prot_missing = !url_has_scheme;\n  }\n  else {\n    /* clear path */\n    char slashbuf[4];\n    path[0]=0;\n\n    rc = sscanf(data->change.url,\n                \"%15[^\\n/:]:%3[/]%[^\\n/?#]%[^\\n]\",\n                protobuf, slashbuf, conn->host.name, path);\n    if(2 == rc) {\n      failf(data, \"Bad URL\");\n      return CURLE_URL_MALFORMAT;\n    }\n    if(3 > rc) {\n\n      /*\n       * The URL was badly formatted, let's try the browser-style _without_\n       * protocol specified like 'http://'.\n       */\n      rc = sscanf(data->change.url, \"%[^\\n/?#]%[^\\n]\", conn->host.name, path);\n      if(1 > rc) {\n        /*\n         * We couldn't even get this format.\n         * djgpp 2.04 has a sscanf() bug where 'conn->host.name' is\n         * assigned, but the return value is EOF!\n         */\n#if defined(__DJGPP__) && (DJGPP_MINOR == 4)\n        if(!(rc == -1 && *conn->host.name))\n#endif\n        {\n          failf(data, \"<url> malformed\");\n          return CURLE_URL_MALFORMAT;\n        }\n      }\n\n      /*\n       * Since there was no protocol part specified in the URL use the\n       * user-specified default protocol. If we weren't given a default make a\n       * guess by matching some protocols against the host's outermost\n       * sub-domain name. Finally if there was no match use HTTP.\n       */\n\n      protop = data->set.str[STRING_DEFAULT_PROTOCOL];\n      if(!protop) {\n        /* Note: if you add a new protocol, please update the list in\n         * lib/version.c too! */\n        if(checkprefix(\"FTP.\", conn->host.name))\n          protop = \"ftp\";\n        else if(checkprefix(\"DICT.\", conn->host.name))\n          protop = \"DICT\";\n        else if(checkprefix(\"LDAP.\", conn->host.name))\n          protop = \"LDAP\";\n        else if(checkprefix(\"IMAP.\", conn->host.name))\n          protop = \"IMAP\";\n        else if(checkprefix(\"SMTP.\", conn->host.name))\n          protop = \"smtp\";\n        else if(checkprefix(\"POP3.\", conn->host.name))\n          protop = \"pop3\";\n        else\n          protop = \"http\";\n      }\n\n      *prot_missing = TRUE; /* not given in URL */\n    }\n    else {\n      size_t s = strlen(slashbuf);\n      protop = protobuf;\n      if(s != 2) {\n        infof(data, \"Unwillingly accepted illegal URL using %d slash%s!\\n\",\n              s, s>1?\"es\":\"\");\n\n        if(data->change.url_alloc)\n          free(data->change.url);\n        /* repair the URL to use two slashes */\n        data->change.url = aprintf(\"%s://%s%s\",\n                                   protobuf, conn->host.name, path);\n        if(!data->change.url)\n          return CURLE_OUT_OF_MEMORY;\n        data->change.url_alloc = TRUE;\n      }\n    }\n  }\nif(!data->set.path_as_is) {\n    /* sanitise paths and remove ../ and ./ sequences according to RFC3986 */\n    char *newp = Curl_dedotdotify(path);\n    if(!newp)\n      return CURLE_OUT_OF_MEMORY;\n\n    if(strcmp(newp, path)) {\n      rebuild_url = TRUE;\n      free(data->state.pathbuffer);\n      data->state.pathbuffer = newp;\n      data->state.path = newp;\n      path = newp;\n    }\n    else\n      free(newp);\n  }\nif(!*prot_missing) {\n      size_t protolen = strlen(protop);\n\n      if(curl_strnequal(protop, data->change.url, protolen))\n        prefixlen += protolen;\n      else {\n        failf(data, \"<url> malformed\");\n        return CURLE_URL_MALFORMAT;\n      }\n\n      if(curl_strnequal(\"://\", &data->change.url[protolen], 3))\n        prefixlen += 3;\n      /* only file: is allowed to omit one or both slashes */\n      else if(curl_strnequal(\"file:\", data->change.url, 5))\n        prefixlen += 1 + (data->change.url[5] == '/');\n      else {\n        failf(data, \"<url> malformed\");\n        return CURLE_URL_MALFORMAT;\n      }\n    }\nreurl = malloc(prefixlen + plen + 1);\nif(!reurl)\n      return CURLE_OUT_OF_MEMORY;\nmemcpy(reurl, data->change.url, prefixlen);\nmemcpy(&reurl[prefixlen], path, plen + 1);\nif(data->change.url_alloc) {\n      Curl_safefree(data->change.url);\n      data->change.url_alloc = FALSE;\n    }\ninfof(data, \"Rebuilt URL to: %s\\n\", reurl);\ndata->change.url = reurl;\ndata->change.url_alloc = TRUE;\nresult = findprotocol(data, conn, protop);\nresult = parse_url_login(data, conn, userp, passwdp, optionsp);\ninfof(data,\n              \"Please URL encode %% as %%25, see RFC 6874.\\n\");\ninfof(data, \"Invalid network interface: %s; %s\\n\", ifname,\n                  strerror(errno));\ninfof(data, \"Invalid IPv6 address format\\n\");\nif(data->set.scope_id)\n    /* Override any scope that was set above.  */\n    conn->scope_id = data->set.scope_id;\nfragment = strchr(data->change.url, '#');\n}"
+      }
+    ],
+    "root_cause_analysis": {
+      "summary": "In parseurlandfillconn, when the URL scheme is present, the prefixlen calculation unconditionally added strlen(protop)+strlen(\"://\") without verifying that the URL actually contains those bytes. For file: URLs lacking two slashes (e.g., 'file:c:/path'), prefixlen was overestimated by up to 7 bytes, causing the rebuilt URL allocation (urllen+2) to be too small for the actual concatenation (prefixlen+plen+1), resulting in a heap buffer overflow during the memcpy of the path.",
+      "unsafe_mechanism": "Unconditional addition of strlen(protop)+3 to prefixlen in the !*prot_missing branch, combined with allocation based on the original URL length (urllen+2) rather than the actual required size (prefixlen+plen+1)."
+    },
+    "vulnerability_description": "In curl before 7.54.1 on Windows and DOS, libcurl's default protocol function, which is the logic that allows an application to set which protocol libcurl should attempt to use when given a URL without a scheme part, had a flaw that could lead to it overwriting a heap based memory buffer with seven bytes. If the default protocol is specified to be FILE or a file: URL lacks two slashes, the given \"URL\" starts with a drive letter, and libcurl is built for Windows or DOS, then libcurl would copy the path 7 bytes off, so that the end of the given path would write beyond the malloc buffer (7 bytes being the length in bytes of the ascii string \"file://\")."
+  },
+  "CVE-2019-5481": {
+    "cve_id": "CVE-2019-5481",
+    "cwe": "CWE-415",
+    "function_anchors": {
+      "read_data": [
+        {
+          "anchor": "Call to socket_read(fd, &len, sizeof(len)) followed by ntohl(len).",
+          "anchor_type": "call_sequence",
+          "binary_locator_hint": "Look for a function call that reads a 4-byte integer from a socket descriptor into a stack variable, then passes it through a byte-swap (bswap/htonl) instruction or ntohl wrapper.",
+          "rank": 1,
+          "source_evidence": "`result = socket_read(fd, &len, sizeof(len));` ... `len = ntohl(len);` in reduced_function_code.",
+          "why_unique": "This is a distinctive I/O pattern for reading a length prefix in network byte order, specific to protocol parsing."
+        },
+        {
+          "anchor": "Return value CURLE_OUT_OF_MEMORY (27).",
+          "anchor_type": "constant",
+          "binary_locator_hint": "Search for a constant #27 loaded into a return register, or a comparison that leads to returning 27.",
+          "rank": 2,
+          "source_evidence": "`return CURLE_OUT_OF_MEMORY;` after the `!len || !buf->data` check in the reduced function.",
+          "why_unique": "curl error code constants are well-defined and rarely change; this specific error code is used in an allocation failure path."
+        },
+        {
+          "anchor": "Call to Curl_saferealloc(buf->data, len) with len derived from ntohl.",
+          "anchor_type": "call_sequence",
+          "binary_locator_hint": "Look for a realloc-like function called with a length argument that was previously byte-swapped from network order.",
+          "rank": 3,
+          "source_evidence": "`buf->data = Curl_saferealloc(buf->data, len);` closely following `len = ntohl(len);` in the reduced function.",
+          "why_unique": "Internal curl safe realloc is used with a size obtained right after ntohl; the size argument undergoes a specific transformation."
+        },
+        {
+          "anchor": "Indirect call through conn->mech->decode with five arguments: conn->app_data, buf->data, len, conn->data_prot, conn.",
+          "anchor_type": "call_sequence",
+          "binary_locator_hint": "Find an indirect call where the second argument is the reallocated buffer, the third is the length, and the function pointer is loaded from a `mech` field of a structure.",
+          "rank": 4,
+          "source_evidence": "`buf->size = conn->mech->decode(conn->app_data, buf->data, len, conn->data_prot, conn);` in reduced function.",
+          "why_unique": "A five-argument indirect call dispatching a security mechanism decode is a very specific pattern, especially with `data_prot` and `app_data` fields."
+        },
+        {
+          "anchor": "Branch condition `!len || !buf->data` leading to CURLE_OUT_OF_MEMORY error path.",
+          "anchor_type": "branch",
+          "binary_locator_hint": "Look for a two-way branch that tests whether a length is zero or a pointer is null, and if so, loads the constant 27 and jumps to a common error return.",
+          "rank": 5,
+          "source_evidence": "`if(!len || !buf->data) return CURLE_OUT_OF_MEMORY;` in reduced function.",
+          "why_unique": "Dual condition checking both zero length and null buffer after a realloc is a tight semantic checkpoint not typical in general code."
+        }
+      ]
+    },
+    "functions": [
+      "read_data"
+    ],
+    "patch_commit_message": "security:read_data fix bad realloc()\n\n... that could end up a double-free\n\nCVE-2019-5481\nBug: https://curl.haxx.se/docs/CVE-2019-5481.html",
+    "patch_hunk": [
+      {
+        "header": "@@ -191,7 +191,6 @@ static CURLcode read_data(struct connectdata *conn,",
+        "new_lines": [],
+        "old_lines": [
+          "  void *tmp = NULL;"
+        ]
+      },
+      {
+        "header": "@@ -201,12 +200,11 @@ static CURLcode read_data(struct connectdata *conn,",
+        "new_lines": [
+          "    buf->data = Curl_saferealloc(buf->data, len);",
+          "  if(!len || !buf->data)"
+        ],
+        "old_lines": [
+          "    tmp = Curl_saferealloc(buf->data, len);",
+          "  if(tmp == NULL)",
+          "  buf->data = tmp;"
+        ]
+      }
+    ],
+    "patch_intent_analysis": {
+      "behavior_changes": [
+        "Removed the temporary `tmp` pointer and always updates `buf->data` directly.",
+        "Now the error condition checks `!len || !buf->data` instead of only `tmp == NULL`, handling both zero-length reads and reallocation failures."
+      ],
+      "intended_security_property": "Memory safety – no dangling pointers after reallocation that could cause double-free.",
+      "summary": "Always assign `buf->data` to the `Curl_saferealloc()` return value and correctly check for allocation failure by testing both a zero length and a null pointer."
+    },
+    "patch_source": {
+      "commit": "9069838b30fb3b48af0123e39f664cea683254a5",
+      "locations": [
+        {
+          "changed_new_lines": [
+            203,
+            205
+          ],
+          "changed_old_lines": [
+            194,
+            204,
+            206,
+            209
+          ],
+          "file": "lib/security.c",
+          "function": "read_data",
+          "function_line_range": [
+            189,
+            215
+          ]
+        }
+      ]
+    },
+    "project": "curl",
+    "reduced_function_code": [
+      {
+        "read_data": "static CURLcode read_data(struct connectdata *conn,\n                          curl_socket_t fd,\n                          struct krb5buffer *buf)\n{\nint len;\nCURLcode result;\n\nstruct krb5buffer *buf\nresult = socket_read(fd, &len, sizeof(len));\nif(len) {\n    /* only realloc if there was a length */\n    len = ntohl(len);\n    buf->data = Curl_saferealloc(buf->data, len);\n  }\nif(!len || !buf->data)\n    return CURLE_OUT_OF_MEMORY;\nresult = socket_read(fd, buf->data, len);\nbuf->size = conn->mech->decode(conn->app_data, buf->data, len,\n                                 conn->data_prot, conn);\nbuf->index = 0;\n}"
+      }
+    ],
+    "root_cause_analysis": {
+      "summary": "The `read_data` function fails to update `buf->data` to the pointer returned by a successful `Curl_saferealloc()`, leaving it dangling and leading to a double-free when later freed.",
+      "unsafe_mechanism": "After calling `tmp = Curl_saferealloc(buf->data, len)`, the old code only assigned `buf->data = tmp` when `tmp == NULL`; on success (non-NULL), `buf->data` continued pointing to the already-freed old buffer, causing a double-free on subsequent deallocation."
+    },
+    "vulnerability_description": "Double-free vulnerability in the FTP-kerberos code in cURL 7.52.0 to 7.65.3."
+  }
+}
