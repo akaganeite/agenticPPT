@@ -1,9 +1,0 @@
-{
-  "project": "sqlite",
-  "source": "/home/zhangxb/server/dataset4ppt/sqlite/exports",
-  "cves": [],
-  "cve_count": 0,
-  "testset_cases": 0,
-  "not_affected_rows": 0,
-  "candidate_rows": 0
-}
