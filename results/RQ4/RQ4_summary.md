@@ -44,24 +44,3 @@
 | MiniSWEAgent | T2 | 239/239 | 165,320 | 162,241 | 3,079 | 118,872 | 43,369 | 1,053 |
 | MiniSWEAgent | T3 | 228/239 | 278,588 | 274,019 | 4,568 | 224,687 | 49,333 | 2,597 |
 | MiniSWEAgent | T4 | 239/239 | 390,594 | 386,586 | 4,008 | 332,204 | 54,381 | 1,902 |
-
-## Summary
-
-- Codex T1 has the highest DSR at `0.9611`.
-- MiniSWEAgent T2/T3 provide a favorable DSR/token balance in the available records.
-- PPTAgent T1 has high Accuracy (`0.9859`) but lower DSR (`0.9502`).
-- Lower-tier DSR is `0.7261` for Codex T4, `0.6223` for PPTAgent T4, and `0.8253` for MiniSWEAgent T4.
-- Token values use all raw cases as the denominator; incomplete usage coverage is shown explicitly.
-
-## Metric Notes
-
-- `Accuracy = (TP + TN) / (TP + TN + FP + FN)`.
-- `DSR = (TP + TN) / (TP + TN + FP + FN + Inconclusive)`.
-- `Cache miss = Input - Cache hit`; reasoning tokens are a subset of output tokens.
-
-## Evidence
-
-- [codexgpt_baseline_rq2_rq5_metrics.md](../../../ANALYSIS/codexgpt_baseline_rq2_rq5_metrics.md)
-- [claudeagent_rq5_metrics.md](../../../ANALYSIS/claudeagent_rq5_metrics.md)
-- [miniagent_rq5_56_sol_max_metrics.md](../../../ANALYSIS/miniagent_rq5_56_sol_max_metrics.md)
-- [codex_baseline_claudeagent_rq5_token_usage.md](../../../ANALYSIS/codex_baseline_claudeagent_rq5_token_usage.md)
