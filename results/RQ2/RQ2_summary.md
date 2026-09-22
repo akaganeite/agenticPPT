@@ -15,18 +15,18 @@
 
 ## Build and Deployment Metrics
 
-| Experiment | Accuracy | DSR | Precision | F1 | Recall | TC | Error |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| Stripped baseline | 0.9683 | 0.9611 | 0.9596 | 0.9710 | 0.9828 | 599 | 59 |
-| Stripped medium | 0.9554 | 0.9469 | 0.9554 | 0.9554 | 0.9554 | 231 | 5 |
-| GCC-O3 | 0.9859 | 0.9677 | 0.9817 | 0.9862 | 0.9907 | 229 | 12 |
-| Clang-O2 | 0.9755 | 0.9522 | 0.9722 | 0.9767 | 0.9813 | 228 | 19 |
-| AArch64 | 0.9831 | 0.9775 | 0.9894 | 0.9841 | 0.9789 | 228 | 50 |
-| Deployed | 0.9682 | 0.9682 | 0.9781 | 0.9675 | 0.9571 | 293 | 10 |
+| Experiment | Accuracy | DSR | Precision | F1 | Recall | Error |
+|---|---:|---:|---:|---:|---:|---:|
+| Stripped baseline | 0.9683 | 0.9611 | 0.9596 | 0.9710 | 0.9828 | 59 |
+| Stripped medium | 0.9554 | 0.9469 | 0.9554 | 0.9554 | 0.9554 | 5 |
+| GCC-O3 | 0.9859 | 0.9677 | 0.9817 | 0.9862 | 0.9907 | 12 |
+| Clang-O2 | 0.9755 | 0.9522 | 0.9722 | 0.9767 | 0.9813 | 19 |
+| AArch64 | 0.9831 | 0.9775 | 0.9894 | 0.9841 | 0.9789 | 50 |
+| Deployed | 0.9682 | 0.9682 | 0.9781 | 0.9675 | 0.9571 | 10 |
 
 ## PatchEvolution and NAFT Metrics
 
-| Experiment | Projects | Cases | Accuracy | DSR | Precision | F1 | Recall | TC | Error | Inconclusive | NA accuracy |
-|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| PatchEvolution | libxml2 + OpenSSL | 73 | 0.9492 | 0.8615 | 1.0000 | 0.9739 | 0.9492 | 67 | 2 | 6 | - |
-| NAFT | curl + FFmpeg | 21 | - | - | - | - | - | 0 | 0 | 0 | 0.9524 |
+| Experiment | Projects | Cases | Accuracy | DSR | Precision | F1 | Recall | Error | Inconclusive | NA accuracy |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| PatchEvolution | libxml2 + OpenSSL | 73 | 0.9492 | 0.8615 | 1.0000 | 0.9739 | 0.9492 | 2 | 6 | - |
+| NAFT | curl + FFmpeg + SQLite + OpenSSL | 58 | 0.9483 | - | - | - | - | 0 | 0 | 0.9483 |
